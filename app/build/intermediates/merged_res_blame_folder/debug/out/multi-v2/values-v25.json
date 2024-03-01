@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.loseweight.app-mergeDebugResources-3:/values-v25/values-v25.xml",
+            "map": [
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/54b0f86fc017b9139dbf4fe0e2a289e8/transformed/appcompat-1.6.1/res/values-v25/values-v25.xml",
+                    "from": {
+                        "startLines": "2,3,4,6",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,126,209,308",
+                        "endLines": "2,3,5,7",
+                        "endColumns": "70,82,12,12",
+                        "endOffsets": "121,204,303,414"
+                    }
+                }
+            ]
+        }
+    ]
+}

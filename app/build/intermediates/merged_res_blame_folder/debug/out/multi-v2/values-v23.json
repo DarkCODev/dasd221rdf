@@ -1,0 +1,93 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.loseweight.app-mergeDebugResources-3:/values-v23/values-v23.xml",
+            "map": [
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,121",
+                        "endColumns": "65,62",
+                        "endOffsets": "116,179"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/3c92d26956639c75c910b97a54a78258/transformed/jetified-materialize-1.2.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "51",
+                        "endOffsets": "102"
+                    },
+                    "to": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "184",
+                        "endColumns": "51",
+                        "endOffsets": "231"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/res/values-v23/styles.xml",
+                    "from": {
+                        "startLines": "3,12",
+                        "startColumns": "4,4",
+                        "startOffsets": "54,519",
+                        "endLines": "10,16",
+                        "endColumns": "12,12",
+                        "endOffsets": "513,753"
+                    },
+                    "to": {
+                        "startLines": "5,64",
+                        "startColumns": "4,4",
+                        "startOffsets": "236,3992",
+                        "endLines": "12,68",
+                        "endColumns": "12,12",
+                        "endOffsets": "660,4226"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/b48726ccc53b1230990f8fe9a6c3bebb/transformed/cardview-1.0.0/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "12",
+                        "endOffsets": "200"
+                    },
+                    "to": {
+                        "startLines": "61",
+                        "startColumns": "4",
+                        "startOffsets": "3842",
+                        "endLines": "63",
+                        "endColumns": "12",
+                        "endOffsets": "3987"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/54b0f86fc017b9139dbf4fe0e2a289e8/transformed/appcompat-1.6.1/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,20,34,35,36,39,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,190,325,400,487,1225,1975,2094,2221,2443,2667,2782,2889,3002",
+                        "endLines": "2,3,4,5,19,33,34,35,38,42,43,44,45,49",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "185,320,395,482,1220,1970,2089,2216,2438,2662,2777,2884,2997,3227"
+                    },
+                    "to": {
+                        "startLines": "13,14,15,16,17,31,45,46,47,50,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "665,800,935,1010,1097,1835,2585,2704,2831,3053,3277,3392,3499,3612",
+                        "endLines": "13,14,15,16,30,44,45,46,49,53,54,55,56,60",
+                        "endColumns": "134,134,74,86,12,12,118,126,12,12,114,106,112,12",
+                        "endOffsets": "795,930,1005,1092,1830,2580,2699,2826,3048,3272,3387,3494,3607,3837"
+                    }
+                }
+            ]
+        }
+    ]
+}

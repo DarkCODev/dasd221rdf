@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.loseweight.app-mergeDebugResources-3:/values-watch-v20/values-watch-v20.xml",
+            "map": [
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/54b0f86fc017b9139dbf4fe0e2a289e8/transformed/appcompat-1.6.1/res/values-watch-v20/values-watch-v20.xml",
+                    "from": {
+                        "startLines": "2,5,8",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,214,385",
+                        "endLines": "4,7,10",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "209,380,553"
+                    }
+                }
+            ]
+        }
+    ]
+}

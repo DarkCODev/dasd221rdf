@@ -1,0 +1,286 @@
+[
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_access_all_feature.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_access_all_feature.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_days_plan_detail.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_days_plan_detail.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_choose_your_plan.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_choose_your_plan.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_choose_your_plan.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_choose_your_plan.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_gender_dob.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_gender_dob.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_dob.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_dob.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_fast_work_out.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_fast_work_out.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_quite_workout.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_quite_workout.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_select_tts_engine.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_select_tts_engine.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/fragment_video.xml",
+        "source": "com.loseweight.app-main-6:/layout/fragment_video.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_edit_plan.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_edit_plan.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_report_week_day.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_report_week_day.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_rest_day.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_rest_day.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_choose_weight.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_choose_weight.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_captured_images.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_captured_images.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_home.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_home.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_your_plan.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_your_plan.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_sound_option.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_sound_option.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/fragment_me.xml",
+        "source": "com.loseweight.app-main-6:/layout/fragment_me.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/fragment_animation.xml",
+        "source": "com.loseweight.app-main-6:/layout/fragment_animation.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_completed.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_completed.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_choose_target_weight.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_choose_target_weight.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/popup_logout.xml",
+        "source": "com.loseweight.app-main-6:/layout/popup_logout.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_choose_height.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_choose_height.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_exercise_list.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_exercise_list.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/topbar.xml",
+        "source": "com.loseweight.app-main-6:/layout/topbar.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/bottom_sheet_ex_detail.xml",
+        "source": "com.loseweight.app-main-6:/layout/bottom_sheet_ex_detail.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/fragment_plan.xml",
+        "source": "com.loseweight.app-main-6:/layout/fragment_plan.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_reminder.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_reminder.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_whats_your_goal.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_whats_your_goal.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_recent.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_recent.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_whats_your_goal.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_whats_your_goal.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_perform_exercies.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_perform_exercies.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_history_parent.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_history_parent.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_bmi.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_bmi.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_common_question_title.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_common_question_title.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_weight_with_date.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_weight_with_date.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_common_question_child.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_common_question_child.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_water_tracker.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_water_tracker.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_days_child.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_days_child.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_random_workout.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_random_workout.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/bottom_bar.xml",
+        "source": "com.loseweight.app-main-6:/layout/bottom_bar.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_unloack_training.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_unloack_training.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_well_done.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_well_done.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_weight.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_weight.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_height_weight.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_height_weight.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_history.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/bottom_sheet_replace_ex.xml",
+        "source": "com.loseweight.app-main-6:/layout/bottom_sheet_replace_ex.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_workout_list.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_workout_list.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_turn_on_water.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_turn_on_water.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_reminder.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_reminder.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_test_voice_fail.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_test_voice_fail.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_recent.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_recent.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_common_question_parent.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_common_question_parent.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_my_profile.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_my_profile.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_fast_workout_detail.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_fast_workout_detail.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_edit_plan.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_edit_plan.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_history_child.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_history_child.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_home_detail.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_home_detail.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_days_parent.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_days_parent.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/dialog_height.xml",
+        "source": "com.loseweight.app-main-6:/layout/dialog_height.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_home_detail.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_home_detail.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/fragment_report.xml",
+        "source": "com.loseweight.app-main-6:/layout/fragment_report.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_rest.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_rest.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_body_focus.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_body_focus.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/bottom_sheet_restart_conf.xml",
+        "source": "com.loseweight.app-main-6:/layout/bottom_sheet_restart_conf.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_workout_status_indicator.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_workout_status_indicator.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_common_question.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_common_question.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_about.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_about.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/activity_voice_options.xml",
+        "source": "com.loseweight.app-main-6:/layout/activity_voice_options.xml"
+    },
+    {
+        "merged": "com.loseweight.app-mergeReleaseResources-4:/layout/item_replace_workout_list.xml",
+        "source": "com.loseweight.app-main-6:/layout/item_replace_workout_list.xml"
+    }
+]

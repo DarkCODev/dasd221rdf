@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">115700086500</string>
+    <string name="google_api_key" translatable="false">AIzaSyDbScjSgqa4mmcGeEO7Hp5HgNpewOlh93U</string>
+    <string name="google_app_id" translatable="false">1:115700086500:android:7677e5ef571730ae78def1</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDbScjSgqa4mmcGeEO7Hp5HgNpewOlh93U</string>
+    <string name="google_storage_bucket" translatable="false">sculpther-fitness-with-style.appspot.com</string>
+    <string name="project_id" translatable="false">sculpther-fitness-with-style</string>
+</resources>

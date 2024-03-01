@@ -1,0 +1,128 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.loseweight.app-mergeDebugResources-3:/values-sl/values-sl.xml",
+            "map": [
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f332750853042bd82808a12111c8836e/transformed/jetified-play-services-basement-18.2.0/res/values-sl/values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "195",
+                        "endColumns": "135",
+                        "endOffsets": "330"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3847",
+                        "endColumns": "139",
+                        "endOffsets": "3982"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/693302a5869b44d7c22ed2add7addee9/transformed/core-1.9.0/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "76",
+                        "startColumns": "4",
+                        "startOffsets": "7448",
+                        "endColumns": "100",
+                        "endOffsets": "7544"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/938bc28a64f3aea88b8d4d6ba4672988/transformed/jetified-play-services-base-18.0.1/res/values-sl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "193,295,456,581,684,827,953,1063,1163,1317,1420,1583,1709,1857,2005,2071,2129",
+                        "endColumns": "101,160,124,102,142,125,109,99,153,102,162,125,147,147,65,57,79",
+                        "endOffsets": "294,455,580,683,826,952,1062,1162,1316,1419,1582,1708,1856,2004,2070,2128,2208"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,34,35,36,38,39,40,41,42,43,44,45,46",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2845,2951,3116,3245,3352,3499,3629,3743,3987,4145,4252,4419,4549,4701,4853,4923,4985",
+                        "endColumns": "105,164,128,106,146,129,113,103,157,106,166,129,151,151,69,61,83",
+                        "endOffsets": "2946,3111,3240,3347,3494,3624,3738,3842,4140,4247,4414,4544,4696,4848,4918,4980,5064"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/155cbebbb9c0addb4422f59b129182b7/transformed/jetified-play-services-ads-22.6.0/res/values-sl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "199,240,287,349,413,480,589,677,789,843,966,1023,1138,1234,1280,1360,1395,1429,1489,1567,1611",
+                        "endColumns": "40,46,61,63,66,108,87,111,53,122,56,114,95,45,79,34,33,59,77,43,55",
+                        "endOffsets": "239,286,348,412,479,588,676,788,842,965,1022,1137,1233,1279,1359,1394,1428,1488,1566,1610,1666"
+                    },
+                    "to": {
+                        "startLines": "53,54,55,57,58,59,60,61,62,63,64,65,66,68,69,70,71,72,73,74,80",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5650,5695,5746,5893,5961,6032,6145,6237,6353,6411,6538,6599,6718,6959,7009,7093,7132,7170,7234,7316,7890",
+                        "endColumns": "44,50,65,67,70,112,91,115,57,126,60,118,99,49,83,38,37,63,81,47,59",
+                        "endOffsets": "5690,5741,5807,5956,6027,6140,6232,6348,6406,6533,6594,6713,6813,7004,7088,7127,7165,7229,7311,7359,7945"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/fb7de23894d008b410e4a4b3ef9fe0c7/transformed/preference-1.2.1/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "105,176,262,343,484,653,741",
+                        "endColumns": "70,85,80,140,168,87,83",
+                        "endOffsets": "171,257,338,479,648,736,820"
+                    },
+                    "to": {
+                        "startLines": "47,49,56,67,77,78,79",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "5069,5246,5812,6818,7549,7718,7806",
+                        "endColumns": "70,85,80,140,168,87,83",
+                        "endOffsets": "5135,5327,5888,6954,7713,7801,7885"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/54b0f86fc017b9139dbf4fe0e2a289e8/transformed/appcompat-1.6.1/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,217,319,427,514,617,736,817,895,987,1081,1176,1270,1365,1459,1555,1655,1747,1839,1923,2031,2139,2239,2352,2460,2565,2745,2845",
+                        "endColumns": "111,101,107,86,102,118,80,77,91,93,94,93,94,93,95,99,91,91,83,107,107,99,112,107,104,179,99,83",
+                        "endOffsets": "212,314,422,509,612,731,812,890,982,1076,1171,1265,1360,1454,1550,1650,1742,1834,1918,2026,2134,2234,2347,2455,2560,2740,2840,2924"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,75",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,217,319,427,514,617,736,817,895,987,1081,1176,1270,1365,1459,1555,1655,1747,1839,1923,2031,2139,2239,2352,2460,2565,2745,7364",
+                        "endColumns": "111,101,107,86,102,118,80,77,91,93,94,93,94,93,95,99,91,91,83,107,107,99,112,107,104,179,99,83",
+                        "endOffsets": "212,314,422,509,612,731,812,890,982,1076,1171,1265,1360,1454,1550,1650,1742,1834,1918,2026,2134,2234,2347,2455,2560,2740,2840,7443"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/c40f9789fe4185c5d2586845104a1ccc/transformed/browser-1.4.0/res/values-sl/values-sl.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,161,265,377",
+                        "endColumns": "105,103,111,101",
+                        "endOffsets": "156,260,372,474"
+                    },
+                    "to": {
+                        "startLines": "48,50,51,52",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5140,5332,5436,5548",
+                        "endColumns": "105,103,111,101",
+                        "endOffsets": "5241,5431,5543,5645"
+                    }
+                }
+            ]
+        }
+    ]
+}

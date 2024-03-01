@@ -1,0 +1,1262 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="org.darkco.sculpther"
+4    android:versionCode="3"
+5    android:versionName="1.9" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+13-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:7:5-79
+13-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="com.android.vending.BILLING" />
+14-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:8:5-67
+14-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:8:22-64
+15
+16    <queries>
+16-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:10:5-14:15
+17        <intent>
+17-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:11:9-13:18
+18            <action android:name="com.google.android.youtube.api.service.START" />
+18-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:12:13-83
+18-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:12:21-80
+19        </intent>
+20        <intent>
+20-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:13:9-15:18
+21            <action android:name="com.android.vending.billing.InAppBillingService.BIND" />
+21-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:14:13-91
+21-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:14:21-88
+22        </intent> <!-- For browser content -->
+23        <intent>
+23-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:38:9-44:18
+24            <action android:name="android.intent.action.VIEW" />
+24-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:39:13-65
+24-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:39:21-62
+25
+26            <category android:name="android.intent.category.BROWSABLE" />
+26-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:41:13-74
+26-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:41:23-71
+27
+28            <data android:scheme="https" />
+28-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:43:13-44
+28-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:43:19-41
+29        </intent> <!-- End of browser content -->
+30        <!-- For CustomTabsService -->
+31        <intent>
+31-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:47:9-49:18
+32            <action android:name="android.support.customtabs.action.CustomTabsService" />
+32-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:48:13-90
+32-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:48:21-87
+33        </intent>
+34
+35        <package android:name="com.facebook.katana" />
+35-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:12:9-55
+35-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:12:18-52
+36    </queries>
+37
+38    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+38-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:23:5-77
+38-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:23:22-74
+39    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+39-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:24:5-68
+39-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:24:22-65
+40    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+40-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:5-82
+40-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:26:22-79
+41    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+41-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:25:5-79
+41-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:25:22-76
+42    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_ATTRIBUTION" />
+42-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:26:5-88
+42-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:26:22-85
+43    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_AD_ID" />
+43-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:27:5-82
+43-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:27:22-79
+44    <uses-permission android:name="android.permission.ACCESS_ADSERVICES_TOPICS" />
+44-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:29:5-83
+44-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:29:22-80
+45    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+45-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:26:5-110
+45-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:26:22-107
+46    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+46-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:5-77
+46-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:26:22-74
+47
+48    <permission
+48-->[androidx.core:core:1.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/693302a5869b44d7c22ed2add7addee9/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+49        android:name="org.darkco.sculpther.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+49-->[androidx.core:core:1.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/693302a5869b44d7c22ed2add7addee9/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+50        android:protectionLevel="signature" />
+50-->[androidx.core:core:1.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/693302a5869b44d7c22ed2add7addee9/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+51
+52    <uses-permission android:name="org.darkco.sculpther.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+52-->[androidx.core:core:1.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/693302a5869b44d7c22ed2add7addee9/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+52-->[androidx.core:core:1.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/693302a5869b44d7c22ed2add7addee9/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+53    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+54    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+55    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+56
+57    <application
+57-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:17:5-349:19
+58        android:name="com.loseweight.MyApplication"
+58-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:18:9-52
+59        android:allowBackup="false"
+59-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:19:9-36
+60        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+60-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:20:9-82
+61        android:extractNativeLibs="true"
+62        android:fullBackupContent="false"
+62-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:21:9-42
+63        android:icon="@mipmap/ic_launcher_round"
+63-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:22:9-49
+64        android:label="@string/app_name"
+64-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:23:9-41
+65        android:networkSecurityConfig="@xml/network_security_config"
+65-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:24:9-69
+66        android:requestLegacyExternalStorage="true"
+66-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:25:9-52
+67        android:roundIcon="@mipmap/ic_launcher_round"
+67-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:26:9-54
+68        android:supportsRtl="false"
+68-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:27:9-36
+69        android:theme="@style/AppThemeNoActionbar"
+69-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:28:9-51
+70        android:usesCleartextTraffic="true" >
+70-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:29:9-44
+71        <receiver
+71-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:33:9-39:20
+72            android:name="com.loseweight.MyApplication$InternetConnectionReceiver"
+72-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:34:13-83
+73            android:exported="true" >
+73-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:35:13-36
+74            <intent-filter>
+74-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:36:13-38:29
+75                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+75-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:37:17-79
+75-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:37:25-76
+76            </intent-filter>
+77        </receiver>
+78        <receiver android:name="com.loseweight.utils.watertracker.WaterTrackerBroadcastReceiver" />
+78-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:41:9-86
+78-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:41:19-83
+79        <receiver android:name="com.loseweight.utils.watertracker.WaterTrackerStopBroadcastReceiver" />
+79-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:42:9-90
+79-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:42:19-87
+80
+81        <service
+81-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:44:9-51:19
+82            android:name="com.loseweight.fcm.MyFirebaseMessagingService"
+82-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:45:13-59
+83            android:exported="false" >
+83-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:46:13-37
+84            <intent-filter>
+84-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:47:13-50:29
+85                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+85-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:48:17-78
+85-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:48:25-75
+86                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+86-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:49:17-81
+86-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:49:25-78
+87            </intent-filter>
+88        </service>
+89        <service
+89-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:53:9-57:19
+90            android:name="com.google.firebase.components.ComponentDiscoveryService"
+90-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:53:18-89
+91            android:directBootAware="true"
+91-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:32:13-43
+92            android:exported="false" >
+92-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:56:13-37
+93            <meta-data
+93-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:54:13-56:85
+94                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+94-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:55:17-96
+95                android:value="com.google.firebase.components.ComponentRegistrar" />
+95-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:56:17-82
+96            <meta-data
+96-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:57:13-59:85
+97                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingKtxRegistrar"
+97-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:58:17-122
+98                android:value="com.google.firebase.components.ComponentRegistrar" />
+98-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:59:17-82
+99            <meta-data
+99-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:60:13-62:85
+100                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+100-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:61:17-119
+101                android:value="com.google.firebase.components.ComponentRegistrar" />
+101-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:62:17-82
+102            <meta-data
+102-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:37:13-39:85
+103                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+103-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:38:17-139
+104                android:value="com.google.firebase.components.ComponentRegistrar" />
+104-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:39:17-82
+105            <meta-data
+105-->[com.google.firebase:firebase-installations:17.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/712170b580069e96cbdbbe1730c73bfc/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:15:13-17:85
+106                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsKtxRegistrar"
+106-->[com.google.firebase:firebase-installations:17.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/712170b580069e96cbdbbe1730c73bfc/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:16:17-130
+107                android:value="com.google.firebase.components.ComponentRegistrar" />
+107-->[com.google.firebase:firebase-installations:17.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/712170b580069e96cbdbbe1730c73bfc/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:17:17-82
+108            <meta-data
+108-->[com.google.firebase:firebase-installations:17.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/712170b580069e96cbdbbe1730c73bfc/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:18:13-20:85
+109                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+109-->[com.google.firebase:firebase-installations:17.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/712170b580069e96cbdbbe1730c73bfc/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:19:17-127
+110                android:value="com.google.firebase.components.ComponentRegistrar" />
+110-->[com.google.firebase:firebase-installations:17.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/712170b580069e96cbdbbe1730c73bfc/transformed/jetified-firebase-installations-17.2.0/AndroidManifest.xml:20:17-82
+111            <meta-data
+111-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/0f589528f955b1295bd2761f2aca6204/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:12:13-14:85
+112                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+112-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/0f589528f955b1295bd2761f2aca6204/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:13:17-116
+113                android:value="com.google.firebase.components.ComponentRegistrar" />
+113-->[com.google.firebase:firebase-common-ktx:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/0f589528f955b1295bd2761f2aca6204/transformed/jetified-firebase-common-ktx-20.4.2/AndroidManifest.xml:14:17-82
+114            <meta-data
+114-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:35:13-37:85
+115                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+115-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:36:17-109
+116                android:value="com.google.firebase.components.ComponentRegistrar" />
+116-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:37:17-82
+117            <meta-data
+117-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/b2c26c9079ece922ba5ab42edc1e38c6/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:27:13-29:85
+118                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+118-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/b2c26c9079ece922ba5ab42edc1e38c6/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:28:17-115
+119                android:value="com.google.firebase.components.ComponentRegistrar" />
+119-->[com.google.firebase:firebase-datatransport:18.1.7] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/b2c26c9079ece922ba5ab42edc1e38c6/transformed/jetified-firebase-datatransport-18.1.7/AndroidManifest.xml:29:17-82
+120        </service>
+121
+122        <receiver
+122-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:59:9-63:47
+123            android:name="com.loseweight.utils.reminder.AlarmReceiver"
+123-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:60:13-57
+124            android:enabled="true"
+124-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:61:13-35
+125            android:exported="true" />
+125-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:62:13-36
+126        <receiver
+126-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:65:9-71:20
+127            android:name="com.loseweight.utils.reminder.BootReceiver"
+127-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:66:13-56
+128            android:exported="true" >
+128-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:67:13-36
+129            <intent-filter>
+129-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:68:13-70:29
+130                <action android:name="android.intent.action.BOOT_COMPLETED" />
+130-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:69:17-79
+130-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:69:25-76
+131            </intent-filter>
+132        </receiver>
+133
+134        <provider
+135            android:name="androidx.core.content.FileProvider"
+135-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:74:13-62
+136            android:authorities="org.darkco.sculpther.provider"
+136-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:75:13-60
+137            android:exported="false"
+137-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:76:13-37
+138            android:grantUriPermissions="true" >
+138-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:77:13-47
+139            <meta-data
+139-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:78:13-80:58
+140                android:name="android.support.FILE_PROVIDER_PATHS"
+140-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:79:17-67
+141                android:resource="@xml/provider_paths" />
+141-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:80:17-55
+142        </provider>
+143
+144        <meta-data
+144-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:84:9-86:52
+145            android:name="com.google.android.gms.ads.APPLICATION_ID"
+145-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:85:13-69
+146            android:value="@string/admob_app_id" />
+146-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:86:13-49
+147
+148        <activity
+148-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:88:9-104:20
+149            android:name="com.loseweight.SplashScreenActivity"
+149-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:89:13-63
+150            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+150-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:90:13-114
+151            android:exported="true"
+151-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:91:13-36
+152            android:label="@string/app_name"
+152-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:92:13-45
+153            android:launchMode="singleInstance"
+153-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:93:13-48
+154            android:screenOrientation="portrait"
+154-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:94:13-49
+155            android:theme="@style/AppThemeSplash"
+155-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:95:13-50
+156            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustPan" >
+156-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:96:13-82
+157            <intent-filter>
+157-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:98:13-102:29
+158                <action android:name="android.intent.action.MAIN" />
+158-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:99:17-69
+158-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:99:25-66
+159
+160                <category android:name="android.intent.category.LAUNCHER" />
+160-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:101:17-77
+160-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:101:27-74
+161            </intent-filter>
+162        </activity>
+163        <activity
+163-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:106:9-114:20
+164            android:name="com.loseweight.CustomGalleryActivity"
+164-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:107:13-64
+165            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+165-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:108:13-114
+166            android:exported="true"
+166-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:109:13-36
+167            android:label="@string/app_name"
+167-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:110:13-45
+168            android:screenOrientation="portrait"
+168-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:111:13-49
+169            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" >
+169-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:112:13-86
+170        </activity>
+171        <activity
+171-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:116:9-122:89
+172            android:name="com.loseweight.HomeActivity"
+172-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:117:13-55
+173            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+173-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:118:13-114
+174            android:exported="true"
+174-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:119:13-36
+175            android:label="@string/app_name"
+175-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:120:13-45
+176            android:screenOrientation="portrait"
+176-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:121:13-49
+177            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+177-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:122:13-86
+178        <activity
+178-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:124:9-130:89
+179            android:name="com.loseweight.ChooseYourPlanActivity"
+179-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:125:13-65
+180            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+180-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:126:13-114
+181            android:exported="true"
+181-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:127:13-36
+182            android:label="@string/app_name"
+182-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:128:13-45
+183            android:screenOrientation="portrait"
+183-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:129:13-49
+184            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+184-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:130:13-86
+185        <activity
+185-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:132:9-138:89
+186            android:name="com.loseweight.ChooseWeightActivity"
+186-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:133:13-63
+187            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+187-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:134:13-114
+188            android:exported="true"
+188-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:135:13-36
+189            android:label="@string/app_name"
+189-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:136:13-45
+190            android:screenOrientation="portrait"
+190-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:137:13-49
+191            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+191-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:138:13-86
+192        <activity
+192-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:140:9-146:89
+193            android:name="com.loseweight.ChooseTargetWeightActivity"
+193-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:141:13-69
+194            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+194-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:142:13-114
+195            android:exported="true"
+195-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:143:13-36
+196            android:label="@string/app_name"
+196-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:144:13-45
+197            android:screenOrientation="portrait"
+197-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:145:13-49
+198            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+198-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:146:13-86
+199        <activity
+199-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:148:9-154:89
+200            android:name="com.loseweight.ChooseHeightActivity"
+200-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:149:13-63
+201            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+201-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:150:13-114
+202            android:exported="true"
+202-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:151:13-36
+203            android:label="@string/app_name"
+203-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:152:13-45
+204            android:screenOrientation="portrait"
+204-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:153:13-49
+205            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+205-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:154:13-86
+206        <activity
+206-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:156:9-162:89
+207            android:name="com.loseweight.BMIActivity"
+207-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:157:13-54
+208            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+208-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:158:13-114
+209            android:exported="true"
+209-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:159:13-36
+210            android:label="@string/app_name"
+210-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:160:13-45
+211            android:screenOrientation="portrait"
+211-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:161:13-49
+212            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+212-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:162:13-86
+213        <activity
+213-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:164:9-170:89
+214            android:name="com.loseweight.YourPlanActivity"
+214-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:165:13-59
+215            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+215-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:166:13-114
+216            android:exported="true"
+216-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:167:13-36
+217            android:label="@string/app_name"
+217-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:168:13-45
+218            android:screenOrientation="portrait"
+218-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:169:13-49
+219            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+219-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:170:13-86
+220        <activity
+220-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:172:9-178:89
+221            android:name="com.loseweight.WhatsYourGoalActivity"
+221-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:173:13-64
+222            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+222-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:174:13-114
+223            android:exported="true"
+223-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:175:13-36
+224            android:label="@string/app_name"
+224-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:176:13-45
+225            android:screenOrientation="portrait"
+225-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:177:13-49
+226            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+226-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:178:13-86
+227        <activity
+227-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:180:9-186:89
+228            android:name="com.loseweight.TurnOnWaterActivity"
+228-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:181:13-62
+229            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+229-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:182:13-114
+230            android:exported="true"
+230-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:183:13-36
+231            android:label="@string/app_name"
+231-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:184:13-45
+232            android:screenOrientation="portrait"
+232-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:185:13-49
+233            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+233-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:186:13-86
+234        <activity
+234-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:188:9-194:89
+235            android:name="com.loseweight.WellDoneActivity"
+235-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:189:13-59
+236            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+236-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:190:13-114
+237            android:exported="true"
+237-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:191:13-36
+238            android:label="@string/app_name"
+238-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:192:13-45
+239            android:screenOrientation="portrait"
+239-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:193:13-49
+240            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+240-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:194:13-86
+241        <activity
+241-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:196:9-202:89
+242            android:name="com.loseweight.WaterTrackerActivity"
+242-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:197:13-63
+243            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+243-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:198:13-114
+244            android:exported="true"
+244-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:199:13-36
+245            android:label="@string/app_name"
+245-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:200:13-45
+246            android:screenOrientation="portrait"
+246-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:201:13-49
+247            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+247-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:202:13-86
+248        <activity
+248-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:204:9-210:89
+249            android:name="com.loseweight.HomeDetailActivity"
+249-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:205:13-61
+250            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+250-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:206:13-114
+251            android:exported="true"
+251-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:207:13-36
+252            android:label="@string/app_name"
+252-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:208:13-45
+253            android:screenOrientation="portrait"
+253-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:209:13-49
+254            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+254-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:210:13-86
+255        <activity
+255-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:212:9-218:89
+256            android:name="com.loseweight.ExercisesListActivity"
+256-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:213:13-64
+257            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+257-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:214:13-114
+258            android:exported="true"
+258-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:215:13-36
+259            android:label="@string/app_name"
+259-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:216:13-45
+260            android:screenOrientation="portrait"
+260-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:217:13-49
+261            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+261-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:218:13-86
+262        <activity
+262-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:220:9-226:89
+263            android:name="com.loseweight.FastWorkoutActivity"
+263-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:221:13-62
+264            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+264-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:222:13-114
+265            android:exported="true"
+265-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:223:13-36
+266            android:label="@string/app_name"
+266-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:224:13-45
+267            android:screenOrientation="portrait"
+267-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:225:13-49
+268            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+268-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:226:13-86
+269        <activity
+269-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:229:9-235:89
+270            android:name="com.loseweight.FastWorkOutDetailActivity"
+270-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:230:13-68
+271            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+271-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:231:13-114
+272            android:exported="true"
+272-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:232:13-36
+273            android:label="@string/app_name"
+273-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:233:13-45
+274            android:screenOrientation="portrait"
+274-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:234:13-49
+275            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+275-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:235:13-86
+276        <activity
+276-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:237:9-243:89
+277            android:name="com.loseweight.PerformWorkOutActivity"
+277-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:238:13-65
+278            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+278-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:239:13-114
+279            android:exported="true"
+279-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:240:13-36
+280            android:label="@string/app_name"
+280-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:241:13-45
+281            android:screenOrientation="portrait"
+281-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:242:13-49
+282            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+282-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:243:13-86
+283        <activity
+283-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:245:9-251:89
+284            android:name="com.loseweight.RestActivity"
+284-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:246:13-55
+285            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+285-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:247:13-114
+286            android:exported="true"
+286-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:248:13-36
+287            android:label="@string/app_name"
+287-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:249:13-45
+288            android:screenOrientation="portrait"
+288-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:250:13-49
+289            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+289-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:251:13-86
+290        <activity
+290-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:253:9-259:89
+291            android:name="com.loseweight.CompletedActivity"
+291-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:254:13-60
+292            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+292-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:255:13-114
+293            android:exported="true"
+293-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:256:13-36
+294            android:label="@string/app_name"
+294-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:257:13-45
+295            android:screenOrientation="portrait"
+295-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:258:13-49
+296            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+296-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:259:13-86
+297        <activity
+297-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:261:9-267:89
+298            android:name="com.loseweight.HistoryActivity"
+298-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:262:13-58
+299            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+299-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:263:13-114
+300            android:exported="true"
+300-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:264:13-36
+301            android:label="@string/app_name"
+301-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:265:13-45
+302            android:screenOrientation="portrait"
+302-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:266:13-49
+303            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+303-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:267:13-86
+304        <activity
+304-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:269:9-275:89
+305            android:name="com.loseweight.AccessAllFeaturesActivity"
+305-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:270:13-68
+306            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+306-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:271:13-114
+307            android:exported="true"
+307-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:272:13-36
+308            android:label="@string/app_name"
+308-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:273:13-45
+309            android:screenOrientation="portrait"
+309-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:274:13-49
+310            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+310-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:275:13-86
+311        <activity
+311-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:277:9-283:89
+312            android:name="com.loseweight.MyProfileActivity"
+312-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:278:13-60
+313            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+313-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:279:13-114
+314            android:exported="true"
+314-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:280:13-36
+315            android:label="@string/app_name"
+315-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:281:13-45
+316            android:screenOrientation="portrait"
+316-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:282:13-49
+317            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+317-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:283:13-86
+318        <activity
+318-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:285:9-291:89
+319            android:name="com.loseweight.VoiceOptionActivity"
+319-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:286:13-62
+320            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+320-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:287:13-114
+321            android:exported="true"
+321-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:288:13-36
+322            android:label="@string/app_name"
+322-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:289:13-45
+323            android:screenOrientation="portrait"
+323-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:290:13-49
+324            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+324-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:291:13-86
+325        <activity
+325-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:293:9-299:89
+326            android:name="com.loseweight.ReminderActivity"
+326-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:294:13-59
+327            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+327-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:295:13-114
+328            android:exported="true"
+328-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:296:13-36
+329            android:label="@string/app_name"
+329-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:297:13-45
+330            android:screenOrientation="portrait"
+330-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:298:13-49
+331            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+331-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:299:13-86
+332        <activity
+332-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:301:9-307:89
+333            android:name="com.loseweight.CommonQuestionActivity"
+333-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:302:13-65
+334            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+334-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:303:13-114
+335            android:exported="true"
+335-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:304:13-36
+336            android:label="@string/app_name"
+336-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:305:13-45
+337            android:screenOrientation="portrait"
+337-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:306:13-49
+338            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+338-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:307:13-86
+339        <activity
+339-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:309:9-315:89
+340            android:name="com.loseweight.DaysPlanDetailActivity"
+340-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:310:13-65
+341            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+341-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:311:13-114
+342            android:exported="true"
+342-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:312:13-36
+343            android:label="@string/app_name"
+343-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:313:13-45
+344            android:screenOrientation="portrait"
+344-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:314:13-49
+345            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+345-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:315:13-86
+346        <activity
+346-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:317:9-323:89
+347            android:name="com.loseweight.RecentActivity"
+347-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:318:13-57
+348            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+348-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:319:13-114
+349            android:exported="true"
+349-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:320:13-36
+350            android:label="@string/app_name"
+350-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:321:13-45
+351            android:screenOrientation="portrait"
+351-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:322:13-49
+352            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+352-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:323:13-86
+353        <activity
+353-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:325:9-331:89
+354            android:name="com.loseweight.AboutActivity"
+354-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:326:13-56
+355            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+355-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:327:13-114
+356            android:exported="true"
+356-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:328:13-36
+357            android:label="@string/app_name"
+357-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:329:13-45
+358            android:screenOrientation="portrait"
+358-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:330:13-49
+359            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+359-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:331:13-86
+360        <activity
+360-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:333:9-339:89
+361            android:name="com.loseweight.RestDayActivity"
+361-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:334:13-58
+362            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+362-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:335:13-114
+363            android:exported="true"
+363-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:336:13-36
+364            android:label="@string/app_name"
+364-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:337:13-45
+365            android:screenOrientation="portrait"
+365-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:338:13-49
+366            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+366-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:339:13-86
+367        <activity
+367-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:341:9-347:89
+368            android:name="com.loseweight.EditPlanActivity"
+368-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:342:13-59
+369            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize"
+369-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:343:13-114
+370            android:exported="true"
+370-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:344:13-36
+371            android:label="@string/app_name"
+371-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:345:13-45
+372            android:screenOrientation="portrait"
+372-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:346:13-49
+373            android:windowSoftInputMode="stateHidden|stateAlwaysHidden|adjustNothing" />
+373-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:347:13-86
+374
+375        <meta-data
+375-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:19:9-21:37
+376            android:name="com.google.android.play.billingclient.version"
+376-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:20:13-73
+377            android:value="6.1.0" />
+377-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:21:13-34
+378
+379        <activity
+379-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:23:9-27:75
+380            android:name="com.android.billingclient.api.ProxyBillingActivity"
+380-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:24:13-78
+381            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+381-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:25:13-96
+382            android:exported="false"
+382-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:26:13-37
+383            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+383-->[com.android.billingclient:billing:6.1.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/bb6019ab05785ee18e98e11ca0355fed/transformed/jetified-billing-6.1.0/AndroidManifest.xml:27:13-72
+384
+385        <receiver
+385-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:29:9-40:20
+386            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+386-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:30:13-78
+387            android:exported="true"
+387-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:31:13-36
+388            android:permission="com.google.android.c2dm.permission.SEND" >
+388-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:32:13-73
+389            <intent-filter>
+389-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:33:13-35:29
+390                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+390-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:49:17-81
+390-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:49:25-78
+391            </intent-filter>
+392
+393            <meta-data
+393-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:37:13-39:40
+394                android:name="com.google.android.gms.cloudmessaging.FINISHED_AFTER_HANDLED"
+394-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:38:17-92
+395                android:value="true" />
+395-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:39:17-37
+396        </receiver>
+397        <!--
+398             FirebaseMessagingService performs security checks at runtime,
+399             but set to not exported to explicitly avoid allowing another app to call it.
+400        -->
+401        <service
+401-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:46:9-53:19
+402            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+402-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:47:13-82
+403            android:directBootAware="true"
+403-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:48:13-43
+404            android:exported="false" >
+404-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:49:13-37
+405            <intent-filter android:priority="-500" >
+405-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:50:13-52:29
+405-->[com.google.firebase:firebase-messaging:23.4.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/51cffb52540401759bbfb2cd3581f34e/transformed/jetified-firebase-messaging-23.4.1/AndroidManifest.xml:50:28-51
+406                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+406-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:48:17-78
+406-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:48:25-75
+407            </intent-filter>
+408        </service>
+409
+410        <property
+410-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:30:9-32:61
+411            android:name="android.adservices.AD_SERVICES_CONFIG"
+411-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:31:13-65
+412            android:resource="@xml/ga_ad_services_config" />
+412-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:32:13-58
+413
+414        <activity
+414-->[com.karumi:dexter:6.2.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/87ac4e677c63e956b0483272bec32b30/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:27:9-29:72
+415            android:name="com.karumi.dexter.DexterActivity"
+415-->[com.karumi:dexter:6.2.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/87ac4e677c63e956b0483272bec32b30/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:28:13-60
+416            android:theme="@style/Dexter.Internal.Theme.Transparent" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+416-->[com.karumi:dexter:6.2.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/87ac4e677c63e956b0483272bec32b30/transformed/jetified-dexter-6.2.2/AndroidManifest.xml:29:13-69
+417        <activity
+417-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:56:9-61:43
+418            android:name="com.google.android.gms.ads.AdActivity"
+418-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:57:13-65
+419            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+419-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:58:13-122
+420            android:exported="false"
+420-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:59:13-37
+421            android:theme="@android:style/Theme.Translucent" />
+421-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:60:13-61
+422
+423        <provider
+423-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:63:9-68:43
+424            android:name="com.google.android.gms.ads.MobileAdsInitProvider"
+424-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:64:13-76
+425            android:authorities="org.darkco.sculpther.mobileadsinitprovider"
+425-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:65:13-73
+426            android:exported="false"
+426-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:66:13-37
+427            android:initOrder="100" />
+427-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:67:13-36
+428
+429        <service
+429-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:70:9-74:43
+430            android:name="com.google.android.gms.ads.AdService"
+430-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:71:13-64
+431            android:enabled="true"
+431-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:72:13-35
+432            android:exported="false" />
+432-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:73:13-37
+433
+434        <activity
+434-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:76:9-80:43
+435            android:name="com.google.android.gms.ads.OutOfContextTestingActivity"
+435-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:77:13-82
+436            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"
+436-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:78:13-122
+437            android:exported="false" />
+437-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:79:13-37
+438        <activity
+438-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:81:9-88:43
+439            android:name="com.google.android.gms.ads.NotificationHandlerActivity"
+439-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:82:13-82
+440            android:excludeFromRecents="true"
+440-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:83:13-46
+441            android:exported="false"
+441-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:84:13-37
+442            android:launchMode="singleTask"
+442-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:85:13-44
+443            android:taskAffinity=""
+443-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:86:13-36
+444            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+444-->[com.google.android.gms:play-services-ads-lite:22.6.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5effc920a94db40de42aeeb728af67cc/transformed/jetified-play-services-ads-lite-22.6.0/AndroidManifest.xml:87:13-72
+445
+446        <property
+446-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:30:9-32:61
+447            android:name="android.adservices.AD_SERVICES_CONFIG"
+447-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:31:13-65
+448            android:resource="@xml/gma_ad_services_config" />
+448-->[com.google.android.gms:play-services-measurement-api:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/168ca797837783d37c6e5078346cf04f/transformed/jetified-play-services-measurement-api-21.5.1/AndroidManifest.xml:32:13-58
+449
+450        <receiver
+450-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:29:9-33:20
+451            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+451-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:30:13-85
+452            android:enabled="true"
+452-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:31:13-35
+453            android:exported="false" >
+453-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:32:13-37
+454        </receiver>
+455
+456        <service
+456-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:35:9-38:40
+457            android:name="com.google.android.gms.measurement.AppMeasurementService"
+457-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:36:13-84
+458            android:enabled="true"
+458-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:37:13-35
+459            android:exported="false" />
+459-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:38:13-37
+460        <service
+460-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:39:9-43:72
+461            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+461-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:40:13-87
+462            android:enabled="true"
+462-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:41:13-35
+463            android:exported="false"
+463-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:42:13-37
+464            android:permission="android.permission.BIND_JOB_SERVICE" />
+464-->[com.google.android.gms:play-services-measurement:21.5.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/ff9613dd978f66a2a12a0dcd536ebdce/transformed/jetified-play-services-measurement-21.5.1/AndroidManifest.xml:43:13-69
+465
+466        <activity
+466-->[com.google.android.gms:play-services-base:18.0.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/938bc28a64f3aea88b8d4d6ba4672988/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+467            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+467-->[com.google.android.gms:play-services-base:18.0.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/938bc28a64f3aea88b8d4d6ba4672988/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+468            android:exported="false"
+468-->[com.google.android.gms:play-services-base:18.0.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/938bc28a64f3aea88b8d4d6ba4672988/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+469            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+469-->[com.google.android.gms:play-services-base:18.0.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/938bc28a64f3aea88b8d4d6ba4672988/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+470
+471        <provider
+471-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:23:9-28:39
+472            android:name="com.google.firebase.provider.FirebaseInitProvider"
+472-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:24:13-77
+473            android:authorities="org.darkco.sculpther.firebaseinitprovider"
+473-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:25:13-72
+474            android:directBootAware="true"
+474-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:26:13-43
+475            android:exported="false"
+475-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:27:13-37
+476            android:initOrder="100" />
+476-->[com.google.firebase:firebase-common:20.4.2] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/319ec5d2d1766353af85cdd5faaedaa1/transformed/jetified-firebase-common-20.4.2/AndroidManifest.xml:28:13-36
+477
+478        <uses-library
+478-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f6d9463d65ad765664e4e56f7a9d647a/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:23:9-25:40
+479            android:name="android.ext.adservices"
+479-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f6d9463d65ad765664e4e56f7a9d647a/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:24:13-50
+480            android:required="false" />
+480-->[androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f6d9463d65ad765664e4e56f7a9d647a/transformed/jetified-ads-adservices-1.0.0-beta05/AndroidManifest.xml:25:13-37
+481
+482        <meta-data
+482-->[com.google.android.gms:play-services-basement:18.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f332750853042bd82808a12111c8836e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
+483            android:name="com.google.android.gms.version"
+483-->[com.google.android.gms:play-services-basement:18.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f332750853042bd82808a12111c8836e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
+484            android:value="@integer/google_play_services_version" />
+484-->[com.google.android.gms:play-services-basement:18.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f332750853042bd82808a12111c8836e/transformed/jetified-play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
+485
+486        <provider
+486-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:29:9-37:20
+487            android:name="androidx.startup.InitializationProvider"
+487-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:30:13-67
+488            android:authorities="org.darkco.sculpther.androidx-startup"
+488-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:31:13-68
+489            android:exported="false" >
+489-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:32:13-37
+490            <meta-data
+490-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:34:13-36:52
+491                android:name="androidx.work.WorkManagerInitializer"
+491-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:35:17-68
+492                android:value="androidx.startup" />
+492-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:36:17-49
+493            <meta-data
+493-->[androidx.emoji2:emoji2:1.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/002b49bd2aab93e80f9cb84bc9aca155/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+494                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+494-->[androidx.emoji2:emoji2:1.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/002b49bd2aab93e80f9cb84bc9aca155/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+495                android:value="androidx.startup" />
+495-->[androidx.emoji2:emoji2:1.2.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/002b49bd2aab93e80f9cb84bc9aca155/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+496            <meta-data
+496-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/e9001ab8b41977dd90d48e07155b3560/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:29:13-31:52
+497                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+497-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/e9001ab8b41977dd90d48e07155b3560/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:30:17-78
+498                android:value="androidx.startup" />
+498-->[androidx.lifecycle:lifecycle-process:2.6.1] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/e9001ab8b41977dd90d48e07155b3560/transformed/jetified-lifecycle-process-2.6.1/AndroidManifest.xml:31:17-49
+499            <meta-data
+499-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:29:13-31:52
+500                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+500-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:30:17-85
+501                android:value="androidx.startup" />
+501-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:31:17-49
+502        </provider>
+503
+504        <service
+504-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:39:9-45:35
+505            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+505-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:40:13-88
+506            android:directBootAware="false"
+506-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:41:13-44
+507            android:enabled="@bool/enable_system_alarm_service_default"
+507-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:42:13-72
+508            android:exported="false" />
+508-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:43:13-37
+509        <service
+509-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:46:9-52:35
+510            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+510-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:47:13-84
+511            android:directBootAware="false"
+511-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:48:13-44
+512            android:enabled="@bool/enable_system_job_service_default"
+512-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:49:13-70
+513            android:exported="true"
+513-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:50:13-36
+514            android:permission="android.permission.BIND_JOB_SERVICE" />
+514-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:51:13-69
+515        <service
+515-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:53:9-59:35
+516            android:name="androidx.work.impl.foreground.SystemForegroundService"
+516-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:54:13-81
+517            android:directBootAware="false"
+517-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:55:13-44
+518            android:enabled="@bool/enable_system_foreground_service_default"
+518-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:56:13-77
+519            android:exported="false" />
+519-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:57:13-37
+520
+521        <receiver
+521-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:61:9-66:35
+522            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+522-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:62:13-88
+523            android:directBootAware="false"
+523-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:63:13-44
+524            android:enabled="true"
+524-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:64:13-35
+525            android:exported="false" />
+525-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:65:13-37
+526        <receiver
+526-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:67:9-77:20
+527            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+527-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:68:13-106
+528            android:directBootAware="false"
+528-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:69:13-44
+529            android:enabled="false"
+529-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:70:13-36
+530            android:exported="false" >
+530-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:71:13-37
+531            <intent-filter>
+531-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:73:13-76:29
+532                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+532-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:17-87
+532-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:74:25-84
+533                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+533-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:17-90
+533-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:75:25-87
+534            </intent-filter>
+535        </receiver>
+536        <receiver
+536-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:78:9-88:20
+537            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+537-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:79:13-104
+538            android:directBootAware="false"
+538-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:80:13-44
+539            android:enabled="false"
+539-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:81:13-36
+540            android:exported="false" >
+540-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:82:13-37
+541            <intent-filter>
+541-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:84:13-87:29
+542                <action android:name="android.intent.action.BATTERY_OKAY" />
+542-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:17-77
+542-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:85:25-74
+543                <action android:name="android.intent.action.BATTERY_LOW" />
+543-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:17-76
+543-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:86:25-73
+544            </intent-filter>
+545        </receiver>
+546        <receiver
+546-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:89:9-99:20
+547            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+547-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:90:13-104
+548            android:directBootAware="false"
+548-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:91:13-44
+549            android:enabled="false"
+549-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:92:13-36
+550            android:exported="false" >
+550-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:93:13-37
+551            <intent-filter>
+551-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:95:13-98:29
+552                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+552-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:17-83
+552-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:96:25-80
+553                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+553-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:17-82
+553-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:97:25-79
+554            </intent-filter>
+555        </receiver>
+556        <receiver
+556-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:100:9-109:20
+557            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+557-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:101:13-103
+558            android:directBootAware="false"
+558-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:102:13-44
+559            android:enabled="false"
+559-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:103:13-36
+560            android:exported="false" >
+560-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:104:13-37
+561            <intent-filter>
+561-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:36:13-38:29
+562                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+562-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:37:17-79
+562-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:37:25-76
+563            </intent-filter>
+564        </receiver>
+565        <receiver
+565-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:110:9-121:20
+566            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+566-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:111:13-88
+567            android:directBootAware="false"
+567-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:112:13-44
+568            android:enabled="false"
+568-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:113:13-36
+569            android:exported="false" >
+569-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:114:13-37
+570            <intent-filter>
+570-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:116:13-120:29
+571                <action android:name="android.intent.action.BOOT_COMPLETED" />
+571-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:69:17-79
+571-->/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/AndroidManifest.xml:69:25-76
+572                <action android:name="android.intent.action.TIME_SET" />
+572-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:17-73
+572-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:118:25-70
+573                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+573-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:17-81
+573-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:119:25-78
+574            </intent-filter>
+575        </receiver>
+576        <receiver
+576-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:122:9-131:20
+577            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+577-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:123:13-99
+578            android:directBootAware="false"
+578-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:124:13-44
+579            android:enabled="@bool/enable_system_alarm_service_default"
+579-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:125:13-72
+580            android:exported="false" >
+580-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:126:13-37
+581            <intent-filter>
+581-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:128:13-130:29
+582                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+582-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:17-98
+582-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:129:25-95
+583            </intent-filter>
+584        </receiver>
+585        <receiver
+585-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:132:9-142:20
+586            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+586-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:133:13-78
+587            android:directBootAware="false"
+587-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:134:13-44
+588            android:enabled="true"
+588-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:135:13-35
+589            android:exported="true"
+589-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:136:13-36
+590            android:permission="android.permission.DUMP" >
+590-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:137:13-57
+591            <intent-filter>
+591-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:139:13-141:29
+592                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+592-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:17-88
+592-->[androidx.work:work-runtime:2.9.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/5171d711aa2280e63f9d807c3e614ee4/transformed/work-runtime-2.9.0/AndroidManifest.xml:140:25-85
+593            </intent-filter>
+594        </receiver>
+595
+596        <uses-library
+596-->[androidx.window:window:1.0.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f5083ff82782c232219e4bd0382af3dc/transformed/jetified-window-1.0.0/AndroidManifest.xml:25:9-27:40
+597            android:name="androidx.window.extensions"
+597-->[androidx.window:window:1.0.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f5083ff82782c232219e4bd0382af3dc/transformed/jetified-window-1.0.0/AndroidManifest.xml:26:13-54
+598            android:required="false" />
+598-->[androidx.window:window:1.0.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f5083ff82782c232219e4bd0382af3dc/transformed/jetified-window-1.0.0/AndroidManifest.xml:27:13-37
+599        <uses-library
+599-->[androidx.window:window:1.0.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f5083ff82782c232219e4bd0382af3dc/transformed/jetified-window-1.0.0/AndroidManifest.xml:28:9-30:40
+600            android:name="androidx.window.sidecar"
+600-->[androidx.window:window:1.0.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f5083ff82782c232219e4bd0382af3dc/transformed/jetified-window-1.0.0/AndroidManifest.xml:29:13-51
+601            android:required="false" />
+601-->[androidx.window:window:1.0.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/f5083ff82782c232219e4bd0382af3dc/transformed/jetified-window-1.0.0/AndroidManifest.xml:30:13-37
+602
+603        <service
+603-->[androidx.room:room-runtime:2.5.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/26ddc0f28c8a4b7c8a51ca347f506fdf/transformed/room-runtime-2.5.0/AndroidManifest.xml:24:9-28:63
+604            android:name="androidx.room.MultiInstanceInvalidationService"
+604-->[androidx.room:room-runtime:2.5.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/26ddc0f28c8a4b7c8a51ca347f506fdf/transformed/room-runtime-2.5.0/AndroidManifest.xml:25:13-74
+605            android:directBootAware="true"
+605-->[androidx.room:room-runtime:2.5.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/26ddc0f28c8a4b7c8a51ca347f506fdf/transformed/room-runtime-2.5.0/AndroidManifest.xml:26:13-43
+606            android:exported="false" />
+606-->[androidx.room:room-runtime:2.5.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/26ddc0f28c8a4b7c8a51ca347f506fdf/transformed/room-runtime-2.5.0/AndroidManifest.xml:27:13-37
+607
+608        <activity
+608-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:19:9-23:75
+609            android:name="com.facebook.ads.AudienceNetworkActivity"
+609-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:20:13-68
+610            android:configChanges="keyboardHidden|orientation|screenSize"
+610-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:21:13-74
+611            android:exported="false"
+611-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:22:13-37
+612            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+612-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:23:13-72
+613
+614        <provider
+614-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:25:9-28:40
+615            android:name="com.facebook.ads.AudienceNetworkContentProvider"
+615-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:26:13-75
+616            android:authorities="org.darkco.sculpther.AudienceNetworkContentProvider"
+616-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:27:13-82
+617            android:exported="false" />
+617-->[:AudienceNetwork:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/50dfb4de7c051a0f408f498fc1cf8061/transformed/jetified-AudienceNetwork/AndroidManifest.xml:28:13-37
+618
+619        <activity
+619-->[:DebugSettings:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/3ab551277901dfdcacd001542b350cd8/transformed/jetified-DebugSettings/AndroidManifest.xml:8:9-10:40
+620            android:name="com.facebook.samples.ads.debugsettings.DebugSettingsActivity"
+620-->[:DebugSettings:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/3ab551277901dfdcacd001542b350cd8/transformed/jetified-DebugSettings/AndroidManifest.xml:9:13-88
+621            android:exported="false" />
+621-->[:DebugSettings:] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/3ab551277901dfdcacd001542b350cd8/transformed/jetified-DebugSettings/AndroidManifest.xml:10:13-37
+622
+623        <service
+623-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/d77782a4f164dfe54c67ad3f959a5b14/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:28:9-34:19
+624            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+624-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/d77782a4f164dfe54c67ad3f959a5b14/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:29:13-103
+625            android:exported="false" >
+625-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/d77782a4f164dfe54c67ad3f959a5b14/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:30:13-37
+626            <meta-data
+626-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/d77782a4f164dfe54c67ad3f959a5b14/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:31:13-33:39
+627                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+627-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/d77782a4f164dfe54c67ad3f959a5b14/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:32:17-94
+628                android:value="cct" />
+628-->[com.google.android.datatransport:transport-backend-cct:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/d77782a4f164dfe54c67ad3f959a5b14/transformed/jetified-transport-backend-cct-3.1.8/AndroidManifest.xml:33:17-36
+629        </service>
+630        <service
+630-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/7ad2af59ce7a6faf406cc8f1e9010fae/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:26:9-30:19
+631            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+631-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/7ad2af59ce7a6faf406cc8f1e9010fae/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:27:13-117
+632            android:exported="false"
+632-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/7ad2af59ce7a6faf406cc8f1e9010fae/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:28:13-37
+633            android:permission="android.permission.BIND_JOB_SERVICE" >
+633-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/7ad2af59ce7a6faf406cc8f1e9010fae/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:29:13-69
+634        </service>
+635
+636        <receiver
+636-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/7ad2af59ce7a6faf406cc8f1e9010fae/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:32:9-34:40
+637            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+637-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/7ad2af59ce7a6faf406cc8f1e9010fae/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:33:13-132
+638            android:exported="false" />
+638-->[com.google.android.datatransport:transport-runtime:3.1.8] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/7ad2af59ce7a6faf406cc8f1e9010fae/transformed/jetified-transport-runtime-3.1.8/AndroidManifest.xml:34:13-37
+639        <receiver
+639-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:34:9-52:20
+640            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+640-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:35:13-76
+641            android:directBootAware="false"
+641-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:36:13-44
+642            android:enabled="true"
+642-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:37:13-35
+643            android:exported="true"
+643-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:38:13-36
+644            android:permission="android.permission.DUMP" >
+644-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:39:13-57
+645            <intent-filter>
+645-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:40:13-42:29
+646                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+646-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:17-91
+646-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:41:25-88
+647            </intent-filter>
+648            <intent-filter>
+648-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:43:13-45:29
+649                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+649-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:17-85
+649-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:44:25-82
+650            </intent-filter>
+651            <intent-filter>
+651-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:46:13-48:29
+652                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+652-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:17-88
+652-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:47:25-85
+653            </intent-filter>
+654            <intent-filter>
+654-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:49:13-51:29
+655                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+655-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:17-95
+655-->[androidx.profileinstaller:profileinstaller:1.3.0] /Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/4f1ea9335a8c9710b1431f6b41d234c2/transformed/jetified-profileinstaller-1.3.0/AndroidManifest.xml:50:25-92
+656            </intent-filter>
+657        </receiver>
+658    </application>
+659
+660</manifest>

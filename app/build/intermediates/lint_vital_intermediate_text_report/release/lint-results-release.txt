@@ -1,0 +1,17 @@
+/Users/hackt3am/Desktop/darkco/apps/womenloseweight-21/codecanyon-33135561-women-lose-weight-water-reminder-kotlin/Lose Weight Codecanyon/app/src/main/java/com/loseweight/utils/AlarmBroadcastReceiver.kt:87: Error: Missing PendingIntent mutability flag [UnspecifiedImmutableFlag]
+        val intent = PendingIntent.getActivity(context, 0,notificationIntent, 0)
+                                                                              ~
+
+   Explanation for issues of type "UnspecifiedImmutableFlag":
+   Apps targeting Android 12 and higher must specify either FLAG_IMMUTABLE or
+   FLAG_MUTABLE when constructing a PendingIntent.
+
+   FLAG_IMMUTABLE is available since target SDK 23, and is almost always the
+   best choice. See
+   https://developer.android.com/guide/components/intents-filters#CreateImmuta
+   blePendingIntents for a list of common exceptions to this rule.
+
+   https://developer.android.com/about/versions/12/behavior-changes-12#pending-intent-mutability
+   https://goo.gle/UnspecifiedImmutableFlag
+
+1 errors, 0 warnings

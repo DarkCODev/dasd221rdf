@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Cancelar</string>
+    <string name="exit_msg">Presione atras, 2 veces para salir</string>
+    <string name="search">Buscar</string>
+    <string name="clear">Limpiar</string>
+    <string name="choose_gallery">Seleccionar de Galeria</string>
+    <string name="err_file_manager">Porfavor, instala un explorador de archivos</string>
+    <string name="choose_camera">Tomar de la Cámara</string>
+    <string name="permission_msg">Permisos de la Galeria y la Cámara</string>
+    <string name="permission_setting">Opciones de Permisos</string>
+    <string name="login">Login</string>
+    <string name="profile">Perfil</string>
+    <string name="description">Descripción</string>
+    <string name="save">Salvar</string>
+    <string name="err_camera">no se puede abrir la cámara</string>
+    <string name="name">Nombre</string>
+    <string name="need_permission_title">Necesita perrmiso(s)</string>
+    <string name="err_need_permission_msg">Usted ha declinado este permiso con anterioridad</string>
+    <string name="back">Volver</string>
+    <string name="more">Más</string>
+    <string name="refresh">Refrescar</string>
+    <string name="home">Casa</string>
+    <string name="re_scan">Re-Scanear</string>
+    <string name="cancel">Cancelar</string>
+    <string name="retry">Reintentar</string>
+    <string name="logout">Desconectar</string>
+    <string name="user">Usuario</string>
+    <string name="setting">Opciones</string>
+    <string name="report_issue">Reportar Incidencia</string>
+    <string name="what_s_your_goal">Cúal es tu meta?</string>
+    <string name="goal_lose_weight">Perder peso &amp; mantenerse en forma</string>
+    <string name="goal_butt_lift">Levantamiento glúteos &amp; tonificar</string>
+    <string name="goal_lose_belly_fat">Perder grasa abdominal</string>
+    <string name="goal_build_muscle_strength">Construir músculo &amp; fuerza</string>
+    <string name="next">siguiente</string>
+    <string name="skip">Saltar</string>
+</resources>
