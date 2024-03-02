@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:paddingHorizontal="@dimen/_15sdp"
             android:paddingVertical="@dimen/_5sdp"
-            android:text="To calculate your BMI" />
+            android:text="@string/to_calculate_your_bmi" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

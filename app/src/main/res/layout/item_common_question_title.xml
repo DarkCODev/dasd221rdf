@@ -31,7 +31,7 @@
             android:paddingTop="@dimen/_7sdp"
             android:paddingRight="@dimen/_18sdp"
             android:paddingBottom="@dimen/_7sdp"
-            android:text="App"
+            android:text="@string/app"
             android:textAllCaps="true" />
 
 

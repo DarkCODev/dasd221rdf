@@ -62,7 +62,7 @@
                         android:layout_marginBottom="@dimen/_5sdp"
                         app:layout_constraintStart_toStartOf="parent"
                         android:layout_marginStart="@dimen/_15sdp"
-                        android:text="Change Starts\nToday!"
+                        android:text="@string/change_starts_ntoday"
                         android:textAllCaps="true"
                         style="@style/txt_fff_24"/>
 
@@ -74,7 +74,7 @@
                         android:layout_marginBottom="@dimen/_20sdp"
                         app:layout_constraintStart_toStartOf="parent"
                         android:layout_marginStart="@dimen/_15sdp"
-                        android:text="Result not typical.Disclaimer"
+                        android:text="@string/result_not_typical_disclaimer"
                         style="@style/txt_fff_14"/>
 
                     <androidx.appcompat.widget.AppCompatImageView
@@ -137,7 +137,7 @@
                                 style="@style/txt_theme_18"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Access all features" />
+                                android:text="@string/access_all_features" />
 
                             <com.common.view.CTextView
                                 android:id="@+id/tvMonthlyPrice"
@@ -145,7 +145,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_2sdp"
-                                android:text="430.00/Month" />
+                                android:text="@string/_430_00_month" />
 
                         </LinearLayout>
 
@@ -193,7 +193,7 @@
                                 style="@style/txt_999_18"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Access all features" />
+                                android:text="@string/access_all_features" />
 
                             <com.common.view.CTextView
                                 android:id="@+id/tvYearlyPrice"
@@ -201,7 +201,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_2sdp"
-                                android:text="1700.00/year" />
+                                android:text="@string/sku_year_price" />
 
                         </LinearLayout>
 
@@ -231,7 +231,7 @@
                             app:layout_constraintTop_toTopOf="parent"
                             app:layout_constraintEnd_toEndOf="@id/llPerYear"
                             android:layout_marginTop="3dp"
-                            android:text="Save 67%"/>
+                            android:text="@string/save_percent"/>
 
 
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -251,7 +251,7 @@
                             android:drawableStart="@drawable/noads"
                             style="@style/txt_666_16"
                             android:drawablePadding="@dimen/_5sdp"
-                            android:text="Remove Ads"/>
+                            android:text="@string/remove_ads"/>
 
                         <com.common.view.CTextView
                             android:layout_width="wrap_content"
@@ -260,7 +260,7 @@
                             style="@style/txt_666_16"
                             android:drawablePadding="@dimen/_5sdp"
                             android:layout_marginTop="@dimen/_10sdp"
-                            android:text="100 + Workouts for fat burning"/>
+                            android:text="@string/_100_workouts_for_fat_burning"/>
 
                         <com.common.view.CTextView
                             android:layout_width="wrap_content"
@@ -269,7 +269,7 @@
                             style="@style/txt_666_16"
                             android:drawablePadding="@dimen/_5sdp"
                             android:layout_marginTop="@dimen/_10sdp"
-                            android:text="Unlimited workouts plans"/>
+                            android:text="@string/unlimited_workouts_plans"/>
 
                     </LinearLayout>
 

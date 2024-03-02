@@ -33,7 +33,7 @@
                     style="@style/txt_333_16"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Morning warm up" />
+                    android:text="@string/morning_warm_up" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -45,7 +45,7 @@
                         style="@style/txt_999_14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="5 Mins" />
+                        android:text="@string/_5_mins" />
 
                     <androidx.appcompat.widget.AppCompatImageView
                         android:layout_width="@dimen/_5sdp"
@@ -61,7 +61,7 @@
                         style="@style/txt_999_14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Beginner" />
+                        android:text="@string/beginner" />
 
 
                 </LinearLayout>

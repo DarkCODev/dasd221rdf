@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Фитнес със стил</string>
+
+
+    <string name="btn_ok">Добре</string>
+    <string name="btn_cancel">Отказ</string>
+    <string name="exit_msg">Натиснете Назад два пъти, за да излезете</string>
+    <string name="search">Търсене</string>
+    <string name="clear">ясно</string>
+    <string name="choose_gallery">Изберете от галерията</string>
+    <string name="err_file_manager">Моля, инсталирайте файлов мениджър.</string>
+    <string name="choose_camera">Вземете от камерата</string>
+    <string name="permission_msg">Изисква се разрешение за галерия и камера</string>
+    <string name="permission_setting">Настройка на разрешение</string>
+
+    <string name="login">Влизам</string>
+    <string name="profile">Профил</string>
+    <string name="description">Описание</string>
+    <string name="save">Запазване</string>
+
+    <string name="err_camera">не може да отвори камерата</string>
+
+    <string name="name">Име</string>
+
+
+    <string name="need_permission_title">Нуждаете се от разрешение(я)</string>
+    <string name="err_need_permission_msg">По-рано сте отказали това разрешение.\nТрябва да одобрите това разрешение в \"Разрешения\" в настройките на приложението на вашето устройство.</string>
+
+    <string name="back">обратно</string>
+    <string name="more">| Повече ▼</string>
+    <string name="refresh">Опресняване</string>
+    <string name="facility_code">Код на обекта</string>
+    <string name="home">У дома</string>
+    <string name="re_scan">Повторно сканиране</string>
+    <string name="inmate_activity">Дейност на затворника</string>
+
+    <string name="cancel">Отказ</string>
+    <string name="retry">Опитайте отново</string>
+    <string name="logout">Излез от профила си</string>
+
+    <string name="user">Потребител</string>
+    <string name="setting">Настройка</string>
+    <string name="report_issue">Докладване на проблем</string>
+    <string name="what_s_your_goal">Каква е твоята цел?</string>
+
+    <string name="goal_lose_weight">Отслабнете</string>
+    <string name="goal_butt_lift">Повдигане на дупето</string>
+    <string name="goal_lose_belly_fat">Загубете мазнини по корема</string>
+    <string name="goal_build_muscle_strength">Изграждане на мускули</string>
+
+    <string name="next">следващия</string>
+    <string name="skip">Пропускане</string>
+    <string name="how_much_do_nyou_weight">Колко\nтежиш?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Кажете ни да ви опознаем по-добре, за да ви помогнем да подобрите резултатите от работата си.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Отслабнете с плана, който ви подхожда най-добре</string>
+    <string name="how_tall_are_nyou">Колко си висок\nти?</string>
+    <string name="bmi">ИТМ</string>
+    <string name="bmi_colon">ИТМ:</string>
+    <string name="go_to_homepage"><u>Отидете на началната страница</u></string>
+    <string name="plan">Планирайте</string>
+    <string name="reports">Доклади</string>
+    <string name="me">аз</string>
+    <string name="lose_weight">Отслабнете</string>
+    <string name="go">Отивам!</string>
+    <string name="drink">пийте</string>
+    <string name="turn_on_water_tracker">Включете инструмента за проследяване на водата</string>
+
+    <string name="dummy_text">Lorem Ipsum е стандартният фиктивен текст в индустрията още от 1500 г., когато неизвестен печатар взел галера с шрифт и го разбъркал, за да направи книга с типови образци. </string>
+    <string name="dummy_text2">Lorem Ipsum е стандартният фиктивен текст в индустрията още от 1500 г., когато неизвестен печатар взел галера с шрифт и го разбъркал, за да направи книга с типови образци. </string>
+    <string name="instruction">Инструкция</string>
+    <string name="fast_workout">Бърза тренировка</string>
+    <string name="not_enough_time">Няма достатъчно време?</string>
+    <string name="_2_7_min_fast_workout">2-7 минути бърза тренировка</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 минути тренировка, за да правите всичко и навсякъде.</string>
+    <string name="body_focus">Фокус върху тялото</string>
+
+    <string name="sound_options">Звукови опции</string>
+    <string name="mute">Без звук</string>
+    <string name="voice_guide">Гласово ръководство</string>
+    <string name="voice_guide_des">Знайте следващата си тренировка и колко пъти трябва да я направите.</string>
+    <string name="coach_tips">Съвети на треньора</string>
+    <string name="common_questions">Често задавани въпроси</string>
+    <string name="btn_continue">продължи</string>
+    <string name="close">Близо</string>
+    <string name="exercies">Упражнения</string>
+    <string name="workouts">Тренировки</string>
+    <string name="kcal">ккал</string>
+    <string name="minute">минута</string>
+    <string name="minutes">минути</string>
+    <string name="duration">Продължителност</string>
+    <string name="share">Дял</string>
+    <string name="do_it_again">Направи го пак</string>
+    <string name="reminder_colon">Напомняне:</string>
+    <string name="reminder">Напомняне</string>
+    <string name="kg">КИЛОГРАМА</string>
+    <string name="lb">LB</string>
+    <string name="weight">Тегло</string>
+    <string name="enter_weight">Моля, въведете тегло</string>
+    <string name="tap_here_to_input_your_height">Докоснете <b>тук</b>, за да въведете височината си</string>
+    <string name="i_feel">чувствам</string>
+    <string name="easy">лесно</string>
+    <string name="exhausted">Изтощен</string>
+    <string name="feedback">Обратна връзка</string>
+    <string name="height">Височина</string>
+    <string name="enter_height">Моля, въведете височина</string>
+    <string name="cm">СМ</string>
+
+    <string name="in">IN</string>
+    <string name="gender">Пол</string>
+    <string name="male">Мъжки</string>
+    <string name="female">Женски пол</string>
+    <string name="year_of_birth">Година на раждане</string>
+    <string name="previous">Предишен</string>
+    <string name="set">КОМПЛЕКТ</string>
+    <string name="history">История</string>
+
+    <string name="delete">Изтрий</string>
+    <string name="confirm_delete">Потвърждаване на изтриването?</string>
+    <string name="delete_confirmation_msg">Сигурни ли сте, че искате да го изтриете?</string>
+    <string name="restart_confirmation_msg">Сигурни ли сте, че искате да рестартирате прогреса?</string>
+    <string name="restart_day_confirmation_msg">Искате ли да изчистите прогреса си и да рестартирате от ден 1?</string>
+    <string name="total">Обща сума</string>
+    <string name="current">Текущ</string>
+    <string name="heaviest">Най тежък</string>
+    <string name="lightest">Най-лекият</string>
+    <string name="current_colon">Текущ:</string>
+    <string name="heaviest_colon">Най тежък:</string>
+    <string name="lightest_colon">Най-лек:</string>
+    <string name="edit">редактиране</string>
+    <string name="workout">Тренировка</string>
+
+    <string name="go_premium">Отидете на Premium</string>
+    <string name="voice_options_tts">Гласови опции (TTS)</string>
+    <string name="test_voice">Тествайте гласа</string>
+    <string name="download_tts_engine">Изтеглете TTs Engine</string>
+    <string name="select_tts_engine">Изберете TTS Engine</string>
+    <string name="google_text_to_speech_engine">Google Text-to-speech Engine</string>
+    <string name="voice_language">Гласов език</string>
+    <string name="download_more_tts_language_data">Изтеглете повече TTS езикови данни</string>
+    <string name="device_tts_setting">Настройка на TTS на устройството</string>
+    <string name="health_data">Здравни данни</string>
+    <string name="remind_me_to_workout_every_day">Напомняйте ми да тренирам всеки ден</string>
+    <string name="keep_the_screen_on">Дръжте екрана включен</string>
+    <string name="general_settings">Основни настройки</string>
+    <string name="community">Общност</string>
+    <string name="share_with_friends">Сподели с приятели</string>
+    <string name="support_us">Подкрепи ни</string>
+    <string name="rate_us">Оцени ни</string>
+    <string name="privacy_policy">Политика за поверителност</string>
+    <string name="did_you_hear_test_voice">Чухте ли тестовия глас?</string>
+    <string name="my_profile">Моят профил</string>
+    <string name="restart_progress">Рестартирайте прогреса</string>
+    <string name="remove_ads">Премахни рекламите</string>
+
+    <string name="iap_detail">1. Всички плащания, направени през Play Store, се контролират и управляват от Google.\n2. </string>
+    <string name="start">Започнете</string>
+    <string name="target_weight">Целево тегло</string>
+    <string name="yes">да</string>
+    <string name="no">Не</string>
+    <string name="dl_test_voice_no_msg_test">TTS машината, която използвате, не работи сега, моля, проверете я отново, превключете на друга TTS машина или изтеглете TTS гласов език.</string>
+    <string name="please_choose_guide_voice_engine">Моля, изберете насочваща гласова машина:</string>
+    <string name="repeat">Повторете</string>
+    <string name="tip">Бакшиш</string>
+    <string name="send_feedback">Изпратете отзиви</string>
+
+    <string name="week">седмица</string>
+    <string name="mins">Мин</string>
+    <string name="quite_exercise_msg">Капещата пот е мазнина.</string>
+    <string name="quit">Откажете се</string>
+    <string name="str_continue">продължи</string>
+    <string name="come_back_in_30_minute"><u>Върнете се след 30 минути</u></string>
+    <string name="done">Свършен</string>
+    <string name="view_all">Виж всички</string>
+    <string name="finished">Готово</string>
+    <string name="restart">Рестартирам</string>
+    <string name="recent">Скорошни</string>
+    <string name="rest_day">Почивен ден</string>
+    <string name="replace">Сменете</string>
+    <string name="reset_plan">Нулиране на плана</string>
+    <string name="edit_plan">Редактиране на плана</string>
+    <string name="save_changes_que">Запазите промените?</string>
+    <string name="reset">Нулиране</string>
+    <string name="replace_with">Замени с</string>
+    <string name="change_plan">Промяна на плана</string>
+    <string name="change_language">Смени езика</string>
+    <string name="language_options">Езикови опции</string>
+    <string name="hours">Часа</string>
+    <string name="completed">Завършено</string>
+    <string name="well_done">Много добре!</string>
+    <string name="time_to_drink_water">Време е да пиете вода</string>
+    <string name="time_to_hydrate">Време е за хидратиране!</string>
+    <string name="drink_water_make_skin_batter">Пиенето на вода може да накара кожата ви да изглежда изтощена.</string>
+    <string name="pause">Пауза</string>
+    <string name="no_internet_available">Няма наличен интернет</string>
+</resources>

@@ -109,7 +109,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_5sdp"
-                                android:text="Wake up with energy, make your body primed for the day" />
+                                android:text="@string/wake_up_with_energy_make_your_body_primed_for_the_day" />
 
                             <com.common.view.CTextView
                                 android:id="@+id/tvCommonQuestion"

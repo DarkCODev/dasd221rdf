@@ -173,7 +173,7 @@
                     style="@style/txt_999_16"
                     android:textAllCaps="true"
                     android:layout_marginStart="@dimen/_5sdp"
-                    android:text="Day In a Row"/>
+                    android:text="@string/day_in_a_row"/>
 
             </LinearLayout>
 

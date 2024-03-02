@@ -85,14 +85,14 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_5sdp"
                                 android:gravity="center"
-                                android:text="Full body" />
+                                android:text="@string/full_body" />
 
                             <com.common.view.CTextView
                                 android:id="@+id/tv_des"
                                 style="@style/txt_fff_14"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Wake up with energy, make your body primed for the day" />
+                                android:text="@string/wake_up_with_energy_make_your_body_primed_for_the_day" />
 
                         </LinearLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>

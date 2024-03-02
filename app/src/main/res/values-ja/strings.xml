@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - スタイルのあるフィットネス</string>
+
+
+    <string name="btn_ok">わかりました</string>
+    <string name="btn_cancel">キャンセル</string>
+    <string name="exit_msg">「戻る」を 2 回押して終了します</string>
+    <string name="search">検索</string>
+    <string name="clear">クリア</string>
+    <string name="choose_gallery">ギャラリーから選ぶ</string>
+    <string name="err_file_manager">ファイルマネージャーをインストールしてください。</string>
+    <string name="choose_camera">カメラから撮る</string>
+    <string name="permission_msg">ギャラリーとカメラの許可が必要です</string>
+    <string name="permission_setting">権限設定</string>
+
+    <string name="login">ログイン</string>
+    <string name="profile">プロフィール</string>
+    <string name="description">説明</string>
+    <string name="save">保存</string>
+
+    <string name="err_camera">カメラを開けません</string>
+
+    <string name="name">名前</string>
+
+
+    <string name="need_permission_title">許可が必要です</string>
+    <string name="err_need_permission_msg">この権限は以前に拒否されました。\nデバイスのアプリ設定の「権限」でこの権限を承認する必要があります。</string>
+
+    <string name="back">戻る</string>
+    <string name="more">もっと</string>
+    <string name="refresh">リフレッシュ</string>
+    <string name="facility_code">施設コード</string>
+    <string name="home">家</string>
+    <string name="re_scan">再スキャン</string>
+    <string name="inmate_activity">受刑者の活動</string>
+
+    <string name="cancel">キャンセル</string>
+    <string name="retry">リトライ</string>
+    <string name="logout">ログアウト</string>
+
+    <string name="user">ユーザー</string>
+    <string name="setting">設定</string>
+    <string name="report_issue">レポートの問題</string>
+    <string name="what_s_your_goal">あなたの目標は何ですか?</string>
+
+    <string name="goal_lose_weight">体重が減る</string>
+    <string name="goal_butt_lift">バットリフト</string>
+    <string name="goal_lose_belly_fat">お腹の脂肪を減らす</string>
+    <string name="goal_build_muscle_strength">筋肉を鍛える</string>
+
+    <string name="next">次</string>
+    <string name="skip">スキップ</string>
+    <string name="how_much_do_nyou_weight">体重は\nどれくらいですか?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">仕事の成果を上げるために、あなたのことをもっとよく知ってください。</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">自分に合ったプランで体重を減らしましょう</string>
+    <string name="how_tall_are_nyou">身長はどれくらいですか?\n</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>ホームページに移動</u></string>
+    <string name="plan">プラン</string>
+    <string name="reports">レポート</string>
+    <string name="me">自分</string>
+    <string name="lose_weight">体重が減る</string>
+    <string name="go">行く！</string>
+    <string name="drink">飲む</string>
+    <string name="turn_on_water_tracker">水トラッカーをオンにする</string>
+
+    <string name="dummy_text">Lorem Ipsum は、無名の印刷業者が活字のゲラをスクランブルして活字見本帳を作成した 1500 年代以来、業界の標準的なダミーテキストです。</string>
+    <string name="dummy_text2">Lorem Ipsum は、無名の印刷業者が活字のゲラをスクランブルして活字見本帳を作成した 1500 年代以来、業界の標準的なダミーテキストです。</string>
+    <string name="instruction">命令</string>
+    <string name="fast_workout">素早いトレーニング</string>
+    <string name="not_enough_time">時間が足りないですか？</string>
+    <string name="_2_7_min_fast_workout">2～7分の高速トレーニング</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">どこでも、何でもできる 2 ～ 7 分のトレーニング。</string>
+    <string name="body_focus">ボディフォーカス</string>
+
+    <string name="sound_options">サウンドオプション</string>
+    <string name="mute">ミュート</string>
+    <string name="voice_guide">音声ガイド</string>
+    <string name="voice_guide_des">次のトレーニングと何回行う必要があるかを把握してください。</string>
+    <string name="coach_tips">コーチのヒント</string>
+    <string name="common_questions">よくある質問</string>
+    <string name="btn_continue">続く</string>
+    <string name="close">近い</string>
+    <string name="exercies">演習</string>
+    <string name="workouts">トレーニング</string>
+    <string name="kcal">カロリー</string>
+    <string name="minute">分</string>
+    <string name="minutes">分</string>
+    <string name="duration">間隔</string>
+    <string name="share">共有</string>
+    <string name="do_it_again">再びそれを行う</string>
+    <string name="reminder_colon">リマインダー：</string>
+    <string name="reminder">リマインダー</string>
+    <string name="kg">KG</string>
+    <string name="lb">ポンド</string>
+    <string name="weight">重さ</string>
+    <string name="enter_weight">体重を入力してください</string>
+    <string name="tap_here_to_input_your_height"><b>ここ</b>をタップして身長を入力してください</string>
+    <string name="i_feel">感じます</string>
+    <string name="easy">簡単</string>
+    <string name="exhausted">疲れ果てた</string>
+    <string name="feedback">フィードバック</string>
+    <string name="height">身長</string>
+    <string name="enter_height">身長を入力してください</string>
+    <string name="cm">CM</string>
+
+    <string name="in">で</string>
+    <string name="gender">性別</string>
+    <string name="male">男</string>
+    <string name="female">女性</string>
+    <string name="year_of_birth">生年</string>
+    <string name="previous">前の</string>
+    <string name="set">セット</string>
+    <string name="history">歴史</string>
+
+    <string name="delete">消去</string>
+    <string name="confirm_delete">削除を確認しますか?</string>
+    <string name="delete_confirmation_msg">削除してもよろしいですか?</string>
+    <string name="restart_confirmation_msg">進行を再開してもよろしいですか?</string>
+    <string name="restart_day_confirmation_msg">進行状況をクリアして 1 日目からやり直しますか?</string>
+    <string name="total">合計</string>
+    <string name="current">現在</string>
+    <string name="heaviest">最も重い</string>
+    <string name="lightest">最軽量</string>
+    <string name="current_colon">現在：</string>
+    <string name="heaviest_colon">最も重い:</string>
+    <string name="lightest_colon">最軽量:</string>
+    <string name="edit">編集</string>
+    <string name="workout">いい結果</string>
+
+    <string name="go_premium">プレミアムに行く</string>
+    <string name="voice_options_tts">音声オプション (TTS)</string>
+    <string name="test_voice">テストボイス</string>
+    <string name="download_tts_engine">TTs エンジンをダウンロード</string>
+    <string name="select_tts_engine">TTS エンジンを選択します</string>
+    <string name="google_text_to_speech_engine">Google テキスト読み上げエンジン</string>
+    <string name="voice_language">音声言語</string>
+    <string name="download_more_tts_language_data">TTS 言語データをさらにダウンロードする</string>
+    <string name="device_tts_setting">デバイスのTTS設定</string>
+    <string name="health_data">健康データ</string>
+    <string name="remind_me_to_workout_every_day">毎日トレーニングするようリマインドする</string>
+    <string name="keep_the_screen_on">画面をオンのままにしてください</string>
+    <string name="general_settings">一般設定</string>
+    <string name="community">コミュニティ</string>
+    <string name="share_with_friends">友人たちと分ける</string>
+    <string name="support_us">私たちを応援してください</string>
+    <string name="rate_us">私たちを評価してください</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="did_you_hear_test_voice">テスト音声聞こえましたか？</string>
+    <string name="my_profile">私のプロフィール</string>
+    <string name="restart_progress">再起動の進行状況</string>
+    <string name="remove_ads">広告を削除</string>
+
+    <string name="iap_detail">1. Play ストアを通じて行われるすべての支払いは、Google によって管理および管理されます。\n2.</string>
+    <string name="start">始める</string>
+    <string name="target_weight">目標体重</string>
+    <string name="yes">はい</string>
+    <string name="no">いいえ</string>
+    <string name="dl_test_voice_no_msg_test">使用している TTS エンジンは現在動作していません。再確認するか、別の TTS エンジンに切り替えるか、TTS 音声言語をダウンロードしてください。</string>
+    <string name="please_choose_guide_voice_engine">ガイド音声エンジンを選択してください:</string>
+    <string name="repeat">繰り返す</string>
+    <string name="tip">ヒント</string>
+    <string name="send_feedback">フィードバックを送信する</string>
+
+    <string name="week">週</string>
+    <string name="mins">分</string>
+    <string name="quite_exercise_msg">滴る汗は脂肪の滴下です。</string>
+    <string name="quit">やめる</string>
+    <string name="str_continue">続く</string>
+    <string name="come_back_in_30_minute"><u>30 分後に戻ってきてください</u></string>
+    <string name="done">終わり</string>
+    <string name="view_all">すべて見る</string>
+    <string name="finished">終了した</string>
+    <string name="restart">再起動</string>
+    <string name="recent">最近の</string>
+    <string name="rest_day">休日</string>
+    <string name="replace">交換する</string>
+    <string name="reset_plan">計画をリセットする</string>
+    <string name="edit_plan">計画の編集</string>
+    <string name="save_changes_que">変更内容を保存？</string>
+    <string name="reset">リセット</string>
+    <string name="replace_with">と置換する</string>
+    <string name="change_plan">プラン変更</string>
+    <string name="change_language">言語を変えてください</string>
+    <string name="language_options">言語オプション</string>
+    <string name="hours">時間</string>
+    <string name="completed">完了</string>
+    <string name="well_done">よくやった！</string>
+    <string name="time_to_drink_water">水を飲む時間です</string>
+    <string name="time_to_hydrate">水分補給の時間です！</string>
+    <string name="drink_water_make_skin_batter">水を飲むと肌がボロボロになることがあります。</string>
+    <string name="pause">一時停止</string>
+    <string name="no_internet_available">インターネットが利用できない</string>
+</resources>

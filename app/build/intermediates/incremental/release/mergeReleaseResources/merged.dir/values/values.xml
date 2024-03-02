@@ -354,6 +354,7 @@
         <enum name="gone" value="8"/>
     </attr>
     <attr format="reference" name="polarRelativeTo"/>
+    <attr format="reference" name="postSplashScreenTheme"/>
     <attr format="string|reference|enum" name="quantizeMotionInterpolator">
         <enum name="easeInOut" value="0"/>
         <enum name="easeIn" value="1"/>
@@ -369,6 +370,7 @@
     <attr format="color|reference" name="scrimBackground"/>
     <attr format="reference" name="showMotionSpec"/>
     <attr format="float" name="sizePercent"/>
+    <attr format="dimension" name="splashScreenIconSize"/>
     <attr format="enum" name="splitLayoutDirection">
         <enum name="locale" value="0"/>
         <enum name="ltr" value="1"/>
@@ -444,6 +446,10 @@
         <enum name="position" value="0"/>
         <enum name="path" value="1"/>
     </attr>
+    <attr format="reference" name="windowSplashScreenAnimatedIcon"/>
+    <attr format="integer" name="windowSplashScreenAnimationDuration"/>
+    <attr format="color" name="windowSplashScreenBackground"/>
+    <attr format="color" name="windowSplashScreenIconBackgroundColor"/>
     <bool name="abc_action_bar_embed_tabs">true</bool>
     <bool name="abc_config_actionMenuItemAllCaps">true</bool>
     <bool name="config_materialPreferenceIconSpaceReserved">false</bool>
@@ -1993,6 +1999,13 @@
     <dimen name="preference_seekbar_value_minWidth">36dp</dimen>
     <dimen name="preferences_detail_width">300dp</dimen>
     <dimen name="preferences_header_width">384dp</dimen>
+    <dimen name="splashscreen_icon_mask_size_no_background">410dp</dimen>
+    <dimen name="splashscreen_icon_mask_size_with_background">342dp</dimen>
+    <dimen name="splashscreen_icon_mask_stroke_no_background">109dp</dimen>
+    <dimen name="splashscreen_icon_mask_stroke_with_background">92dp</dimen>
+    <dimen name="splashscreen_icon_size">?splashScreenIconSize</dimen>
+    <dimen name="splashscreen_icon_size_no_background">288dp</dimen>
+    <dimen name="splashscreen_icon_size_with_background">240dp</dimen>
     <dimen name="subtitle_corner_radius">2dp</dimen>
     <dimen name="subtitle_outline_width">2dp</dimen>
     <dimen name="subtitle_shadow_offset">2dp</dimen>
@@ -2137,6 +2150,7 @@
     <integer name="bottom_sheet_slide_duration">150</integer>
     <integer name="cancel_button_image_alpha">127</integer>
     <integer name="config_tooltipAnimTime">150</integer>
+    <integer name="default_icon_animation_duration">10000</integer>
     <integer name="design_snackbar_text_max_lines">2</integer>
     <integer name="design_tab_indicator_anim_duration_ms">300</integer>
     <integer name="google_play_services_version">12451000</integer>
@@ -2150,8 +2164,15 @@
     <integer name="show_password_duration">200</integer>
     <integer name="status_bar_notification_info_maxnum">999</integer>
     <integer name="viewfliper_animation">700</integer>
+    <string name="_100_workouts_for_fat_burning">100 + Workouts for fat burning</string>
+    <string name="_28_days_left">28 Days left</string>
+    <string name="_2_7_min">2-7 min</string>
     <string name="_2_7_min_fast_workout">2-7 min fast workout</string>
     <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minutes workout to do anything, anywhere.</string>
+    <string name="_30_days_left">30 days left</string>
+    <string name="_430_00_month">1€/Month</string>
+    <string name="_5_mins">5 Mins</string>
+    <string name="_8_cups">/8 Cups</string>
     <string name="abc_action_bar_home_description">Navigate home</string>
     <string name="abc_action_bar_up_description">Navigate up</string>
     <string name="abc_action_menu_overflow_description">More options</string>
@@ -2179,21 +2200,29 @@
     <string name="abc_shareactionprovider_share_with">Share with</string>
     <string name="abc_shareactionprovider_share_with_application">Share with <ns1:g example="Mail" id="application_name">%s</ns1:g></string>
     <string name="abc_toolbar_collapse_description">Collapse</string>
-    <string name="admob_app_id">ca-app-pub-3134229311965942~9643489443</string>
+    <string name="about">About</string>
+    <string name="about_app">About App</string>
+    <string name="access_all_features">Access all features</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3134229311965942~9643489443</string>
     <string name="androidx_startup" translatable="false">androidx.startup</string>
-    <string name="app_name">SculptHer: Fitness with style</string>
+    <string name="app">App</string>
+    <string name="app_name">SculptHer - Fitness with style</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="are_you_sure_nyou_want_to_logout">Are you sure?\nYou want to logout?</string>
     <string name="back">Back</string>
+    <string name="beginner">Beginner</string>
     <string name="bmi">BMI</string>
     <string name="bmi_colon">BMI:</string>
     <string name="body_focus">Body focus</string>
     <string name="bottom_sheet_behavior" translatable="false">com.google.android.material.bottomsheet.BottomSheetBehavior</string>
+    <string name="bridge">Bridge</string>
     <string name="btn_cancel">Cancel</string>
     <string name="btn_continue">Continue</string>
     <string name="btn_ok">Ok</string>
     <string name="cancel">Cancel</string>
     <string name="change_language">Change Language</string>
     <string name="change_plan">Change plan</string>
+    <string name="change_starts_ntoday">Change Starts\nToday!</string>
     <string name="character_counter_content_description">Character limit exceeded %1$d of %2$d</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="choose_camera">Take From Camera</string>
@@ -2237,6 +2266,7 @@
     <string name="crop_image_menu_rotate_right">Rotate</string>
     <string name="current">Current</string>
     <string name="current_colon">Current:</string>
+    <string name="daily">Daily</string>
     <string name="data_processing_options">Data Processing Options</string>
     <string name="data_processing_options_category">Data Processing Options Setting</string>
     <string name="data_processing_options_country">Country</string>
@@ -2247,6 +2277,8 @@
     <string name="data_processing_options_state">State</string>
     <string name="data_processing_options_state_dialog_message">State for data
         processing options. 1000 for California, 0 to geolocate</string>
+    <string name="day_1">Day 1</string>
+    <string name="day_in_a_row">Day In a Row</string>
     <string name="default_autoplay_setting">AUTOPLAY</string>
     <string name="define_AndroidIconics">year;owner</string>
     <string name="define_fastadapter">year;owner</string>
@@ -2265,6 +2297,7 @@
     <string name="download_tts_engine">Download TTs Engine</string>
     <string name="drink">Drink</string>
     <string name="drink_water_make_skin_batter">Drink Water can make your skin look batter.</string>
+    <string name="drinking_water_helps_nimprove_fat_burning_rate">Drinking water helps\nimprove fat burning rate.</string>
     <string name="dummy_text">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="dummy_text2">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="duration">Duration</string>
@@ -2288,10 +2321,12 @@
     <string name="fallback_menu_item_share_link">Share link</string>
     <string name="fast_workout">Fast workout</string>
     <string name="fastadapter_lib_version" translatable="false">3.3.0</string>
+    <string name="fat_burning_hiit">Fat burning HIIT</string>
     <string name="fcm_fallback_notification_channel_label">Miscellaneous</string>
     <string name="feedback">Feedback</string>
     <string name="female">Female</string>
     <string name="finished">Finished</string>
+    <string name="full_body">Full body</string>
     <string name="gcm_defaultSenderId" translatable="false">115700086500</string>
     <string name="gender">Gender</string>
     <string name="general_settings">General Settings</string>
@@ -2318,7 +2353,7 @@
     <string name="how_much_do_nyou_weight">How much do\nyou weight?</string>
     <string name="how_tall_are_nyou">How Tall Are\nyou?</string>
     <string name="i_feel">I feel</string>
-    <string name="iap_detail">1. All payments made through Play Store are controlled and managed by Google.\n2. Payments will be charged to your Play Store Account at confirmation of purchase.\n3. Subscription automatically renews, unless auto-renew is turned off at least 24 hours before the end of the current period.\n4. Account will be charged for renewal within 24 hours prior to the end of the current period.\n5. You may manage your subscriptions and auto-renewal may be turned off by going to your Play Store account settings after purchase.\n6. Any unused portion of a free trial period, if offered, will be forfeited if you purchase a subscription to the publication, where applicable.</string>
+    <string name="iap_detail">1. All payments made through Play Store are controlled and managed by Google. 2. Payments will be charged to your Play Store Account at confirmation of purchase. 3. Subscription automatically renews, unless auto-renew is turned off at least 24 hours before the end of the current period. 4. Account will be charged for renewal within 24 hours prior to the end of the current period. 5. You may manage your subscriptions and auto-renewal may be turned off by going to your Play Store account settings after purchase. 6. Any unused portion of a free trial period, if offered, will be forfeited if you purchase a subscription to the publication, where applicable.</string>
     <string name="iconics_lib_version" translatable="false">3.1.0</string>
     <string name="in">IN</string>
     <string name="inmate_activity">Inmate Activity</string>
@@ -2395,6 +2430,7 @@
     <string name="login">Login</string>
     <string name="logout">Logout</string>
     <string name="lose_weight">Lose Weight</string>
+    <string name="lose_weight_amp_keep_fit"><![CDATA[Lose Weight & keep fit]]></string>
     <string name="lose_weight_with_the_plan_that_suits_you_best">Lose weight with the plan that suits you best</string>
     <string name="male">Male</string>
     <string name="material_drawer_close">Close</string>
@@ -2402,11 +2438,12 @@
     <string name="materialdrawer_lib_version" translatable="false">6.1.2</string>
     <string name="materialize_lib_version" translatable="false">1.2.0</string>
     <string name="me">Me</string>
-    <string name="metric_and_imperial_units"><![CDATA[Metric & Imperial Units]]></string>
+    <string name="metric_and_imperial_units" translatable="false"><![CDATA[Metric & Imperial Units]]></string>
     <string name="mins">Mins</string>
     <string name="minute">Minute</string>
     <string name="minutes">minutes</string>
     <string name="more">More</string>
+    <string name="morning_warm_up">Morning warm up</string>
     <string name="mtrl_chip_close_icon_content_description">Remove %1$s</string>
     <string name="mute">Mute</string>
     <string name="my_profile">My Profile</string>
@@ -2432,7 +2469,8 @@
       Don\'t allow</string>
     <string description="Body of the dialog presented when an ad wants to grant notifications permission. [CHAR_LIMIT=NONE]" name="notifications_permission_title">
       Allow app to send you notifications?</string>
-    <string name="number_picker_formatter">%02d</string>
+    <string name="number_picker_formatter" translatable="false">%02d</string>
+    <string name="office_workout">Office workout</string>
     <string description="Text of the notification which directs the user to the landing page of the ad. [CHAR_LIMIT=NONE]" name="offline_notification_text">
       Tap to open ad</string>
     <string description="Title of the notification which directs the user to the landing page of the ad. [CHAR_LIMIT=NONE]" name="offline_notification_title">
@@ -2447,6 +2485,7 @@
       We\'ll send you a notification with a link to the advertiser site.</string>
     <string description="Title of the dialog presented when an ad is clicked while offline. [CHAR_LIMIT=NONE]" name="offline_opt_in_title">
       Open ad when you\'re back online.</string>
+    <string name="or">OR</string>
     <string name="password_toggle_content_description">Show password</string>
     <string name="path_password_eye" translatable="false">M12,4.5C7,4.5 2.73,7.61 1,12c1.73,4.39 6,7.5 11,7.5s9.27,-3.11 11,-7.5c-1.73,-4.39 -6,-7.5 -11,-7.5zM12,17c-2.76,0 -5,-2.24 -5,-5s2.24,-5 5,-5 5,2.24 5,5 -2.24,5 -5,5zM12,9c-1.66,0 -3,1.34 -3,3s1.34,3 3,3 3,-1.34 3,-3 -1.34,-3 -3,-3z</string>
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
@@ -2457,17 +2496,18 @@
     <string name="permission_setting">Permission Setting</string>
     <string name="pick_image_intent_chooser_title">Select source</string>
     <string name="plan">Plan</string>
+    <string name="plan_1">Plan 1</string>
     <string name="please_choose_guide_voice_engine">Please choose guide voice engine:</string>
     <string name="preference_copied">
         \"<ns1:g example="Version 1.1" id="summary">%1$s</ns1:g>\" copied to clipboard.
     </string>
     <string name="previous">Previous</string>
     <string name="privacy_policy">Privacy policy</string>
-    <string name="privacy_policy_link">https://sites.google.com/view/femaleweightlose-pp/home</string>
+    <string name="privacy_policy_link" translatable="false">https://sites.google.com/view/femaleweightlose-pp/home</string>
     <string name="profile">Profile</string>
     <string name="project_id" translatable="false">sculpther-fitness-with-style</string>
     <string name="quit">Quit</string>
-    <string name="quite_exercise_msg">Sweat dripping is fat\ndropping.</string>
+    <string name="quite_exercise_msg">Sweat dripping is fat dropping.</string>
     <string name="rate_us">Rate us</string>
     <string name="re_scan">Re-Scan</string>
     <string name="recent">Recent</string>
@@ -2488,7 +2528,9 @@
     <string name="restart_confirmation_msg">Are you sure you want to restart progress?</string>
     <string name="restart_day_confirmation_msg">Would you like to clear your progress and restart from day 1?</string>
     <string name="restart_progress">Restart Progress</string>
+    <string name="result_not_typical_disclaimer">Result not typical.Disclaimer</string>
     <string name="retry">Retry</string>
+    <string name="s">S</string>
     <string name="s1">Save image</string>
     <string name="s2">"Allow Ad to store image in Picture gallery?"</string>
     <string name="s3">Accept</string>
@@ -2498,6 +2540,7 @@
     <string name="s7">Test Ad</string>
     <string name="save">Save</string>
     <string name="save_changes_que">Save changes?</string>
+    <string name="save_percent">Save 67%</string>
     <string name="sdk_version_title">SDK Version</string>
     <string name="search">Search</string>
     <string name="search_menu_title">Search</string>
@@ -2508,6 +2551,7 @@
     <string name="share">Share</string>
     <string name="share_with_friends">Share with friends</string>
     <string name="skip">Skip</string>
+    <string name="sku_year_price">3,97€/year</string>
     <string name="sound_options">Sound options</string>
     <string name="start">Start</string>
     <string name="status_bar_notification_info_overflow">999+</string>
@@ -2521,9 +2565,12 @@
     <string name="time_to_drink_water">It is time to drink water</string>
     <string name="time_to_hydrate">It\'s time to hydrate!</string>
     <string name="tip">Tip</string>
+    <string name="to_calculate_your_bmi">To calculate your BMI</string>
     <string name="today">Today</string>
     <string name="total">Total</string>
     <string name="turn_on_water_tracker">Turn On Water Tracker</string>
+    <string name="unlimited_workouts_plans">Unlimited workouts plans</string>
+    <string name="unlock_once">Unlock Once</string>
     <string name="url_prefix_title">URL Prefix</string>
     <string name="user">User</string>
     <string name="v7_preference_off">OFF</string>
@@ -2535,6 +2582,12 @@
     <string name="voice_guide_des">Know your next workout and how many times you need to do it.</string>
     <string name="voice_language">Voice Language</string>
     <string name="voice_options_tts">Voice Options (TTS)</string>
+    <string name="wake_up_with_energy_make_your_body_primed_for_the_day">Wake up with energy, make your body primed for the day</string>
+    <string name="watch_the_video_to_use_training_plan_once">Watch the video to use training plan once</string>
+    <string name="watch_video_to_unlock">Watch video to unlock</string>
+    <string name="water_is_necessary_for_burning_fat">Water is necessary for burning fat.</string>
+    <string name="water_is_the_fuel_of_the_muscles">Water is the fuel of the muscles.</string>
+    <string name="water_tracker">Water Tracker</string>
     <string description="This string appears within a watermark on video ads for debugging. [CHAR_LIMIT=NONE]" name="watermark_label_prefix">
     "AdMob - "
   </string>
@@ -2542,11 +2595,12 @@
     <string name="weight">Weight</string>
     <string name="well_done">Well done!</string>
     <string name="what_s_your_goal">What\'s your goal?</string>
+    <string name="what_s_your_ntarget_weight">What\'s your\nTarget weight?</string>
     <string name="workout">Workout</string>
     <string name="workouts">Workouts</string>
     <string name="year_of_birth">Year of Birth</string>
     <string name="yes">Yes</string>
-    <string name="youtube_api_key">AIzaSyDbScjSgqa4mmcGeEO7Hp5HgNpewOlh93U</string>
+    <string name="youtube_api_key" translatable="false">AIzaSyCStfW9e7pADrbA7sIkJg9FQnO4ttpeypE</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2893,6 +2947,9 @@
     <item name="windowMinWidthMinor">@dimen/abc_dialog_min_width_minor</item>
   </style>
     <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="Theme.MaterialComponents.Light"/>
+    <style name="Base.Theme.SplashScreen" parent="Base.v21.Theme.SplashScreen"/>
+    <style name="Base.Theme.SplashScreen.DayNight" parent="Base.Theme.SplashScreen.Light"/>
+    <style name="Base.Theme.SplashScreen.Light" parent="Base.v21.Theme.SplashScreen.Light"/>
     <style name="Base.ThemeOverlay.AppCompat" parent="Platform.ThemeOverlay.AppCompat"/>
     <style name="Base.ThemeOverlay.AppCompat.ActionBar">
         <item name="colorControlNormal">?android:attr/textColorPrimary</item>
@@ -4017,6 +4074,10 @@
     <item name="boxCornerRadiusBottomStart">@dimen/mtrl_textinput_box_corner_radius_medium</item>
     <item name="boxStrokeColor">?attr/colorControlActivated</item>
   </style>
+    <style name="Base.v21.Theme.SplashScreen" parent="android:Theme.DeviceDefault.NoActionBar">
+    </style>
+    <style name="Base.v21.Theme.SplashScreen.Light" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+    </style>
     <style name="BasePreferenceThemeOverlay">
         <item name="android:scrollbars">vertical</item>
         <item name="checkBoxPreferenceStyle">@style/Preference.CheckBoxPreference.Material</item>
@@ -5216,6 +5277,32 @@
     <item name="windowActionBar">false</item>
     <item name="windowNoTitle">true</item>
   </style>
+    <style name="Theme.SplashScreen" parent="Theme.SplashScreen.Common">
+        <item name="postSplashScreenTheme">?android:attr/theme</item>
+        <item name="windowSplashScreenAnimationDuration">
+            @integer/default_icon_animation_duration
+        </item>
+        <item name="windowSplashScreenBackground">?android:colorBackground</item>
+        <item name="windowSplashScreenAnimatedIcon">@android:drawable/sym_def_app_icon</item>
+
+    </style>
+    <style name="Theme.SplashScreen.Common" parent="Base.Theme.SplashScreen.DayNight">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">
+            @drawable/compat_splash_screen_no_icon_background
+        </item>
+        <item name="android:opacity">opaque</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:fitsSystemWindows">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="splashScreenIconSize">@dimen/splashscreen_icon_size_no_background</item>
+    </style>
+    <style name="Theme.SplashScreen.IconBackground" parent="Theme.SplashScreen">
+        <item name="android:windowBackground">@drawable/compat_splash_screen</item>
+        <item name="splashScreenIconSize">@dimen/splashscreen_icon_size_with_background</item>
+    </style>
     <style name="ThemeOverlay.AppCompat" parent="Base.ThemeOverlay.AppCompat"/>
     <style name="ThemeOverlay.AppCompat.ActionBar" parent="Base.ThemeOverlay.AppCompat.ActionBar"/>
     <style name="ThemeOverlay.AppCompat.Dark" parent="Base.ThemeOverlay.AppCompat.Dark"/>
@@ -5790,11 +5877,11 @@
     <declare-styleable name="ActionBar">
         
         <attr name="navigationMode">
-            
+            <!-- Normal static title text -->
             <enum name="normal" value="0"/>
-            
+            <!-- The action bar will use a selection list for navigation. -->
             <enum name="listMode" value="1"/>
-            
+            <!-- The action bar will use a series of horizontal tabs for navigation. -->
             <enum name="tabMode" value="2"/>
         </attr>
         
@@ -5984,17 +6071,22 @@
 
         
         <attr name="tintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -6006,17 +6098,22 @@
         <attr format="color" name="tickMarkTint"/>
         
         <attr name="tickMarkTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -6037,9 +6134,10 @@
         <attr name="android:textAppearance"/>
         
         <attr format="enum" name="autoSizeTextType">
-            
+            <!-- No auto-sizing (default). -->
             <enum name="none" value="0"/>
-            
+            <!-- Uniform horizontal and vertical text size scaling to fit within the
+            container. -->
             <enum name="uniform" value="1"/>
         </attr>
         
@@ -6071,17 +6169,22 @@
         <attr format="color" name="drawableTint"/>
         
         <attr name="drawableTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -6564,17 +6667,22 @@
 
         
         <attr name="checkMarkTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -6705,17 +6813,22 @@
 
         
         <attr name="buttonTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>
@@ -7333,70 +7446,76 @@
 
         
         <attr name="layout_anchorGravity">
-            
+            <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Push object to the bottom of its container, not changing its size. -->
             <flag name="bottom" value="0x50"/>
-            
+            <!-- Push object to the left of its container, not changing its size. -->
             <flag name="left" value="0x03"/>
-            
+            <!-- Push object to the right of its container, not changing its size. -->
             <flag name="right" value="0x05"/>
-            
+            <!-- Place object in the vertical center of its container, not changing its size. -->
             <flag name="center_vertical" value="0x10"/>
-            
+            <!-- Grow the vertical size of the object if needed so it completely fills its container. -->
             <flag name="fill_vertical" value="0x70"/>
-            
+            <!-- Place object in the horizontal center of its container, not changing its size. -->
             <flag name="center_horizontal" value="0x01"/>
-            
+            <!-- Grow the horizontal size of the object if needed so it completely fills its container. -->
             <flag name="fill_horizontal" value="0x07"/>
-            
+            <!-- Place the object in the center of its container in both the vertical and horizontal axis, not changing its size. -->
             <flag name="center" value="0x11"/>
-            
+            <!-- Grow the horizontal and vertical size of the object if needed so it completely fills its container. -->
             <flag name="fill" value="0x77"/>
-            
+            <!-- Additional option that can be set to have the top and/or bottom edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the vertical gravity: a top gravity will clip the bottom
+                 edge, a bottom gravity will clip the top edge, and neither will clip both edges. -->
             <flag name="clip_vertical" value="0x80"/>
-            
+            <!-- Additional option that can be set to have the left and/or right edges of
+                 the child clipped to its container's bounds.
+                 The clip will be based on the horizontal gravity: a left gravity will clip the right
+                 edge, a right gravity will clip the left edge, and neither will clip both edges. -->
             <flag name="clip_horizontal" value="0x08"/>
-            
+            <!-- Push object to the beginning of its container, not changing its size. -->
             <flag name="start" value="0x00800003"/>
-            
+            <!-- Push object to the end of its container, not changing its size. -->
             <flag name="end" value="0x00800005"/>
         </attr>
 
         
         <attr format="enum" name="layout_insetEdge">
-            
+            <!-- Don't inset. -->
             <enum name="none" value="0x0"/>
-            
+            <!-- Inset the top edge. -->
             <enum name="top" value="0x30"/>
-            
+            <!-- Inset the bottom edge. -->
             <enum name="bottom" value="0x50"/>
-            
+            <!-- Inset the left edge. -->
             <enum name="left" value="0x03"/>
-            
+            <!-- Inset the right edge. -->
             <enum name="right" value="0x05"/>
-            
+            <!-- Inset the start edge. -->
             <enum name="start" value="0x00800003"/>
-            
+            <!-- Inset the end edge. -->
             <enum name="end" value="0x00800005"/>
         </attr>
         
         <attr name="layout_dodgeInsetEdges">
-            
+            <!-- Don't dodge any edges -->
             <flag name="none" value="0x0"/>
-            
+            <!-- Dodge the top inset edge. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Dodge the bottom inset edge. -->
             <flag name="bottom" value="0x50"/>
-            
+            <!-- Dodge the left inset edge. -->
             <flag name="left" value="0x03"/>
-            
+            <!-- Dodge the right inset edge. -->
             <flag name="right" value="0x05"/>
-            
+            <!-- Dodge the start inset edge. -->
             <flag name="start" value="0x00800003"/>
-            
+            <!-- Dodge the end inset edge. -->
             <flag name="end" value="0x00800005"/>
-            
+            <!-- Dodge all the inset edges. -->
             <flag name="all" value="0x77"/>
         </attr>
     </declare-styleable>
@@ -7523,14 +7642,23 @@
         <attr format="reference" name="fontProviderCerts"/>
         
         <attr name="fontProviderFetchStrategy">
-            
+            <!-- The blocking font fetch works as follows.
+              First, check the local cache, then if the requested font is not cached, request the
+              font from the provider and wait until it is finished.  You can change the length of
+              the timeout by modifying fontProviderFetchTimeout.  If the timeout happens, the
+              default typeface will be used instead. -->
             <enum name="blocking" value="0"/>
-            
+            <!-- The async font fetch works as follows.
+              First, check the local cache, then if the requeted font is not cached, trigger a
+              request the font and continue with layout inflation. Once the font fetch succeeds, the
+              target text view will be refreshed with the downloaded font data. The
+              fontProviderFetchTimeout will be ignored if async loading is specified. -->
             <enum name="async" value="1"/>
         </attr>
         
         <attr format="integer" name="fontProviderFetchTimeout">
-            
+            <!-- A special value for the timeout. In this case, the blocking font fetching will not
+              timeout and wait until a reply is received from the font provider. -->
             <enum name="forever" value="-1"/>
         </attr>
         
@@ -8002,15 +8130,24 @@
 
         
         <attr name="showAsAction">
-            
+            <!-- Never show this item in an action bar, show it in the overflow menu instead.
+                 Mutually exclusive with "ifRoom" and "always". -->
             <flag name="never" value="0"/>
-            
+            <!-- Show this item in an action bar if there is room for it as determined
+                 by the system. Favor this option over "always" where possible.
+                 Mutually exclusive with "never" and "always". -->
             <flag name="ifRoom" value="1"/>
-            
+            <!-- Always show this item in an actionbar, even if it would override
+                 the system's limits of how much stuff to put there. This may make
+                 your action bar look bad on some screens. In most cases you should
+                 use "ifRoom" instead. Mutually exclusive with "ifRoom" and "never". -->
             <flag name="always" value="2"/>
-            
+            <!-- When this item is shown as an action in the action bar, show a text
+                 label with it even if it has an icon representation. -->
             <flag name="withText" value="4"/>
-            
+            <!-- This item's action view collapses to a normal menu
+                 item. When expanded, the action view takes over a
+                 larger segment of its container. -->
             <flag name="collapseActionView" value="8"/>
         </attr>
 
@@ -8034,17 +8171,22 @@
 
         
         <attr name="iconTintMode">
-            
+            <!-- The tint is drawn on top of the icon.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the icon. The icon’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the icon, but with the icon’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the icon with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
 
@@ -8666,9 +8808,9 @@
 
         
         <attr format="dimension" name="sticky">
-            
+            <!--stick mode is off-->
             <enum name="none" value="-2"/>
-            
+            <!--stick view if it has reached offset equals to its width-->
             <enum name="self" value="-1"/>
         </attr>
         <attr format="float" name="sticky_sensitivity"/>
@@ -8701,17 +8843,22 @@
         <attr format="color" name="thumbTint"/>
         
         <attr name="thumbTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -8720,17 +8867,22 @@
         <attr format="color" name="trackTint"/>
         
         <attr name="trackTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and drawable color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
         
@@ -8890,11 +9042,11 @@
         <attr name="contentInsetEndWithActions"/>
         <attr format="dimension" name="maxButtonHeight"/>
         <attr name="buttonGravity">
-            
+            <!-- Place object in the vertical center of its container, not changing its size. -->
             <flag name="center_vertical" value="0x10"/>
-            
+            <!-- Push object to the top of its container, not changing its size. -->
             <flag name="top" value="0x30"/>
-            
+            <!-- Push object to the bottom of its container, not changing its size. -->
             <flag name="bottom" value="0x50"/>
         </attr>
         
@@ -9017,17 +9169,22 @@
 
         
         <attr name="backgroundTintMode">
-            
+            <!-- The tint is drawn on top of the drawable.
+                 [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc] -->
             <enum name="src_over" value="3"/>
-            
+            <!-- The tint is masked by the alpha channel of the drawable. The drawable’s
+                 color channels are thrown out. [Sa * Da, Sc * Da] -->
             <enum name="src_in" value="5"/>
-            
+            <!-- The tint is drawn above the drawable, but with the drawable’s alpha
+                 channel masking the result. [Da, Sc * Da + (1 - Sa) * Dc] -->
             <enum name="src_atop" value="9"/>
-            
+            <!-- Multiplies the color and alpha channels of the drawable with those of
+                 the tint. [Sa * Da, Sc * Dc] -->
             <enum name="multiply" value="14"/>
-            
+            <!-- [Sa + Da - Sa * Da, Sc + Dc - Sc * Dc] -->
             <enum name="screen" value="15"/>
-            
+            <!-- Combines the tint and icon color and alpha channels, clamping the
+                 result to valid color values. Saturate(S + D) -->
             <enum name="add" value="16"/>
         </attr>
     </declare-styleable>

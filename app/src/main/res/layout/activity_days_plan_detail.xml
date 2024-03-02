@@ -77,7 +77,7 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_5sdp"
                                 android:gravity="center"
-                                android:text="Lose Weight &amp; keep fit" />
+                                android:text="@string/lose_weight_amp_keep_fit" />
 
                             <ProgressBar
                                 android:id="@+id/pbDay"
@@ -95,7 +95,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginTop="@dimen/_7sdp"
-                                android:text="28 Days left" />
+                                android:text="@string/_28_days_left" />
 
                         </LinearLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -124,7 +124,7 @@
                             android:layout_gravity="center"
                             android:gravity="center"
                             android:singleLine="true"
-                            android:text="Lose Weight &amp; keep fit"
+                            android:text="@string/lose_weight_amp_keep_fit"
                             android:textAllCaps="true" />
 
                     </LinearLayout>

@@ -48,7 +48,7 @@
         <com.common.view.CBTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Drinking water helps\nimprove fat burning rate."
+            android:text="@string/drinking_water_helps_nimprove_fat_burning_rate"
             android:layout_marginTop="@dimen/_35sdp"
             android:textColor="@color/common_blue_color"
             android:textSize="@dimen/_22ssp"

@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - শৈলী সঙ্গে ফিটনেস</string>
+
+
+    <string name="btn_ok">ঠিক আছে</string>
+    <string name="btn_cancel">বাতিল করুন</string>
+    <string name="exit_msg">প্রস্থান করতে দুবার ফিরে টিপুন</string>
+    <string name="search">অনুসন্ধান করুন</string>
+    <string name="clear">পরিষ্কার</string>
+    <string name="choose_gallery">গ্যালারি থেকে বাছাই করুন</string>
+    <string name="err_file_manager">অনুগ্রহ করে একটি ফাইল ম্যানেজার ইনস্টল করুন৷</string>
+    <string name="choose_camera">ক্যামেরা থেকে নিন</string>
+    <string name="permission_msg">গ্যালারি এবং ক্যামেরা অনুমতি প্রয়োজন</string>
+    <string name="permission_setting">অনুমতি সেটিং</string>
+
+    <string name="login">প্রবেশ করুন</string>
+    <string name="profile">প্রোফাইল</string>
+    <string name="description">বর্ণনা</string>
+    <string name="save">সংরক্ষণ</string>
+
+    <string name="err_camera">ক্যামেরা খুলতে পারে না</string>
+
+    <string name="name">নাম</string>
+
+
+    <string name="need_permission_title">অনুমতি (গুলি) প্রয়োজন</string>
+    <string name="err_need_permission_msg">আপনি আগে এই অনুমতি প্রত্যাখ্যান করেছেন৷\nআপনাকে অবশ্যই আপনার ডিভাইসের অ্যাপ সেটিংসে \"অনুমতি\"-এ এই অনুমতিটি অনুমোদন করতে হবে।</string>
+
+    <string name="back">পেছনে</string>
+    <string name="more">আরও</string>
+    <string name="refresh">রিফ্রেশ</string>
+    <string name="facility_code">সুবিধা কোড</string>
+    <string name="home">বাড়ি</string>
+    <string name="re_scan">পুনরায় স্ক্যান করুন</string>
+    <string name="inmate_activity">বন্দী কার্যকলাপ</string>
+
+    <string name="cancel">বাতিল করুন</string>
+    <string name="retry">পুনরায় চেষ্টা করা</string>
+    <string name="logout">প্রস্থান</string>
+
+    <string name="user">ব্যবহারকারী</string>
+    <string name="setting">বিন্যাস</string>
+    <string name="report_issue">রিপোর্ট ইস্যু</string>
+    <string name="what_s_your_goal">আপনার লক্ষ্য কি?</string>
+
+    <string name="goal_lose_weight">ওজন কমানো</string>
+    <string name="goal_butt_lift">বাট লিফট</string>
+    <string name="goal_lose_belly_fat">পেটের চর্বি হারান</string>
+    <string name="goal_build_muscle_strength">পেশী নির্মাণ</string>
+
+    <string name="next">পরবর্তী</string>
+    <string name="skip">এড়িয়ে যান</string>
+    <string name="how_much_do_nyou_weight">আপনার ওজন কত\n?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">আপনার কাজের ফলাফল বাড়াতে সাহায্য করার জন্য আপনাকে আরও ভালভাবে আমাদের জানান।</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">আপনার জন্য সবচেয়ে উপযুক্ত পরিকল্পনার সাথে ওজন হ্রাস করুন</string>
+    <string name="how_tall_are_nyou">তুমি কত লম্বা\n?</string>
+    <string name="bmi">বিএমআই</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>হোমপেজে যান</u></string>
+    <string name="plan">পরিকল্পনা</string>
+    <string name="reports">রিপোর্ট</string>
+    <string name="me">আমাকে</string>
+    <string name="lose_weight">ওজন কমানো</string>
+    <string name="go">যাওয়া!</string>
+    <string name="drink">পান করা</string>
+    <string name="turn_on_water_tracker">ওয়াটার ট্র্যাকার চালু করুন</string>
+
+    <string name="dummy_text">লোরেম ইপসাম 1500 এর দশক থেকে শিল্পের আদর্শ ডামি টেক্সট হয়েছে, যখন একটি অজানা প্রিন্টার টাইপের একটি গ্যালি নিয়েছিল এবং একটি টাইপ নমুনা বই তৈরি করতে এটিকে স্ক্র্যাম্বল করেছিল। </string>
+    <string name="dummy_text2">লোরেম ইপসাম 1500 এর দশক থেকে শিল্পের আদর্শ ডামি টেক্সট হয়েছে, যখন একটি অজানা প্রিন্টার টাইপের একটি গ্যালি নিয়েছিল এবং একটি টাইপ নমুনা বই তৈরি করতে এটিকে স্ক্র্যাম্বল করেছিল। </string>
+    <string name="instruction">নির্দেশ</string>
+    <string name="fast_workout">দ্রুত ওয়ার্কআউট</string>
+    <string name="not_enough_time">ত্নব্রদক্স?</string>
+    <string name="_2_7_min_fast_workout">2-7 মিনিট দ্রুত ওয়ার্কআউট</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 মিনিটের ওয়ার্কআউট যেকোনও জায়গায় করতে।</string>
+    <string name="body_focus">শরীরের ফোকাস</string>
+
+    <string name="sound_options">শব্দ বিকল্প</string>
+    <string name="mute">নিঃশব্দ</string>
+    <string name="voice_guide">ভয়েস গাইড</string>
+    <string name="voice_guide_des">আপনার পরবর্তী ওয়ার্কআউট এবং কতবার আপনাকে এটি করতে হবে তা জানুন।</string>
+    <string name="coach_tips">কোচ টিপস</string>
+    <string name="common_questions">সাধারণ প্রশ্নাবলী</string>
+    <string name="btn_continue">চালিয়ে যান</string>
+    <string name="close">বন্ধ</string>
+    <string name="exercies">অনুশীলন</string>
+    <string name="workouts">ওয়ার্কআউট</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">মিনিট</string>
+    <string name="minutes">মিনিট</string>
+    <string name="duration">সময়কাল</string>
+    <string name="share">শেয়ার করুন</string>
+    <string name="do_it_again">এটা আবার কর</string>
+    <string name="reminder_colon">অনুস্মারক:</string>
+    <string name="reminder">অনুস্মারক</string>
+    <string name="kg">কেজি</string>
+    <string name="lb">পাউন্ড</string>
+    <string name="weight">ওজন</string>
+    <string name="enter_weight">দয়া করে ওজন লিখুন</string>
+    <string name="tap_here_to_input_your_height">আপনার উচ্চতা ইনপুট করতে <b>এখানে</b> আলতো চাপুন</string>
+    <string name="i_feel">আমি অনুভব করি</string>
+    <string name="easy">সহজ</string>
+    <string name="exhausted">নিঃশেষিত</string>
+    <string name="feedback">প্রতিক্রিয়া</string>
+    <string name="height">উচ্চতা</string>
+    <string name="enter_height">দয়া করে উচ্চতা লিখুন</string>
+    <string name="cm">সেমি</string>
+
+    <string name="in">ভিতরে</string>
+    <string name="gender">লিঙ্গ</string>
+    <string name="male">পুরুষ</string>
+    <string name="female">মহিলা</string>
+    <string name="year_of_birth">জন্মসাল</string>
+    <string name="previous">আগে</string>
+    <string name="set">সেট</string>
+    <string name="history">ইতিহাস</string>
+
+    <string name="delete">মুছে ফেলা</string>
+    <string name="confirm_delete">নিশ্চিত বাতিল?</string>
+    <string name="delete_confirmation_msg">আপনি এটি মুছে ফেলতে চান আপনি কি নিশ্চিত?</string>
+    <string name="restart_confirmation_msg">আপনি কি অগ্রগতি পুনঃসূচনা করার বিষয়ে নিশ্চিত?</string>
+    <string name="restart_day_confirmation_msg">আপনি কি আপনার অগ্রগতি সাফ করতে চান এবং 1 দিন থেকে পুনরায় শুরু করতে চান?</string>
+    <string name="total">মোট</string>
+    <string name="current">কারেন্ট</string>
+    <string name="heaviest">সবচেয়ে ভারী</string>
+    <string name="lightest">সবচেয়ে হালকা</string>
+    <string name="current_colon">বর্তমান:</string>
+    <string name="heaviest_colon">সবচেয়ে ভারী:</string>
+    <string name="lightest_colon">সবচেয়ে হালকা:</string>
+    <string name="edit">সম্পাদনা করুন</string>
+    <string name="workout">ওয়ার্কআউট</string>
+
+    <string name="go_premium">প্রিমিয়াম যান</string>
+    <string name="voice_options_tts">ভয়েস অপশন (TTS)</string>
+    <string name="test_voice">ভয়েস পরীক্ষা করুন</string>
+    <string name="download_tts_engine">TTs ইঞ্জিন ডাউনলোড করুন</string>
+    <string name="select_tts_engine">TTS ইঞ্জিন নির্বাচন করুন</string>
+    <string name="google_text_to_speech_engine">গুগল টেক্সট-টু-স্পীচ ইঞ্জিন</string>
+    <string name="voice_language">ভয়েস ভাষা</string>
+    <string name="download_more_tts_language_data">আরও টিটিএস ভাষা ডেটা ডাউনলোড করুন</string>
+    <string name="device_tts_setting">ডিভাইস টিটিএস সেটিং</string>
+    <string name="health_data">স্বাস্থ্য তথ্য</string>
+    <string name="remind_me_to_workout_every_day">আমাকে প্রতিদিন ব্যায়াম করতে মনে করিয়ে দিন</string>
+    <string name="keep_the_screen_on">পর্দা চালু রাখুন</string>
+    <string name="general_settings">সাধারণ সেটিংস</string>
+    <string name="community">সম্প্রদায়</string>
+    <string name="share_with_friends">বন্ধুদের সাথে ভাগাভাগি করা</string>
+    <string name="support_us">আমাদের সমর্থন</string>
+    <string name="rate_us">আমাদের ব্যাপারে আপনার মতামত দিন</string>
+    <string name="privacy_policy">গোপনীয়তা নীতি</string>
+    <string name="did_you_hear_test_voice">আপনি কি পরীক্ষার ভয়েস শুনেছেন?</string>
+    <string name="my_profile">আমার প্রোফাইল</string>
+    <string name="restart_progress">অগ্রগতি পুনরায় চালু করুন</string>
+    <string name="remove_ads">বিজ্ঞাপন সরান</string>
+
+    <string name="iap_detail">1. প্লে স্টোরের মাধ্যমে করা সমস্ত পেমেন্ট Google দ্বারা নিয়ন্ত্রিত ও পরিচালিত হয়।\n2. </string>
+    <string name="start">শুরু করুন</string>
+    <string name="target_weight">লক্ষ্য ওজন</string>
+    <string name="yes">হ্যাঁ</string>
+    <string name="no">না</string>
+    <string name="dl_test_voice_no_msg_test">আপনি যে টিটিএস ইঞ্জিনটি ব্যবহার করছেন তা এখন কাজ করছে না, দয়া করে এটিকে দুবার চেক করুন, অন্য একটি টিটিএস ইঞ্জিনে স্যুইচ করুন, বা টিটিএস ভয়েস ভাষা ডাউনলোড করুন।</string>
+    <string name="please_choose_guide_voice_engine">অনুগ্রহ করে গাইড ভয়েস ইঞ্জিন চয়ন করুন:</string>
+    <string name="repeat">পুনরাবৃত্তি করুন</string>
+    <string name="tip">টিপ</string>
+    <string name="send_feedback">মতামত পাঠানো</string>
+
+    <string name="week">সপ্তাহ</string>
+    <string name="mins">মিনিট</string>
+    <string name="quite_exercise_msg">ঘাম ফোঁটা ফোঁটা\nফোটা।</string>
+    <string name="quit">প্রস্থান করুন</string>
+    <string name="str_continue">চালিয়ে যান</string>
+    <string name="come_back_in_30_minute"><u>30 মিনিটের মধ্যে ফিরে আসুন</u></string>
+    <string name="done">সম্পন্ন</string>
+    <string name="view_all">সব দেখ</string>
+    <string name="finished">সমাপ্ত</string>
+    <string name="restart">আবার শুরু</string>
+    <string name="recent">সাম্প্রতিক</string>
+    <string name="rest_day">বাকি দিন</string>
+    <string name="replace">প্রতিস্থাপন করুন</string>
+    <string name="reset_plan">প্ল্যান রিসেট করুন</string>
+    <string name="edit_plan">পরিকল্পনা সম্পাদনা করুন</string>
+    <string name="save_changes_que">পরিবর্তনগুলোর সংরক্ষন?</string>
+    <string name="reset">রিসেট</string>
+    <string name="replace_with">প্রতিস্থাপন</string>
+    <string name="change_plan">পরিকল্পনা পরিবর্তন করুন</string>
+    <string name="change_language">ভাষা পরিবর্তন করুন</string>
+    <string name="language_options">ভাষার বিকল্প</string>
+    <string name="hours">ঘন্টার</string>
+    <string name="completed">সম্পন্ন</string>
+    <string name="well_done">সাবাশ!</string>
+    <string name="time_to_drink_water">জল খাওয়ার সময় হয়েছে</string>
+    <string name="time_to_hydrate">এটা হাইড্রেট করার সময়!</string>
+    <string name="drink_water_make_skin_batter">জল পান করুন আপনার ত্বককে পিঠা দেখাতে পারে।</string>
+    <string name="pause">বিরতি</string>
+    <string name="no_internet_available">কোন ইন্টারনেট উপলব্ধ নেই</string>
+</resources>

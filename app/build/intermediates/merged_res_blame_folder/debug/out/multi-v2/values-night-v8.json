@@ -11,6 +11,23 @@
                         "startOffsets": "55,141,263,361,495,573,687,753",
                         "endColumns": "85,121,97,133,77,113,65,101",
                         "endOffsets": "136,258,356,490,568,682,748,850"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,7,8,9,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "141,227,349,447,581,659,773,839",
+                        "endColumns": "85,121,97,133,77,113,65,101",
+                        "endOffsets": "222,344,442,576,654,768,834,936"
+                    }
+                },
+                {
+                    "source": "/Users/hackt3am/Desktop/testcube_new/TesserPG-Android-0.5.1/caches/transforms-3/a4c1ab3b508a698a21aa0ef24ba4a91a/transformed/jetified-core-splashscreen-1.0.1/res/values-night-v8/values-night-v8.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "85",
+                        "endOffsets": "136"
                     }
                 },
                 {
@@ -23,11 +40,11 @@
                         "endOffsets": "120,204,288,384,486,588,682,771"
                     },
                     "to": {
-                        "startLines": "10,11,12,13,14,15,16,17",
+                        "startLines": "11,12,13,14,15,16,17,18",
                         "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "855,925,1009,1093,1189,1291,1393,1487",
+                        "startOffsets": "941,1011,1095,1179,1275,1377,1479,1573",
                         "endColumns": "69,83,83,95,101,101,93,88",
-                        "endOffsets": "920,1004,1088,1184,1286,1388,1482,1571"
+                        "endOffsets": "1006,1090,1174,1270,1372,1474,1568,1657"
                     }
                 }
             ]

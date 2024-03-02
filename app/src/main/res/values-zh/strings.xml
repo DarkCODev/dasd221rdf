@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer：时尚健身</string>
+
+
+    <string name="btn_ok">好的</string>
+    <string name="btn_cancel">取消</string>
+    <string name="exit_msg">按两次返回键退出</string>
+    <string name="search">搜索</string>
+    <string name="clear">清除</string>
+    <string name="choose_gallery">从画廊中挑选</string>
+    <string name="err_file_manager">请安装文件管理器。</string>
+    <string name="choose_camera">从相机拍摄</string>
+    <string name="permission_msg">需要图库和相机许可</string>
+    <string name="permission_setting">权限设置</string>
+
+    <string name="login">登录</string>
+    <string name="profile">轮廓</string>
+    <string name="description">描述</string>
+    <string name="save">节省</string>
+
+    <string name="err_camera">无法打开相机</string>
+
+    <string name="name">姓名</string>
+
+
+    <string name="need_permission_title">需要许可</string>
+    <string name="err_need_permission_msg">您之前已拒绝此权限。\n您必须在设备上的应用设置的“权限”中批准此权限。</string>
+
+    <string name="back">后退</string>
+    <string name="more">更多的</string>
+    <string name="refresh">刷新</string>
+    <string name="facility_code">设施代码</string>
+    <string name="home">家</string>
+    <string name="re_scan">重新扫描</string>
+    <string name="inmate_activity">囚犯活动</string>
+
+    <string name="cancel">取消</string>
+    <string name="retry">重试</string>
+    <string name="logout">登出</string>
+
+    <string name="user">用户</string>
+    <string name="setting">环境</string>
+    <string name="report_issue">报告问题</string>
+    <string name="what_s_your_goal">你的目标是什么？</string>
+
+    <string name="goal_lose_weight">减肥</string>
+    <string name="goal_butt_lift">臀部提升</string>
+    <string name="goal_lose_belly_fat">减掉腹部脂肪</string>
+    <string name="goal_build_muscle_strength">增强肌肉</string>
+
+    <string name="next">下一个</string>
+    <string name="skip">跳过</string>
+    <string name="how_much_do_nyou_weight">\n你的体重是多少？</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">让我们更好地了解您，以帮助您提高工作成果。</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">选择最适合您的减肥计划</string>
+    <string name="how_tall_are_nyou">\n你有多高？</string>
+    <string name="bmi">体重指数</string>
+    <string name="bmi_colon">体重指数：</string>
+    <string name="go_to_homepage"><u>转到主页</u></string>
+    <string name="plan">计划</string>
+    <string name="reports">报告</string>
+    <string name="me">我</string>
+    <string name="lose_weight">减肥</string>
+    <string name="go">去！</string>
+    <string name="drink">喝</string>
+    <string name="turn_on_water_tracker">打开水追踪器</string>
+
+    <string name="dummy_text">自 1500 年代以来，Lorem Ipsum 一直是行业标准的虚拟文本，当时一位不知名的印刷商拿走了一堆字体并将其打乱以制作一本字体样本簿。</string>
+    <string name="dummy_text2">自 1500 年代以来，Lorem Ipsum 一直是行业标准的虚拟文本，当时一位不知名的印刷商拿走了一堆字体并将其打乱以制作一本字体样本簿。</string>
+    <string name="instruction">操作说明</string>
+    <string name="fast_workout">快速锻炼</string>
+    <string name="not_enough_time">不够时间？</string>
+    <string name="_2_7_min_fast_workout">2-7分钟快速锻炼</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 分钟锻炼，随时随地做任何事情。</string>
+    <string name="body_focus">身体焦点</string>
+
+    <string name="sound_options">声音选项</string>
+    <string name="mute">沉默的</string>
+    <string name="voice_guide">语音导览</string>
+    <string name="voice_guide_des">了解您的下一次锻炼以及您需要进行多少次。</string>
+    <string name="coach_tips">教练提示</string>
+    <string name="common_questions">常见问题</string>
+    <string name="btn_continue">继续</string>
+    <string name="close">关闭</string>
+    <string name="exercies">练习</string>
+    <string name="workouts">锻炼</string>
+    <string name="kcal">大卡</string>
+    <string name="minute">分钟</string>
+    <string name="minutes">分钟</string>
+    <string name="duration">期间</string>
+    <string name="share">分享</string>
+    <string name="do_it_again">再来一遍</string>
+    <string name="reminder_colon">提醒：</string>
+    <string name="reminder">提醒</string>
+    <string name="kg">公斤</string>
+    <string name="lb">磅</string>
+    <string name="weight">重量</string>
+    <string name="enter_weight">请输入体重</string>
+    <string name="tap_here_to_input_your_height">点按<b>此处</b>输入您的身高</string>
+    <string name="i_feel">我觉得</string>
+    <string name="easy">简单的</string>
+    <string name="exhausted">筋疲力尽的</string>
+    <string name="feedback">反馈</string>
+    <string name="height">高度</string>
+    <string name="enter_height">请输入高度</string>
+    <string name="cm">厘米</string>
+
+    <string name="in">在</string>
+    <string name="gender">性别</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="year_of_birth">出生年份</string>
+    <string name="previous">以前的</string>
+    <string name="set">放</string>
+    <string name="history">历史</string>
+
+    <string name="delete">删除</string>
+    <string name="confirm_delete">确认删除？</string>
+    <string name="delete_confirmation_msg">你确定你要删除吗？</string>
+    <string name="restart_confirmation_msg">您确定要重新开始进度吗？</string>
+    <string name="restart_day_confirmation_msg">您想清除进度并从第一天重新开始吗？</string>
+    <string name="total">全部的</string>
+    <string name="current">当前的</string>
+    <string name="heaviest">最重</string>
+    <string name="lightest">最轻</string>
+    <string name="current_colon">当前的：</string>
+    <string name="heaviest_colon">最重：</string>
+    <string name="lightest_colon">最轻：</string>
+    <string name="edit">编辑</string>
+    <string name="workout">锻炼</string>
+
+    <string name="go_premium">升级至高级版</string>
+    <string name="voice_options_tts">语音选项 (TTS)</string>
+    <string name="test_voice">测试语音</string>
+    <string name="download_tts_engine">下载 TT 引擎</string>
+    <string name="select_tts_engine">选择 TTS 引擎</string>
+    <string name="google_text_to_speech_engine">谷歌文本转语音引擎</string>
+    <string name="voice_language">语音语言</string>
+    <string name="download_more_tts_language_data">下载更多TTS语言数据</string>
+    <string name="device_tts_setting">设备 TTS 设置</string>
+    <string name="health_data">健康数据</string>
+    <string name="remind_me_to_workout_every_day">提醒我每天锻炼身体</string>
+    <string name="keep_the_screen_on">保持屏幕开启</string>
+    <string name="general_settings">常规设置</string>
+    <string name="community">社区</string>
+    <string name="share_with_friends">和朋友分享</string>
+    <string name="support_us">支持我们</string>
+    <string name="rate_us">评价我们</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="did_you_hear_test_voice">你听到测试声音了吗？</string>
+    <string name="my_profile">我的简历</string>
+    <string name="restart_progress">重启进度</string>
+    <string name="remove_ads">移除广告</string>
+
+    <string name="iap_detail">1. 通过 Play 商店进行的所有付款均由 Google 控制和管理。\n2.</string>
+    <string name="start">开始</string>
+    <string name="target_weight">目标重量（体重</string>
+    <string name="yes">是的</string>
+    <string name="no">不</string>
+    <string name="dl_test_voice_no_msg_test">您使用的TTS引擎目前无法运行，请仔细检查，更换其他TTS引擎，或下载TTS语音语言。</string>
+    <string name="please_choose_guide_voice_engine">请选择引导语音引擎：</string>
+    <string name="repeat">重复</string>
+    <string name="tip">提示</string>
+    <string name="send_feedback">发送反馈</string>
+
+    <string name="week">星期</string>
+    <string name="mins">分钟</string>
+    <string name="quite_exercise_msg">流汗就是减脂。</string>
+    <string name="quit">辞职</string>
+    <string name="str_continue">继续</string>
+    <string name="come_back_in_30_minute"><u>30分钟后回来</u></string>
+    <string name="done">完毕</string>
+    <string name="view_all">查看全部</string>
+    <string name="finished">完成的</string>
+    <string name="restart">重新开始</string>
+    <string name="recent">最近的</string>
+    <string name="rest_day">休息日</string>
+    <string name="replace">代替</string>
+    <string name="reset_plan">重置计划</string>
+    <string name="edit_plan">编辑计划</string>
+    <string name="save_changes_que">保存更改？</string>
+    <string name="reset">重置</string>
+    <string name="replace_with">用。。。来代替</string>
+    <string name="change_plan">改变计划</string>
+    <string name="change_language">改变语言</string>
+    <string name="language_options">语言选项</string>
+    <string name="hours">小时</string>
+    <string name="completed">完全的</string>
+    <string name="well_done">做得好！</string>
+    <string name="time_to_drink_water">是时候喝水了</string>
+    <string name="time_to_hydrate">是时候补充水分了！</string>
+    <string name="drink_water_make_skin_batter">喝水可以让你的皮肤看起来更光滑。</string>
+    <string name="pause">暂停</string>
+    <string name="no_internet_available">没有可用的互联网</string>
+</resources>

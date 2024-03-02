@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness stílussal</string>
+
+
+    <string name="btn_ok">Rendben</string>
+    <string name="btn_cancel">Megszünteti</string>
+    <string name="exit_msg">Nyomja meg kétszer a Vissza gombot a kilépéshez</string>
+    <string name="search">Keresés</string>
+    <string name="clear">Egyértelmű</string>
+    <string name="choose_gallery">Válassz a galériából</string>
+    <string name="err_file_manager">Kérjük, telepítsen egy Fájlkezelőt.</string>
+    <string name="choose_camera">Vegye ki a kamerából</string>
+    <string name="permission_msg">Galéria és kamera engedély szükséges</string>
+    <string name="permission_setting">Engedélyek beállítása</string>
+
+    <string name="login">Belépés</string>
+    <string name="profile">Profil</string>
+    <string name="description">Leírás</string>
+    <string name="save">Megment</string>
+
+    <string name="err_camera">nem tudja kinyitni a kamerát</string>
+
+    <string name="name">Név</string>
+
+
+    <string name="need_permission_title">Engedély(ek)re van szükség</string>
+    <string name="err_need_permission_msg">Korábban elutasította ezt az engedélyt.\nJóvá kell hagynia ezt az engedélyt az eszköz alkalmazásbeállításainak \"Engedélyek\" szakaszában.</string>
+
+    <string name="back">Vissza</string>
+    <string name="more">Több</string>
+    <string name="refresh">Frissítés</string>
+    <string name="facility_code">Létesítmény kódja</string>
+    <string name="home">itthon</string>
+    <string name="re_scan">Re-Scan</string>
+    <string name="inmate_activity">Fogvatartott tevékenység</string>
+
+    <string name="cancel">Megszünteti</string>
+    <string name="retry">Próbálja újra</string>
+    <string name="logout">Kijelentkezés</string>
+
+    <string name="user">Felhasználó</string>
+    <string name="setting">Beállítás</string>
+    <string name="report_issue">Probléma bejelentése</string>
+    <string name="what_s_your_goal">Mi a célod?</string>
+
+    <string name="goal_lose_weight">Sújt veszteni</string>
+    <string name="goal_butt_lift">Fenékemelés</string>
+    <string name="goal_lose_belly_fat">Vedd el a hasi zsírt</string>
+    <string name="goal_build_muscle_strength">Izmot épít</string>
+
+    <string name="next">következő</string>
+    <string name="skip">Kihagyás</string>
+    <string name="how_much_do_nyou_weight">Mennyi a súlyod?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Tudassa velünk jobban, hogy segíthessünk munkája eredményének javításában.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Fogyjon az Ön számára legmegfelelőbb terv szerint</string>
+    <string name="how_tall_are_nyou">Milyen magas vagy?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>Ugrás a kezdőlapra</u></string>
+    <string name="plan">Terv</string>
+    <string name="reports">Jelentések</string>
+    <string name="me">Nekem</string>
+    <string name="lose_weight">Sújt veszteni</string>
+    <string name="go">Megy!</string>
+    <string name="drink">Ital</string>
+    <string name="turn_on_water_tracker">Kapcsolja be a vízkövetőt</string>
+
+    <string name="dummy_text">A Lorem Ipsum az 1500-as évek óta az iparág szabványos álszövege, amikor is egy ismeretlen nyomtató vett egy gépkonyhát, és összekeverte, hogy elkészítse a mintakönyvet. </string>
+    <string name="dummy_text2">A Lorem Ipsum az 1500-as évek óta az iparág szabványos álszövege, amikor is egy ismeretlen nyomtató vett egy gépkonyhát, és összekeverte, hogy elkészítse a mintakönyvet. </string>
+    <string name="instruction">Utasítás</string>
+    <string name="fast_workout">Gyors edzés</string>
+    <string name="not_enough_time">Nem elég idő?</string>
+    <string name="_2_7_min_fast_workout">2-7 perc gyors edzés</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 perc edzés bármihez, bárhol.</string>
+    <string name="body_focus">Test fókusz</string>
+
+    <string name="sound_options">Hangbeállítások</string>
+    <string name="mute">Néma</string>
+    <string name="voice_guide">Hangos útmutató</string>
+    <string name="voice_guide_des">Ismerje meg a következő edzést és azt, hogy hányszor kell elvégeznie.</string>
+    <string name="coach_tips">Edzői tippek</string>
+    <string name="common_questions">Gyakori kérdések</string>
+    <string name="btn_continue">Folytatni</string>
+    <string name="close">Bezárás</string>
+    <string name="exercies">Feladatok</string>
+    <string name="workouts">Edzések</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">Perc</string>
+    <string name="minutes">percek</string>
+    <string name="duration">Időtartam</string>
+    <string name="share">Ossza meg</string>
+    <string name="do_it_again">Csináld újra</string>
+    <string name="reminder_colon">Emlékeztető:</string>
+    <string name="reminder">Emlékeztető</string>
+    <string name="kg">KG</string>
+    <string name="lb">LB</string>
+    <string name="weight">Súly</string>
+    <string name="enter_weight">Kérjük, adja meg a súlyt</string>
+    <string name="tap_here_to_input_your_height">Koppintson <b>ide</b> magasságának megadásához</string>
+    <string name="i_feel">érzem</string>
+    <string name="easy">Könnyen</string>
+    <string name="exhausted">Kimerült</string>
+    <string name="feedback">Visszacsatolás</string>
+    <string name="height">Magasság</string>
+    <string name="enter_height">Kérjük, adja meg a magasságot</string>
+    <string name="cm">CM</string>
+
+    <string name="in">BAN BEN</string>
+    <string name="gender">Nem</string>
+    <string name="male">Férfi</string>
+    <string name="female">Női</string>
+    <string name="year_of_birth">Születési év</string>
+    <string name="previous">Előző</string>
+    <string name="set">KÉSZLET</string>
+    <string name="history">Történelem</string>
+
+    <string name="delete">Töröl</string>
+    <string name="confirm_delete">Törlés jóváhagyása?</string>
+    <string name="delete_confirmation_msg">Biztosan törli?</string>
+    <string name="restart_confirmation_msg">Biztosan újra akarod indítani a folyamatot?</string>
+    <string name="restart_day_confirmation_msg">Szeretné törölni az előrehaladást, és újrakezdeni az 1. naptól?</string>
+    <string name="total">Teljes</string>
+    <string name="current">Jelenlegi</string>
+    <string name="heaviest">A legnehezebb</string>
+    <string name="lightest">A legkönnyebb</string>
+    <string name="current_colon">Jelenlegi:</string>
+    <string name="heaviest_colon">Legnehezebb:</string>
+    <string name="lightest_colon">Legkönnyebb:</string>
+    <string name="edit">Szerkesztés</string>
+    <string name="workout">Edzés</string>
+
+    <string name="go_premium">Válts prémiumra</string>
+    <string name="voice_options_tts">Hangbeállítások (TTS)</string>
+    <string name="test_voice">Hang tesztelése</string>
+    <string name="download_tts_engine">Töltse le a TTs Engine-t</string>
+    <string name="select_tts_engine">Válassza a TTS Engine lehetőséget</string>
+    <string name="google_text_to_speech_engine">Google Text-to-speech Engine</string>
+    <string name="voice_language">Hang nyelve</string>
+    <string name="download_more_tts_language_data">További TTS nyelvi adatok letöltése</string>
+    <string name="device_tts_setting">Eszköz TTS beállítása</string>
+    <string name="health_data">Egészségügyi adatok</string>
+    <string name="remind_me_to_workout_every_day">Emlékeztessen minden nap edzésre</string>
+    <string name="keep_the_screen_on">Tartsa bekapcsolva a képernyőt</string>
+    <string name="general_settings">Általános beállítások</string>
+    <string name="community">Közösség</string>
+    <string name="share_with_friends">Oszd meg a barátaiddal</string>
+    <string name="support_us">Támogass minket</string>
+    <string name="rate_us">Értékelj minket</string>
+    <string name="privacy_policy">Adatvédelmi irányelvek</string>
+    <string name="did_you_hear_test_voice">Hallottad a teszthangot?</string>
+    <string name="my_profile">A profilom</string>
+    <string name="restart_progress">Indítsa újra a folyamatot</string>
+    <string name="remove_ads">Hirdetések eltávolítása</string>
+
+    <string name="iap_detail">1. A Play Áruházban végzett összes fizetést a Google felügyeli és kezeli.\n2. </string>
+    <string name="start">Rajt</string>
+    <string name="target_weight">Cél súly</string>
+    <string name="yes">Igen</string>
+    <string name="no">Nem</string>
+    <string name="dl_test_voice_no_msg_test">Az Ön által használt TTS-motor jelenleg nem működik. Kérjük, ellenőrizze még egyszer, váltson másik TTS-motorra, vagy töltse le a TTS-hangnyelvet.</string>
+    <string name="please_choose_guide_voice_engine">Kérjük, válasszon útmutató hangmotort:</string>
+    <string name="repeat">Ismétlés</string>
+    <string name="tip">Tipp</string>
+    <string name="send_feedback">Visszajelzés küldése</string>
+
+    <string name="week">Hét</string>
+    <string name="mins">min</string>
+    <string name="quite_exercise_msg">Az izzadságcsepegés kövér\ncsepp.</string>
+    <string name="quit">Kilépés</string>
+    <string name="str_continue">Folytatni</string>
+    <string name="come_back_in_30_minute"><u>Gyere vissza 30 perc múlva</u></string>
+    <string name="done">Kész</string>
+    <string name="view_all">Összes megtekintése</string>
+    <string name="finished">Befejezett</string>
+    <string name="restart">Újrakezd</string>
+    <string name="recent">Friss</string>
+    <string name="rest_day">Pihenőnap</string>
+    <string name="replace">Cserélje ki</string>
+    <string name="reset_plan">Terv visszaállítása</string>
+    <string name="edit_plan">Terv szerkesztése</string>
+    <string name="save_changes_que">Változtatások mentése?</string>
+    <string name="reset">Visszaállítás</string>
+    <string name="replace_with">Cseréld ki</string>
+    <string name="change_plan">Terv módosítása</string>
+    <string name="change_language">Válts nyelvet</string>
+    <string name="language_options">Nyelvi lehetőségek</string>
+    <string name="hours">Órák</string>
+    <string name="completed">Befejezve</string>
+    <string name="well_done">Szép munka!</string>
+    <string name="time_to_drink_water">Ideje vizet inni</string>
+    <string name="time_to_hydrate">Ideje hidratálni!</string>
+    <string name="drink_water_make_skin_batter">Igyál vizet, bőröd tépettebbnek tűnhet.</string>
+    <string name="pause">Szünet</string>
+    <string name="no_internet_available">Nincs internet elérhető</string>
+</resources>

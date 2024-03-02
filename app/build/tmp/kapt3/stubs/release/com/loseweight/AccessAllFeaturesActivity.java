@@ -5,7 +5,7 @@ public final class AccessAllFeaturesActivity extends com.loseweight.BaseActivity
     @org.jetbrains.annotations.Nullable
     private com.loseweight.databinding.ActivityAccessAllFeatureBinding binding;
     @org.jetbrains.annotations.NotNull
-    private java.lang.String skuDetail = "monthly_sub";
+    private java.lang.String skuDetail = "sculpt_her_fitness";
     @org.jetbrains.annotations.Nullable
     private com.android.billingclient.api.BillingClient billingClient;
     @org.jetbrains.annotations.NotNull

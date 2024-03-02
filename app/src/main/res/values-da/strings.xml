@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness med stil</string>
+
+
+    <string name="btn_ok">Okay</string>
+    <string name="btn_cancel">Afbestille</string>
+    <string name="exit_msg">Tryk på Tilbage to gange for at afslutte</string>
+    <string name="search">Søg</string>
+    <string name="clear">Klar</string>
+    <string name="choose_gallery">Vælg fra Galleri</string>
+    <string name="err_file_manager">Installer venligst en filhåndtering.</string>
+    <string name="choose_camera">Tag fra kamera</string>
+    <string name="permission_msg">Tilladelse til galleri og kamera er påkrævet</string>
+    <string name="permission_setting">Tilladelsesindstilling</string>
+
+    <string name="login">Log på</string>
+    <string name="profile">Profil</string>
+    <string name="description">Beskrivelse</string>
+    <string name="save">Gemme</string>
+
+    <string name="err_camera">kan ikke åbne kameraet</string>
+
+    <string name="name">Navn</string>
+
+
+    <string name="need_permission_title">Har brug for tilladelse(r)</string>
+    <string name="err_need_permission_msg">Du har tidligere afvist denne tilladelse.\nDu skal godkende denne tilladelse i \"Tilladelser\" i appindstillingerne på din enhed.</string>
+
+    <string name="back">Tilbage</string>
+    <string name="more">Mere</string>
+    <string name="refresh">Opdater</string>
+    <string name="facility_code">Facilitets kode</string>
+    <string name="home">Hjem</string>
+    <string name="re_scan">Scan igen</string>
+    <string name="inmate_activity">Indsattes aktivitet</string>
+
+    <string name="cancel">Afbestille</string>
+    <string name="retry">Prøve igen</string>
+    <string name="logout">Log ud</string>
+
+    <string name="user">Bruger</string>
+    <string name="setting">Indstilling</string>
+    <string name="report_issue">Rapportér problem</string>
+    <string name="what_s_your_goal">Hvad er dit mål?</string>
+
+    <string name="goal_lose_weight">Tabe sig</string>
+    <string name="goal_butt_lift">Baldeløft</string>
+    <string name="goal_lose_belly_fat">Tab mavefedt</string>
+    <string name="goal_build_muscle_strength">Opbygge muskler</string>
+
+    <string name="next">Næste</string>
+    <string name="skip">Springe</string>
+    <string name="how_much_do_nyou_weight">Hvor meget vejer du?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Lad os vide dig bedre for at hjælpe dig med at booste dit arbejdsresultat.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Tab dig med den plan, der passer dig bedst</string>
+    <string name="how_tall_are_nyou">Hvor høj er du?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>Gå til startsiden</u></string>
+    <string name="plan">Plan</string>
+    <string name="reports">Rapporter</string>
+    <string name="me">Mig</string>
+    <string name="lose_weight">Tabe sig</string>
+    <string name="go">Gå!</string>
+    <string name="drink">Drikke</string>
+    <string name="turn_on_water_tracker">Tænd Water Tracker</string>
+
+    <string name="dummy_text">Lorem Ipsum har været branchens standard dummy-tekst lige siden 1500-tallet, hvor en ukendt printer tog en kabys af type og forvandlede den for at lave en typeprøvebog. </string>
+    <string name="dummy_text2">Lorem Ipsum har været branchens standard dummy-tekst lige siden 1500-tallet, hvor en ukendt printer tog en kabys af type og forvandlede den for at lave en typeprøvebog. </string>
+    <string name="instruction">Instruktion</string>
+    <string name="fast_workout">Hurtig træning</string>
+    <string name="not_enough_time">Ikke tid nok?</string>
+    <string name="_2_7_min_fast_workout">2-7 min hurtig træning</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minutters træning for at gøre hvad som helst, hvor som helst.</string>
+    <string name="body_focus">Kropsfokus</string>
+
+    <string name="sound_options">Lydmuligheder</string>
+    <string name="mute">Stum</string>
+    <string name="voice_guide">Stemmeguide</string>
+    <string name="voice_guide_des">Kend din næste træning, og hvor mange gange du skal gøre det.</string>
+    <string name="coach_tips">Træner tips</string>
+    <string name="common_questions">Almindelige spørgsmål</string>
+    <string name="btn_continue">Blive ved</string>
+    <string name="close">Tæt</string>
+    <string name="exercies">Øvelser</string>
+    <string name="workouts">Træning</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">Minut</string>
+    <string name="minutes">minutter</string>
+    <string name="duration">Varighed</string>
+    <string name="share">Del</string>
+    <string name="do_it_again">Gøre det igen</string>
+    <string name="reminder_colon">Påmindelse:</string>
+    <string name="reminder">Påmindelse</string>
+    <string name="kg">KG</string>
+    <string name="lb">LB</string>
+    <string name="weight">Vægt</string>
+    <string name="enter_weight">Indtast vægt</string>
+    <string name="tap_here_to_input_your_height">Tryk <b>her</b> for at indtaste din højde</string>
+    <string name="i_feel">jeg føler</string>
+    <string name="easy">Let</string>
+    <string name="exhausted">Udmattet</string>
+    <string name="feedback">Feedback</string>
+    <string name="height">Højde</string>
+    <string name="enter_height">Indtast venligst højde</string>
+    <string name="cm">CM</string>
+
+    <string name="in">I</string>
+    <string name="gender">Køn</string>
+    <string name="male">Han</string>
+    <string name="female">Kvinde</string>
+    <string name="year_of_birth">Fødsels år</string>
+    <string name="previous">Tidligere</string>
+    <string name="set">SÆT</string>
+    <string name="history">Historie</string>
+
+    <string name="delete">Slet</string>
+    <string name="confirm_delete">Bekræft sletning?</string>
+    <string name="delete_confirmation_msg">Er du sikker på, at du vil slette den?</string>
+    <string name="restart_confirmation_msg">Er du sikker på, at du vil genstarte fremskridt?</string>
+    <string name="restart_day_confirmation_msg">Vil du slette dine fremskridt og genstarte fra dag 1?</string>
+    <string name="total">Total</string>
+    <string name="current">Nuværende</string>
+    <string name="heaviest">Tungeste</string>
+    <string name="lightest">Letteste</string>
+    <string name="current_colon">Nuværende:</string>
+    <string name="heaviest_colon">Tungeste:</string>
+    <string name="lightest_colon">Letteste:</string>
+    <string name="edit">Redigere</string>
+    <string name="workout">Træning</string>
+
+    <string name="go_premium">Gå til Premium</string>
+    <string name="voice_options_tts">Stemmeindstillinger (TTS)</string>
+    <string name="test_voice">Test stemme</string>
+    <string name="download_tts_engine">Download TTs Engine</string>
+    <string name="select_tts_engine">Vælg TTS Engine</string>
+    <string name="google_text_to_speech_engine">Google tekst-til-tale-motor</string>
+    <string name="voice_language">Stemmesprog</string>
+    <string name="download_more_tts_language_data">Download flere TTS-sprogdata</string>
+    <string name="device_tts_setting">Enhedens TTS-indstilling</string>
+    <string name="health_data">Sundhedsdata</string>
+    <string name="remind_me_to_workout_every_day">Mind mig om at træne hver dag</string>
+    <string name="keep_the_screen_on">Hold skærmen tændt</string>
+    <string name="general_settings">Generelle indstillinger</string>
+    <string name="community">Fællesskab</string>
+    <string name="share_with_friends">Del med venner</string>
+    <string name="support_us">Støt os</string>
+    <string name="rate_us">Bedøm os</string>
+    <string name="privacy_policy">Fortrolighedspolitik</string>
+    <string name="did_you_hear_test_voice">Hørte du teststemmen?</string>
+    <string name="my_profile">Min profil</string>
+    <string name="restart_progress">Genstart Progress</string>
+    <string name="remove_ads">Fjern annoncer</string>
+
+    <string name="iap_detail">1. Alle betalinger foretaget via Play Butik kontrolleres og administreres af Google.\n2. </string>
+    <string name="start">Start</string>
+    <string name="target_weight">Målvægt</string>
+    <string name="yes">Ja</string>
+    <string name="no">Ingen</string>
+    <string name="dl_test_voice_no_msg_test">Den TTS-motor, du bruger, fungerer ikke nu, dobbelttjek den, skift til en anden TTS-motor, eller download TTS-talesprog.</string>
+    <string name="please_choose_guide_voice_engine">Vælg venligst guide stemmemotor:</string>
+    <string name="repeat">Gentage</string>
+    <string name="tip">Tip</string>
+    <string name="send_feedback">Send feedback</string>
+
+    <string name="week">Uge</string>
+    <string name="mins">min</string>
+    <string name="quite_exercise_msg">Sveddryppende er fedt\nfaldende.</string>
+    <string name="quit">Afslut</string>
+    <string name="str_continue">Blive ved</string>
+    <string name="come_back_in_30_minute"><u>Kom tilbage om 30 minutter</u></string>
+    <string name="done">Færdig</string>
+    <string name="view_all">Se alt</string>
+    <string name="finished">Færdig</string>
+    <string name="restart">Genstart</string>
+    <string name="recent">Nylig</string>
+    <string name="rest_day">Hviledag</string>
+    <string name="replace">Erstatte</string>
+    <string name="reset_plan">Nulstil plan</string>
+    <string name="edit_plan">Rediger plan</string>
+    <string name="save_changes_que">Gem ændringer?</string>
+    <string name="reset">Nulstil</string>
+    <string name="replace_with">Erstat med</string>
+    <string name="change_plan">Skift plan</string>
+    <string name="change_language">Skift sprog</string>
+    <string name="language_options">Sprogmuligheder</string>
+    <string name="hours">Timer</string>
+    <string name="completed">Færdiggjort</string>
+    <string name="well_done">Godt klaret!</string>
+    <string name="time_to_drink_water">Det er tid til at drikke vand</string>
+    <string name="time_to_hydrate">Det er tid til at hydrere!</string>
+    <string name="drink_water_make_skin_batter">Drik vand kan få din hud til at se sart ud.</string>
+    <string name="pause">Pause</string>
+    <string name="no_internet_available">Intet internet tilgængeligt</string>
+</resources>

@@ -18,7 +18,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:layout_marginBottom="@dimen/_5sdp"
-            android:text="S" />
+            android:text="@string/s" />
 
         <FrameLayout
             android:layout_width="wrap_content"

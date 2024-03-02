@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness so štýlom</string>
+
+
+    <string name="btn_ok">Dobre</string>
+    <string name="btn_cancel">Zrušiť</string>
+    <string name="exit_msg">Dvojitým stlačením tlačidla Späť opustíte ponuku</string>
+    <string name="search">Vyhľadávanie</string>
+    <string name="clear">jasný</string>
+    <string name="choose_gallery">Vybrať z galérie</string>
+    <string name="err_file_manager">Nainštalujte si správcu súborov.</string>
+    <string name="choose_camera">Take From Camera</string>
+    <string name="permission_msg">Vyžaduje sa povolenie pre galériu a fotoaparát</string>
+    <string name="permission_setting">Nastavenie povolenia</string>
+
+    <string name="login">Prihlásiť sa</string>
+    <string name="profile">Profil</string>
+    <string name="description">Popis</string>
+    <string name="save">Uložiť</string>
+
+    <string name="err_camera">nemožno otvoriť fotoaparát</string>
+
+    <string name="name">názov</string>
+
+
+    <string name="need_permission_title">Potrebujete povolenia</string>
+    <string name="err_need_permission_msg">Toto povolenie ste už predtým odmietli.\nToto povolenie musíte schváliť v časti \"Povolenia\" v nastaveniach aplikácie vo svojom zariadení.</string>
+
+    <string name="back">späť</string>
+    <string name="more">Viac</string>
+    <string name="refresh">Obnoviť</string>
+    <string name="facility_code">Kód zariadenia</string>
+    <string name="home">Domov</string>
+    <string name="re_scan">Opätovné skenovanie</string>
+    <string name="inmate_activity">Aktivita väzňov</string>
+
+    <string name="cancel">Zrušiť</string>
+    <string name="retry">Skúsiť znova</string>
+    <string name="logout">Odhlásiť sa</string>
+
+    <string name="user">Používateľ</string>
+    <string name="setting">Nastavenie</string>
+    <string name="report_issue">Nahlásiť problém</string>
+    <string name="what_s_your_goal">Aký je tvoj cieľ?</string>
+
+    <string name="goal_lose_weight">Stratiť váhu</string>
+    <string name="goal_butt_lift">Zdvíhanie zadku</string>
+    <string name="goal_lose_belly_fat">Stratiť tuk na bruchu</string>
+    <string name="goal_build_muscle_strength">Budujte svaly</string>
+
+    <string name="next">Ďalšie</string>
+    <string name="skip">Preskočiť</string>
+    <string name="how_much_do_nyou_weight">Koľko vážiš?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Dajte nám vedieť, aby sme vám pomohli zlepšiť váš pracovný výsledok.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Schudnite s plánom, ktorý vám najviac vyhovuje</string>
+    <string name="how_tall_are_nyou">Aký vysoký si\ny?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>Prejsť na domovskú stránku</u></string>
+    <string name="plan">Plán</string>
+    <string name="reports">Správy</string>
+    <string name="me">ja</string>
+    <string name="lose_weight">Stratiť váhu</string>
+    <string name="go">Choď!</string>
+    <string name="drink">Pite</string>
+    <string name="turn_on_water_tracker">Zapnite sledovanie vody</string>
+
+    <string name="dummy_text">Lorem Ipsum je štandardným fiktívnym textom v tomto odvetví už od roku 1500, keď neznáma tlačiareň vzala galériu písma a zakódovala ju, aby vytvorila knihu vzorkovníkov. </string>
+    <string name="dummy_text2">Lorem Ipsum je štandardným fiktívnym textom v tomto odvetví už od roku 1500, keď neznáma tlačiareň vzala galériu písma a zakódovala ju, aby vytvorila knihu vzorkovníkov. </string>
+    <string name="instruction">Inštrukcia</string>
+    <string name="fast_workout">Rýchle cvičenie</string>
+    <string name="not_enough_time">Nedostatok času?</string>
+    <string name="_2_7_min_fast_workout">2-7 minút rýchleho cvičenia</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minút cvičenia, aby ste mohli robiť čokoľvek a kdekoľvek.</string>
+    <string name="body_focus">Zameranie tela</string>
+
+    <string name="sound_options">Možnosti zvuku</string>
+    <string name="mute">Stlmiť</string>
+    <string name="voice_guide">Hlasový sprievodca</string>
+    <string name="voice_guide_des">Zistite, aký je váš ďalší tréning a koľkokrát ho musíte urobiť.</string>
+    <string name="coach_tips">Tipy pre trénerov</string>
+    <string name="common_questions">Časté otázky</string>
+    <string name="btn_continue">ďalej</string>
+    <string name="close">Zavrieť</string>
+    <string name="exercies">Cvičenia</string>
+    <string name="workouts">Tréningy</string>
+    <string name="kcal">kcal</string>
+    <string name="minute">Minúta</string>
+    <string name="minutes">minút</string>
+    <string name="duration">Trvanie</string>
+    <string name="share">zdieľam</string>
+    <string name="do_it_again">Sprav to znovu</string>
+    <string name="reminder_colon">Pripomienka:</string>
+    <string name="reminder">Pripomenutie</string>
+    <string name="kg">KG</string>
+    <string name="lb">LB</string>
+    <string name="weight">Hmotnosť</string>
+    <string name="enter_weight">Zadajte hmotnosť</string>
+    <string name="tap_here_to_input_your_height">Klepnutím <b>tu</b> zadajte svoju výšku</string>
+    <string name="i_feel">cítim</string>
+    <string name="easy">Jednoduché</string>
+    <string name="exhausted">Vyčerpaný</string>
+    <string name="feedback">Spätná väzba</string>
+    <string name="height">Výška</string>
+    <string name="enter_height">Zadajte výšku</string>
+    <string name="cm">CM</string>
+
+    <string name="in">IN</string>
+    <string name="gender">rod</string>
+    <string name="male">Muž</string>
+    <string name="female">Žena</string>
+    <string name="year_of_birth">Rok narodenia</string>
+    <string name="previous">Predchádzajúce</string>
+    <string name="set">SET</string>
+    <string name="history">História</string>
+
+    <string name="delete">Odstrániť</string>
+    <string name="confirm_delete">Potvrdiť odstránenie?</string>
+    <string name="delete_confirmation_msg">Naozaj ho chcete odstrániť?</string>
+    <string name="restart_confirmation_msg">Naozaj chcete reštartovať postup?</string>
+    <string name="restart_day_confirmation_msg">Chceli by ste vymazať svoj postup a reštartovať od prvého dňa?</string>
+    <string name="total">Celkom</string>
+    <string name="current">Aktuálne</string>
+    <string name="heaviest">Najťažšie</string>
+    <string name="lightest">Najľahší</string>
+    <string name="current_colon">Aktuálne:</string>
+    <string name="heaviest_colon">Najťažšie:</string>
+    <string name="lightest_colon">Najľahší:</string>
+    <string name="edit">Upraviť</string>
+    <string name="workout">Posilovať</string>
+
+    <string name="go_premium">Prejsť na Premium</string>
+    <string name="voice_options_tts">Možnosti hlasu (TTS)</string>
+    <string name="test_voice">Testovací hlas</string>
+    <string name="download_tts_engine">Stiahnite si TTs Engine</string>
+    <string name="select_tts_engine">Vyberte nástroj TTS</string>
+    <string name="google_text_to_speech_engine">Nástroj na prevod textu na reč Google</string>
+    <string name="voice_language">Jazyk hlasu</string>
+    <string name="download_more_tts_language_data">Stiahnite si ďalšie jazykové údaje TTS</string>
+    <string name="device_tts_setting">Nastavenie TTS zariadenia</string>
+    <string name="health_data">Zdravotné údaje</string>
+    <string name="remind_me_to_workout_every_day">Pripomeňte mi, že mám cvičiť každý deň</string>
+    <string name="keep_the_screen_on">Nechajte obrazovku zapnutú</string>
+    <string name="general_settings">Všeobecné nastavenia</string>
+    <string name="community">Spoločenstva</string>
+    <string name="share_with_friends">Zdielať s priateľmi</string>
+    <string name="support_us">Podpor nás</string>
+    <string name="rate_us">Ohodnoť nás</string>
+    <string name="privacy_policy">Zásady ochrany osobných údajov</string>
+    <string name="did_you_hear_test_voice">Počuli ste testovací hlas?</string>
+    <string name="my_profile">Môj profil</string>
+    <string name="restart_progress">Reštartujte priebeh</string>
+    <string name="remove_ads">Odstrániť reklamy</string>
+
+    <string name="iap_detail">1. Všetky platby uskutočnené prostredníctvom Obchodu Play kontroluje a spravuje Google.\n2. </string>
+    <string name="start">Štart</string>
+    <string name="target_weight">Cieľová hmotnosť</string>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    <string name="dl_test_voice_no_msg_test">Nástroj TTS, ktorý používate, teraz nefunguje, skontrolujte ho, prepnite na iný nástroj TTS alebo si stiahnite jazyk hlasu TTS.</string>
+    <string name="please_choose_guide_voice_engine">Vyberte si sprievodcu hlasovým nástrojom:</string>
+    <string name="repeat">Opakujte</string>
+    <string name="tip">Tip</string>
+    <string name="send_feedback">Poslať spätnú väzbu</string>
+
+    <string name="week">týždeň</string>
+    <string name="mins">Min</string>
+    <string name="quite_exercise_msg">Kvapkanie potu je\nzhadzovanie tuku.</string>
+    <string name="quit">Ukončite</string>
+    <string name="str_continue">ďalej</string>
+    <string name="come_back_in_30_minute"><u>Vráťte sa o 30 minút</u></string>
+    <string name="done">hotový</string>
+    <string name="view_all">Zobraziť všetky</string>
+    <string name="finished">Dokončené</string>
+    <string name="restart">Reštart</string>
+    <string name="recent">Nedávne</string>
+    <string name="rest_day">Odpočinkový deň</string>
+    <string name="replace">Nahradiť</string>
+    <string name="reset_plan">Obnoviť plán</string>
+    <string name="edit_plan">Upraviť plán</string>
+    <string name="save_changes_que">Uložiť zmeny?</string>
+    <string name="reset">Resetovať</string>
+    <string name="replace_with">Nahradiť s</string>
+    <string name="change_plan">Zmeniť plán</string>
+    <string name="change_language">Zmeniť jazyk</string>
+    <string name="language_options">Jazykové možnosti</string>
+    <string name="hours">Hodiny</string>
+    <string name="completed">Dokončené</string>
+    <string name="well_done">Výborne!</string>
+    <string name="time_to_drink_water">Je čas piť vodu</string>
+    <string name="time_to_hydrate">Je čas na hydratáciu!</string>
+    <string name="drink_water_make_skin_batter">Pite vodu môže spôsobiť, že vaša pokožka bude vyzerať bledo.</string>
+    <string name="pause">Pauza</string>
+    <string name="no_internet_available">Nie je k dispozícii internet</string>
+</resources>

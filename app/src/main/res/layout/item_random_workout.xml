@@ -50,7 +50,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         style="@style/txt_fff_18"
-                        android:text="Office workout"/>
+                        android:text="@string/office_workout"/>
 
                     <com.common.view.CTextView
                         android:id="@+id/tvPlanText"
@@ -58,7 +58,7 @@
                         android:layout_height="wrap_content"
                         style="@style/txt_fff_14"
                         android:layout_marginTop="@dimen/_3sdp"
-                        android:text="2-7 min"/>
+                        android:text="@string/_2_7_min"/>
 
                 </LinearLayout>
 

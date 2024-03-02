@@ -40,7 +40,7 @@
                     android:layout_marginBottom="7dp"
                     android:paddingTop="@dimen/_7sdp"
                     android:paddingBottom="@dimen/_7sdp"
-                    android:text="About App"
+                    android:text="@string/about_app"
                     android:textAllCaps="false" />
 
                 <androidx.appcompat.widget.AppCompatImageView

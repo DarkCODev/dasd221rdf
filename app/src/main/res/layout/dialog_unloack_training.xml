@@ -40,7 +40,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/_10sdp"
-                android:text="Watch video to unlock"
+                android:text="@string/watch_video_to_unlock"
                 android:textAllCaps="true" />
 
             <com.common.view.CTextView
@@ -50,7 +50,7 @@
                 android:layout_marginStart="@dimen/_15sdp"
                 android:layout_marginEnd="@dimen/_15sdp"
                 android:gravity="center"
-                android:text="Watch the video to use training plan once" />
+                android:text="@string/watch_the_video_to_use_training_plan_once" />
 
             <LinearLayout
                 android:id="@+id/llUnlockOnce"
@@ -70,7 +70,7 @@
                     android:drawablePadding="@dimen/_7sdp"
                     android:gravity="center"
                     android:drawableTint="@color/white"
-                    android:text="Unlock Once"
+                    android:text="@string/unlock_once"
                     android:textAllCaps="true" />
 
             </LinearLayout>

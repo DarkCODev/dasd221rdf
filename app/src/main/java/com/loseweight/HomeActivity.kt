@@ -87,7 +87,7 @@ class HomeActivity : BaseActivity() {
 
         })
 
-        //subScribeToFirebaseTopic()
+        subScribeToFirebaseTopic()
     }
 
     private fun subScribeToFirebaseTopic() {

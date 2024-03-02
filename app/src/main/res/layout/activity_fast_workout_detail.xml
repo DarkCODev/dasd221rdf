@@ -73,7 +73,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 style="@style/txt_fff_16"
-                                android:text="About"
+                                android:text="@string/about"
                                 android:drawableStart="@drawable/ic_bulb"
                                 android:paddingVertical="@dimen/_3sdp"
                                 android:paddingHorizontal="@dimen/_7sdp"
@@ -96,7 +96,7 @@
                                 style="@style/txt_fff_14"
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Wake up with energy, make your body primed for the day" />
+                                android:text="@string/wake_up_with_energy_make_your_body_primed_for_the_day" />
 
                         </LinearLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>

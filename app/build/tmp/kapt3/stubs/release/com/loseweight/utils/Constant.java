@@ -156,9 +156,9 @@ public final class Constant {
     public static final int MIN_CM = 20;
     public static final int MAX_CM = 400;
     @org.jetbrains.annotations.NotNull
-    public static final java.lang.String MONTHLY_SKU = "monthly_sub";
+    public static final java.lang.String MONTHLY_SKU = "sculpt_her_fitness";
     @org.jetbrains.annotations.NotNull
-    public static final java.lang.String YEARLY_SKU = "yearly_sub";
+    public static final java.lang.String YEARLY_SKU = "sculpt_her_fitness_with_style_annual";
     @org.jetbrains.annotations.NotNull
     private static java.lang.String FB_BANNER_TYPE_AD = "FB_BANNER_TYPE_AD";
     @org.jetbrains.annotations.NotNull

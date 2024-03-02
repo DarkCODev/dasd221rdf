@@ -1,12 +1,9 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-    <string name="app_name">SculptHer: Fitness with style</string>
-    <string name="youtube_api_key">AIzaSyCStfW9e7pADrbA7sIkJg9FQnO4ttpeypE</string>
-    <string name="admob_app_id">ca-app-pub-3134229311965942~9643489443</string>
-
-
-    <string name="privacy_policy_link">https://sites.google.com/view/femaleweightlose-pp/home</string>
-    <string name="number_picker_formatter">%02d</string>
-
+    <string name="app_name">SculptHer - Fitness with style</string>
+    <string name="youtube_api_key" translatable="false">AIzaSyCStfW9e7pADrbA7sIkJg9FQnO4ttpeypE</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3134229311965942~9643489443</string>
+    <string name="privacy_policy_link" translatable="false">https://sites.google.com/view/femaleweightlose-pp/home</string>
+    <string name="number_picker_formatter" translatable="false">%02d</string>
     <string name="btn_ok">Ok</string>
     <string name="btn_cancel">Cancel</string>
     <string name="exit_msg">Press Back twice to exit</string>
@@ -17,20 +14,14 @@
     <string name="choose_camera">Take From Camera</string>
     <string name="permission_msg">Gallery and Camera permission is required</string>
     <string name="permission_setting">Permission Setting</string>
-
     <string name="login">Login</string>
     <string name="profile">Profile</string>
     <string name="description">Description</string>
     <string name="save">Save</string>
-
     <string name="err_camera">cannot open camera</string>
-
     <string name="name">Name</string>
-
-
     <string name="need_permission_title">Need permission(s)</string>
     <string name="err_need_permission_msg">You have previously declined this permission.\nYou must approve this permission in \"Permissions\" in the app settings on your device.</string>
-
     <string name="back">Back</string>
     <string name="more">More</string>
     <string name="refresh">Refresh</string>
@@ -38,21 +29,17 @@
     <string name="home">Home</string>
     <string name="re_scan">Re-Scan</string>
     <string name="inmate_activity">Inmate Activity</string>
-
     <string name="cancel">Cancel</string>
     <string name="retry">Retry</string>
     <string name="logout">Logout</string>
-
     <string name="user">User</string>
     <string name="setting">Setting</string>
     <string name="report_issue">Report Issue</string>
     <string name="what_s_your_goal">What\'s your goal?</string>
-
     <string name="goal_lose_weight">Lose weight &amp; keep fit</string>
     <string name="goal_butt_lift">Butt lift &amp; tone</string>
     <string name="goal_lose_belly_fat">Lose belly fat</string>
     <string name="goal_build_muscle_strength">Build muscle &amp; strength</string>
-
     <string name="next">next</string>
     <string name="skip">Skip</string>
     <string name="how_much_do_nyou_weight">How much do\nyou weight?</string>
@@ -69,7 +56,6 @@
     <string name="go">Go!</string>
     <string name="drink">Drink</string>
     <string name="turn_on_water_tracker">Turn On Water Tracker</string>
-
     <string name="dummy_text">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="dummy_text2">Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
     <string name="instruction">Instruction</string>
@@ -78,7 +64,6 @@
     <string name="_2_7_min_fast_workout">2-7 min fast workout</string>
     <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minutes workout to do anything, anywhere.</string>
     <string name="body_focus">Body focus</string>
-
     <string name="sound_options">Sound options</string>
     <string name="mute">Mute</string>
     <string name="voice_guide">Voice guide</string>
@@ -109,7 +94,6 @@
     <string name="height">Height</string>
     <string name="enter_height">Please Enter Height</string>
     <string name="cm">CM</string>
-
     <string name="in">IN</string>
     <string name="gender">Gender</string>
     <string name="male">Male</string>
@@ -118,7 +102,6 @@
     <string name="previous">Previous</string>
     <string name="set">SET</string>
     <string name="history">History</string>
-
     <string name="delete">Delete</string>
     <string name="confirm_delete">Confirm delete?</string>
     <string name="delete_confirmation_msg">Are you sure you want to delete it?</string>
@@ -133,7 +116,6 @@
     <string name="lightest_colon">Lightest:</string>
     <string name="edit">Edit</string>
     <string name="workout">Workout</string>
-
     <string name="go_premium">Go Premium</string>
     <string name="voice_options_tts">Voice Options (TTS)</string>
     <string name="test_voice">Test Voice</string>
@@ -145,7 +127,7 @@
     <string name="device_tts_setting">Device TTS Setting</string>
     <string name="health_data">Health Data</string>
     <string name="remind_me_to_workout_every_day">Remind me to workout every day</string>
-    <string name="metric_and_imperial_units"><![CDATA[Metric & Imperial Units]]></string>
+    <string name="metric_and_imperial_units" translatable="false"><![CDATA[Metric & Imperial Units]]></string>
     <string name="keep_the_screen_on">Keep the screen on</string>
     <string name="general_settings">General Settings</string>
     <string name="community">Community</string>
@@ -157,21 +139,18 @@
     <string name="my_profile">My Profile</string>
     <string name="restart_progress">Restart Progress</string>
     <string name="remove_ads">Remove Ads</string>
-
-    <string name="iap_detail">1. All payments made through Play Store are controlled and managed by Google.\n2. Payments will be charged to your Play Store Account at confirmation of purchase.\n3. Subscription automatically renews, unless auto-renew is turned off at least 24 hours before the end of the current period.\n4. Account will be charged for renewal within 24 hours prior to the end of the current period.\n5. You may manage your subscriptions and auto-renewal may be turned off by going to your Play Store account settings after purchase.\n6. Any unused portion of a free trial period, if offered, will be forfeited if you purchase a subscription to the publication, where applicable.</string>
+    <string name="iap_detail">1. All payments made through Play Store are controlled and managed by Google. 2. Payments will be charged to your Play Store Account at confirmation of purchase. 3. Subscription automatically renews, unless auto-renew is turned off at least 24 hours before the end of the current period. 4. Account will be charged for renewal within 24 hours prior to the end of the current period. 5. You may manage your subscriptions and auto-renewal may be turned off by going to your Play Store account settings after purchase. 6. Any unused portion of a free trial period, if offered, will be forfeited if you purchase a subscription to the publication, where applicable.</string>
     <string name="start">Start</string>
     <string name="target_weight">Target weight</string>
     <string name="yes">Yes</string>
-    <string name="no">No</string>
     <string name="dl_test_voice_no_msg_test">The TTS engine you are using is not working now, please double check it, switch to another TTS engine, or download TTS voice language.</string>
     <string name="please_choose_guide_voice_engine">Please choose guide voice engine:</string>
     <string name="repeat">Repeat</string>
     <string name="tip">Tip</string>
     <string name="send_feedback">Send feedback</string>
-
     <string name="week">Week</string>
     <string name="mins">Mins</string>
-    <string name="quite_exercise_msg">Sweat dripping is fat\ndropping.</string>
+    <string name="quite_exercise_msg">Sweat dripping is fat dropping.</string>
     <string name="quit">Quit</string>
     <string name="str_continue">Continue</string>
     <string name="come_back_in_30_minute"><u>Come back in 30 minute</u></string>
@@ -198,4 +177,46 @@
     <string name="drink_water_make_skin_batter">Drink Water can make your skin look batter.</string>
     <string name="pause">Pause</string>
     <string name="no_internet_available">No Internet Available</string>
+    <string name="no">No</string>
+    <string name="watch_video_to_unlock">Watch video to unlock</string>
+    <string name="watch_the_video_to_use_training_plan_once">Watch the video to use training plan once</string>
+    <string name="unlock_once">Unlock Once</string>
+    <string name="water_is_necessary_for_burning_fat">Water is necessary for burning fat.</string>
+    <string name="water_is_the_fuel_of_the_muscles">Water is the fuel of the muscles.</string>
+    <string name="day_1">Day 1</string>
+    <string name="wake_up_with_energy_make_your_body_primed_for_the_day">Wake up with energy, make your body primed for the day</string>
+    <string name="day_in_a_row">Day In a Row</string>
+    <string name="change_starts_ntoday">Change Starts\nToday!</string>
+    <string name="result_not_typical_disclaimer">Result not typical.Disclaimer</string>
+    <string name="access_all_features">Access all features</string>
+    <string name="_430_00_month">1€/Month</string>
+    <string name="sku_year_price">3,97€/year</string>
+    <string name="save_percent">Save 67%</string>
+    <string name="_100_workouts_for_fat_burning">100 + Workouts for fat burning</string>
+    <string name="unlimited_workouts_plans">Unlimited workouts plans</string>
+    <string name="what_s_your_ntarget_weight">What\'s your\nTarget weight?</string>
+    <string name="lose_weight_amp_keep_fit"><![CDATA[Lose Weight & keep fit]]></string>
+    <string name="_28_days_left">28 Days left</string>
+    <string name="fat_burning_hiit">Fat burning HIIT</string>
+    <string name="_2_7_min">2-7 min</string>
+    <string name="about">About</string>
+    <string name="full_body">Full body</string>
+    <string name="drinking_water_helps_nimprove_fat_burning_rate">Drinking water helps\nimprove fat burning rate.</string>
+    <string name="are_you_sure_nyou_want_to_logout">Are you sure?\nYou want to logout?</string>
+    <string name="or">OR</string>
+    <string name="_30_days_left">30 days left</string>
+    <string name="daily">Daily</string>
+    <string name="water_tracker">Water Tracker</string>
+    <string name="_8_cups">/8 Cups</string>
+    <string name="about_app">About App</string>
+    <string name="app">App</string>
+    <string name="bridge">Bridge</string>
+    <string name="plan_1">Plan 1</string>
+    <string name="morning_warm_up">Morning warm up</string>
+    <string name="_5_mins">5 Mins</string>
+    <string name="beginner">Beginner</string>
+    <string name="office_workout">Office workout</string>
+    <string name="s">S</string>
+    <string name="today">Today</string>
+    <string name="to_calculate_your_bmi">To calculate your BMI</string>
 </resources>

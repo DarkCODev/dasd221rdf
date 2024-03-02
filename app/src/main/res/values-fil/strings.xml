@@ -1,0 +1,194 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness na may istilo</string>
+
+
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Kanselahin</string>
+    <string name="exit_msg">Pindutin ang Bumalik nang dalawang beses upang lumabas</string>
+    <string name="search">Maghanap</string>
+    <string name="clear">Maaliwalas</string>
+    <string name="choose_gallery">Pumili Mula sa Gallery</string>
+    <string name="err_file_manager">Mangyaring mag-install ng File Manager.</string>
+    <string name="choose_camera">Kunin Mula sa Camera</string>
+    <string name="permission_msg">Kinakailangan ang pahintulot sa Gallery at Camera</string>
+    <string name="permission_setting">Setting ng Pahintulot</string>
+
+    <string name="login">Mag log in</string>
+    <string name="profile">Profile</string>
+    <string name="description">Paglalarawan</string>
+    <string name="save">I-save</string>
+
+    <string name="err_camera">hindi mabuksan ang camera</string>
+
+    <string name="name">Pangalan</string>
+
+
+    <string name="need_permission_title">Kailangan ng (mga) pahintulot</string>
+    <string name="err_need_permission_msg">Dati mong tinanggihan ang pahintulot na ito.\nDapat mong aprubahan ang pahintulot na ito sa \"Mga Pahintulot\" sa mga setting ng app sa iyong device.</string>
+
+    <string name="back">Bumalik</string>
+    <string name="more">Higit pa</string>
+    <string name="refresh">Refresh</string>
+    <string name="facility_code">Code ng Pasilidad</string>
+    <string name="home">Bahay</string>
+    <string name="re_scan">Muling I-scan</string>
+    <string name="inmate_activity">Aktibidad ng Inmate</string>
+
+    <string name="cancel">Kanselahin</string>
+    <string name="retry">Subukan muli</string>
+    <string name="logout">Mag-logout</string>
+
+    <string name="user">Gumagamit</string>
+    <string name="setting">Setting</string>
+    <string name="report_issue">Iulat ang Isyu</string>
+    <string name="what_s_your_goal">Ano ang iyong layunin?</string>
+
+    <string name="goal_lose_weight">Magbawas ng timbang</string>
+    <string name="goal_butt_lift">Angat ng butt</string>
+    <string name="goal_lose_belly_fat">Mawalan ng taba sa tiyan</string>
+    <string name="goal_build_muscle_strength">Bumuo ng kalamnan</string>
+
+    <string name="next">susunod</string>
+    <string name="skip">Laktawan</string>
+    <string name="how_much_do_nyou_weight">Magkano ang timbang mo?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Ipaalam sa amin nang mas mabuti para matulungan kang mapalakas ang resulta ng iyong trabaho.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Magpayat gamit ang planong pinakaangkop sa iyo</string>
+    <string name="how_tall_are_nyou">Gaano ka katangkad?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>Pumunta sa homepage</u></string>
+    <string name="plan">Plano</string>
+    <string name="reports">Mga ulat</string>
+    <string name="me">Ako</string>
+    <string name="lose_weight">Magbawas ng timbang</string>
+    <string name="go">Go!</string>
+    <string name="drink">inumin</string>
+    <string name="turn_on_water_tracker">I-on ang Water Tracker</string>
+
+    <string name="dummy_text">Ang Lorem Ipsum ay ang pamantayang dummy text ng industriya mula pa noong 1500s, nang kumuha ang isang hindi kilalang printer ng isang galera ng uri at pinag-igihan ito upang makagawa ng isang uri ng specimen book. </string>
+    <string name="dummy_text2">Ang Lorem Ipsum ay ang pamantayang dummy text ng industriya mula pa noong 1500s, nang kumuha ang isang hindi kilalang printer ng isang galera ng uri at pinag-igihan ito upang makagawa ng isang uri ng specimen book. </string>
+    <string name="instruction">Pagtuturo</string>
+    <string name="fast_workout">Mabilis na pag-eehersisyo</string>
+    <string name="not_enough_time">Hindi sapat na oras?</string>
+    <string name="_2_7_min_fast_workout">2-7 min mabilis na ehersisyo</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minutong pag-eehersisyo para gawin ang anuman, kahit saan.</string>
+    <string name="body_focus">Pokus sa katawan</string>
+
+    <string name="sound_options">Mga pagpipilian sa tunog</string>
+    <string name="mute">I-mute</string>
+    <string name="voice_guide">Gabay sa boses</string>
+    <string name="voice_guide_des">Alamin ang iyong susunod na ehersisyo at kung gaano karaming beses kailangan mong gawin ito.</string>
+    <string name="coach_tips">Mga tip sa coach</string>
+    <string name="common_questions">Mga karaniwang tanong</string>
+    <string name="btn_continue">Magpatuloy</string>
+    <string name="close">Isara</string>
+    <string name="exercies">Mga ehersisyo</string>
+    <string name="workouts">Mga ehersisyo</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">minuto</string>
+    <string name="minutes">minuto</string>
+    <string name="duration">Tagal</string>
+    <string name="share">Ibahagi</string>
+    <string name="do_it_again">Gawin mo ulit</string>
+    <string name="reminder_colon">Paalala:</string>
+    <string name="reminder">Paalala</string>
+    <string name="kg">KG</string>
+    <string name="lb">LB</string>
+    <string name="weight">Timbang</string>
+    <string name="enter_weight">Pakilagay ang Timbang</string>
+    <string name="tap_here_to_input_your_height">I-tap ang <b>dito</b> para ipasok ang iyong taas</string>
+    <string name="i_feel">nararamdaman ko</string>
+    <string name="easy">Madali</string>
+    <string name="exhausted">Naubos</string>
+    <string name="feedback">Feedback</string>
+    <string name="height">taas</string>
+    <string name="enter_height">Pakilagay ang Taas</string>
+    <string name="cm">CM</string>
+
+    <string name="in">SA</string>
+    <string name="gender">Kasarian</string>
+    <string name="male">Lalaki</string>
+    <string name="female">Babae</string>
+    <string name="year_of_birth">Taon ng kapanganakan</string>
+    <string name="previous">Nakaraang</string>
+    <string name="set">ITAKDA</string>
+    <string name="history">Kasaysayan</string>
+
+    <string name="delete">Tanggalin</string>
+    <string name="confirm_delete">Kumpirmahin ang pagtanggal?</string>
+    <string name="delete_confirmation_msg">Sigurado ka bang gusto mong tanggalin ito?</string>
+    <string name="restart_confirmation_msg">Sigurado ka bang gusto mong i-restart ang progreso?</string>
+    <string name="restart_day_confirmation_msg">Gusto mo bang i-clear ang iyong pag-unlad at i-restart mula sa araw 1?</string>
+    <string name="total">Kabuuan</string>
+    <string name="current">Kasalukuyan</string>
+    <string name="heaviest">Pinakamabigat</string>
+    <string name="lightest">Pinakamagaan</string>
+    <string name="current_colon">Kasalukuyan:</string>
+    <string name="heaviest_colon">Pinakamabigat:</string>
+    <string name="lightest_colon">Pinakamagaan:</string>
+    <string name="edit">I-edit</string>
+    <string name="workout">Pag-eehersisyo</string>
+
+    <string name="go_premium">Magpremium</string>
+    <string name="voice_options_tts">Mga Pagpipilian sa Boses (TTS)</string>
+    <string name="test_voice">Test Voice</string>
+    <string name="download_tts_engine">I-download ang TTs Engine</string>
+    <string name="select_tts_engine">Piliin ang TTS Engine</string>
+    <string name="google_text_to_speech_engine">Google Text-to-speech Engine</string>
+    <string name="voice_language">Wika ng Boses</string>
+    <string name="download_more_tts_language_data">Mag-download ng higit pang data ng wika ng TTS</string>
+    <string name="device_tts_setting">Setting ng TTS ng device</string>
+    <string name="health_data">Data ng Kalusugan</string>
+    <string name="remind_me_to_workout_every_day">Paalalahanan ako na mag-ehersisyo araw-araw</string>
+    <string name="keep_the_screen_on">Panatilihing naka-on ang screen</string>
+    <string name="general_settings">Pangkalahatang mga Setting</string>
+    <string name="community">Komunidad</string>
+    <string name="share_with_friends">Ibahagi sa mga kaibigan</string>
+    <string name="support_us">Suportahan Kami</string>
+    <string name="rate_us">I-rate kami</string>
+    <string name="privacy_policy">Patakaran sa privacy</string>
+    <string name="did_you_hear_test_voice">Narinig mo ba ang boses ng pagsubok?</string>
+    <string name="my_profile">Aking Profile</string>
+    <string name="restart_progress">I-restart ang Progreso</string>
+    <string name="remove_ads">Alisin ang Mga Ad</string>
+
+    <string name="iap_detail">1. Ang lahat ng pagbabayad na ginawa sa pamamagitan ng Play Store ay kinokontrol at pinamamahalaan ng Google.\n2. </string>
+    <string name="start">Magsimula</string>
+    <string name="target_weight">Target na timbang</string>
+    <string name="yes">Oo</string>
+    <string name="no">Hindi</string>
+    <string name="dl_test_voice_no_msg_test">Ang TTS engine na ginagamit mo ay hindi gumagana ngayon, pakisuri ito, lumipat sa ibang TTS engine, o mag-download ng TTS voice language.</string>
+    <string name="please_choose_guide_voice_engine">Mangyaring pumili ng gabay na voice engine:</string>
+    <string name="repeat">Ulitin</string>
+    <string name="tip">Tip</string>
+    <string name="send_feedback">Magbigay ng feedback</string>
+
+    <string name="week">Linggo</string>
+    <string name="mins">Min</string>
+    <string name="quite_exercise_msg">Nakakataba\nagpapatak ang pawis.</string>
+    <string name="quit">quit</string>
+    <string name="str_continue">Magpatuloy</string>
+    <string name="come_back_in_30_minute"><u>Bumalik sa loob ng 30 minuto</u></string>
+    <string name="done">Tapos na</string>
+    <string name="view_all">Tingnan lahat</string>
+    <string name="finished">Tapos na</string>
+    <string name="restart">I-restart</string>
+    <string name="recent">Kamakailan</string>
+    <string name="rest_day">Araw ng pahinga</string>
+    <string name="replace">Palitan</string>
+    <string name="reset_plan">I-reset ang plano</string>
+    <string name="edit_plan">I-edit ang plano</string>
+    <string name="save_changes_que">I-save ang mga pagbabago?</string>
+    <string name="reset">I-reset</string>
+    <string name="replace_with">Palitan ng</string>
+    <string name="change_plan">Baguhin ang plano</string>
+    <string name="change_language">Baguhin ang Wika</string>
+    <string name="language_options">Mga pagpipilian sa wika</string>
+    <string name="hours">Oras</string>
+    <string name="completed">Nakumpleto</string>
+    <string name="well_done">Magaling!</string>
+    <string name="time_to_drink_water">Oras na para uminom ng tubig</string>
+    <string name="time_to_hydrate">Oras na para mag-hydrate!</string>
+    <string name="drink_water_make_skin_batter">Ang Inumin ng Tubig ay maaaring magmukhang batter ang iyong balat.</string>
+    <string name="pause">I-pause</string>
+</resources>

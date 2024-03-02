@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness ze stylem</string>
+
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Anulować</string>
+    <string name="exit_msg">Naciśnij dwukrotnie przycisk Wstecz, aby wyjść</string>
+    <string name="search">Szukaj</string>
+    <string name="clear">Jasne</string>
+    <string name="choose_gallery">Wybierz z galerii</string>
+    <string name="err_file_manager">Zainstaluj Menedżera plików.</string>
+    <string name="choose_camera">Weź z aparatu</string>
+    <string name="permission_msg">Wymagane jest pozwolenie na korzystanie z galerii i aparatu</string>
+    <string name="permission_setting">Ustawienie uprawnień</string>
+
+    <string name="login">Zaloguj sie</string>
+    <string name="profile">Profil</string>
+    <string name="description">Opis</string>
+    <string name="save">Ratować</string>
+
+    <string name="err_camera">nie można otworzyć aparatu</string>
+
+    <string name="name">Nazwa</string>
+
+
+    <string name="need_permission_title">Potrzebujesz pozwolenia</string>
+    <string name="err_need_permission_msg">Wcześniej odrzuciłeś to pozwolenie.\nMusisz zatwierdzić to pozwolenie w sekcji „Uprawnienia” w ustawieniach aplikacji na swoim urządzeniu.</string>
+
+    <string name="back">Z powrotem</string>
+    <string name="more">Więcej</string>
+    <string name="refresh">Odświeżać</string>
+    <string name="facility_code">Kod obiektu</string>
+    <string name="home">Dom</string>
+    <string name="re_scan">Skanuj ponownie</string>
+    <string name="inmate_activity">Aktywność więźniów</string>
+
+    <string name="cancel">Anulować</string>
+    <string name="retry">Spróbować ponownie</string>
+    <string name="logout">Wyloguj</string>
+
+    <string name="user">Użytkownik</string>
+    <string name="setting">Ustawienie</string>
+    <string name="report_issue">Zgłoś problem</string>
+    <string name="what_s_your_goal">Jaki jest Twój cel?</string>
+
+    <string name="goal_lose_weight">Schudnąć</string>
+    <string name="goal_butt_lift">Lifting tyłka</string>
+    <string name="goal_lose_belly_fat">Stracić tłuszcz z brzucha</string>
+    <string name="goal_build_muscle_strength">Budować mięśnie</string>
+
+    <string name="next">Następny</string>
+    <string name="skip">Pominąć</string>
+    <string name="how_much_do_nyou_weight">Ile\nważysz?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Daj nam znać lepiej, abyśmy mogli poprawić Twoje wyniki pracy.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Schudnij, korzystając z planu, który najbardziej Ci odpowiada</string>
+    <string name="how_tall_are_nyou">Jak wysoki\njesteś?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>Przejdź do strony głównej</u></string>
+    <string name="plan">Plan</string>
+    <string name="reports">Raporty</string>
+    <string name="me">Ja</string>
+    <string name="lose_weight">Schudnąć</string>
+    <string name="go">Iść!</string>
+    <string name="drink">Drink</string>
+    <string name="turn_on_water_tracker">Włącz śledzenie wody</string>
+
+    <string name="dummy_text">Lorem Ipsum jest standardowym fikcyjnym tekstem w branży od XVI wieku, kiedy nieznany drukarz wziął typ pisma i przemieszał go, aby stworzyć egzemplarz wzornika czcionek. </string>
+    <string name="dummy_text2">Lorem Ipsum jest standardowym fikcyjnym tekstem w branży od XVI wieku, kiedy nieznany drukarz wziął typ pisma i przemieszał go, aby stworzyć egzemplarz wzornika czcionek. </string>
+    <string name="instruction">Instrukcja</string>
+    <string name="fast_workout">Szybki trening</string>
+    <string name="not_enough_time">Za mało czasu?</string>
+    <string name="_2_7_min_fast_workout">2-7 minut szybkiego treningu</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2–7 minut treningu, dzięki któremu możesz zrobić wszystko i wszędzie.</string>
+    <string name="body_focus">Koncentracja na ciele</string>
+
+    <string name="sound_options">Opcje dźwięku</string>
+    <string name="mute">Niemy</string>
+    <string name="voice_guide">Przewodnik głosowy</string>
+    <string name="voice_guide_des">Dowiedz się, jaki masz następny trening i ile razy musisz go wykonać.</string>
+    <string name="coach_tips">Wskazówki trenera</string>
+    <string name="common_questions">Często zadawane pytania</string>
+    <string name="btn_continue">Kontynuować</string>
+    <string name="close">Zamknąć</string>
+    <string name="exercies">Ćwiczenia</string>
+    <string name="workouts">Treningi</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">Minuta</string>
+    <string name="minutes">minuty</string>
+    <string name="duration">Czas trwania</string>
+    <string name="share">Udział</string>
+    <string name="do_it_again">Zrób to jeszcze raz</string>
+    <string name="reminder_colon">Przypomnienie:</string>
+    <string name="reminder">Przypomnienie</string>
+    <string name="kg">KG</string>
+    <string name="lb">FUNT</string>
+    <string name="weight">Waga</string>
+    <string name="enter_weight">Proszę wprowadzić wagę</string>
+    <string name="tap_here_to_input_your_height">Kliknij <b>tutaj</b>, aby wprowadzić swój wzrost</string>
+    <string name="i_feel">czuję</string>
+    <string name="easy">Łatwy</string>
+    <string name="exhausted">Wyczerpany</string>
+    <string name="feedback">Informacja zwrotna</string>
+    <string name="height">Wysokość</string>
+    <string name="enter_height">Proszę podać wysokość</string>
+    <string name="cm">CM</string>
+
+    <string name="in">W</string>
+    <string name="gender">Płeć</string>
+    <string name="male">Mężczyzna</string>
+    <string name="female">Kobieta</string>
+    <string name="year_of_birth">Rok urodzenia</string>
+    <string name="previous">Poprzedni</string>
+    <string name="set">USTAWIĆ</string>
+    <string name="history">Historia</string>
+
+    <string name="delete">Usuwać</string>
+    <string name="confirm_delete">Potwierdź usunięcie?</string>
+    <string name="delete_confirmation_msg">Czy na pewno chcesz to usunąć?</string>
+    <string name="restart_confirmation_msg">Czy na pewno chcesz wznowić postęp?</string>
+    <string name="restart_day_confirmation_msg">Czy chcesz wyczyścić swoje postępy i zacząć od pierwszego dnia?</string>
+    <string name="total">Całkowity</string>
+    <string name="current">Aktualny</string>
+    <string name="heaviest">Najcięższy</string>
+    <string name="lightest">Lżejszy</string>
+    <string name="current_colon">Aktualny:</string>
+    <string name="heaviest_colon">Najcięższy:</string>
+    <string name="lightest_colon">Lżejszy:</string>
+    <string name="edit">Edytować</string>
+    <string name="workout">Ćwiczyć</string>
+
+    <string name="go_premium">Przejdź na Premium</string>
+    <string name="voice_options_tts">Opcje głosowe (TTS)</string>
+    <string name="test_voice">Testuj głos</string>
+    <string name="download_tts_engine">Pobierz silnik TT</string>
+    <string name="select_tts_engine">Wybierz silnik TTS</string>
+    <string name="google_text_to_speech_engine">Mechanizm przetwarzania tekstu na mowę Google</string>
+    <string name="voice_language">Język głosu</string>
+    <string name="download_more_tts_language_data">Pobierz więcej danych językowych TTS</string>
+    <string name="device_tts_setting">Ustawienie TTS urządzenia</string>
+    <string name="health_data">Dane dotyczące zdrowia</string>
+    <string name="remind_me_to_workout_every_day">Przypomnij mi o codziennym treningu</string>
+    <string name="keep_the_screen_on">Pozostaw ekran włączony</string>
+    <string name="general_settings">Ustawienia główne</string>
+    <string name="community">Wspólnota</string>
+    <string name="share_with_friends">Podziel się z przyjaciółmi</string>
+    <string name="support_us">Wesprzyj nas</string>
+    <string name="rate_us">Oceń nas</string>
+    <string name="privacy_policy">Polityka prywatności</string>
+    <string name="did_you_hear_test_voice">Czy słyszałeś głos testowy?</string>
+    <string name="my_profile">Mój profil</string>
+    <string name="restart_progress">Uruchom ponownie postęp</string>
+    <string name="remove_ads">Usuń reklamy</string>
+
+    <string name="iap_detail">1. Wszystkie płatności dokonywane za pośrednictwem Sklepu Play są kontrolowane i zarządzane przez Google.\n2. </string>
+    <string name="start">Początek</string>
+    <string name="target_weight">Waga docelowa</string>
+    <string name="yes">Tak</string>
+    <string name="no">NIE</string>
+    <string name="dl_test_voice_no_msg_test">Silnik TTS, którego używasz, nie działa teraz. Sprawdź go dokładnie, przełącz się na inny silnik TTS lub pobierz język głosowy TTS.</string>
+    <string name="please_choose_guide_voice_engine">Proszę wybrać silnik głosu przewodnika:</string>
+    <string name="repeat">Powtarzać</string>
+    <string name="tip">Wskazówka</string>
+    <string name="send_feedback">Wyślij opinię</string>
+
+    <string name="week">Tydzień</string>
+    <string name="mins">Min</string>
+    <string name="quite_exercise_msg">Kapiący pot oznacza utratę tłuszczu.</string>
+    <string name="quit">Zrezygnować</string>
+    <string name="str_continue">Kontynuować</string>
+    <string name="come_back_in_30_minute"><u>Wróć za 30 minut</u></string>
+    <string name="done">Zrobione</string>
+    <string name="view_all">Pokaż wszystkie</string>
+    <string name="finished">Skończone</string>
+    <string name="restart">Uruchom ponownie</string>
+    <string name="recent">Ostatni</string>
+    <string name="rest_day">Dzień odpoczynku</string>
+    <string name="replace">Zastępować</string>
+    <string name="reset_plan">Zresetuj plan</string>
+    <string name="edit_plan">Edytuj plan</string>
+    <string name="save_changes_que">Zapisz zmiany?</string>
+    <string name="reset">Resetowanie</string>
+    <string name="replace_with">Zamienić</string>
+    <string name="change_plan">Zmień plan</string>
+    <string name="change_language">Zmień język</string>
+    <string name="language_options">Opcje językowe</string>
+    <string name="hours">godziny</string>
+    <string name="completed">Zakończony</string>
+    <string name="well_done">Dobrze zrobiony!</string>
+    <string name="time_to_drink_water">Pora napić się wody</string>
+    <string name="time_to_hydrate">Czas na nawilżenie!</string>
+    <string name="drink_water_make_skin_batter">Picie wody może sprawić, że Twoja skóra będzie wyglądać na zmęczoną.</string>
+    <string name="pause">Pauza</string>
+    <string name="no_internet_available">Brak dostępu do Internetu</string>
+</resources>

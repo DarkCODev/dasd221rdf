@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness με στυλ</string>
+
+
+    <string name="btn_ok">Εντάξει</string>
+    <string name="btn_cancel">Ματαίωση</string>
+    <string name="exit_msg">Πατήστε Πίσω δύο φορές για έξοδο</string>
+    <string name="search">Αναζήτηση</string>
+    <string name="clear">Σαφή</string>
+    <string name="choose_gallery">Επιλογή από τη Γκαλερί</string>
+    <string name="err_file_manager">Εγκαταστήστε μια Διαχείριση αρχείων.</string>
+    <string name="choose_camera">Λήψη από την κάμερα</string>
+    <string name="permission_msg">Απαιτείται άδεια συλλογής και κάμερας</string>
+    <string name="permission_setting">Ρύθμιση άδειας</string>
+
+    <string name="login">Σύνδεση</string>
+    <string name="profile">Προφίλ</string>
+    <string name="description">Περιγραφή</string>
+    <string name="save">Αποθηκεύσετε</string>
+
+    <string name="err_camera">δεν μπορεί να ανοίξει την κάμερα</string>
+
+    <string name="name">Ονομα</string>
+
+
+    <string name="need_permission_title">Χρειάζεστε άδεια(ες)</string>
+    <string name="err_need_permission_msg">Έχετε απορρίψει στο παρελθόν αυτήν την άδεια.\nΠρέπει να εγκρίνετε αυτήν την άδεια στο \"Άδειες\" στις ρυθμίσεις της εφαρμογής στη συσκευή σας.</string>
+
+    <string name="back">Πίσω</string>
+    <string name="more">Περισσότερο</string>
+    <string name="refresh">Φρεσκάρω</string>
+    <string name="facility_code">Κωδικός Εγκατάστασης</string>
+    <string name="home">Σπίτι</string>
+    <string name="re_scan">Εκ νέου σάρωση</string>
+    <string name="inmate_activity">Δραστηριότητα κρατουμένων</string>
+
+    <string name="cancel">Ματαίωση</string>
+    <string name="retry">Ξαναδοκιμάσετε</string>
+    <string name="logout">Αποσύνδεση</string>
+
+    <string name="user">Χρήστης</string>
+    <string name="setting">Σύνθεση</string>
+    <string name="report_issue">Αναφορά ζητήματος</string>
+    <string name="what_s_your_goal">Ποιος είναι ο στόχος σας;</string>
+
+    <string name="goal_lose_weight">Χάνω βάρος</string>
+    <string name="goal_butt_lift">Ανύψωση γλουτών</string>
+    <string name="goal_lose_belly_fat">Χάστε λίπος από την κοιλιά</string>
+    <string name="goal_build_muscle_strength">Χτίστε μυς</string>
+
+    <string name="next">Επόμενο</string>
+    <string name="skip">Παραλείπω</string>
+    <string name="how_much_do_nyou_weight">Πόσο βάρος έχετε;</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Ενημερώστε μας καλύτερα για να σας βοηθήσουμε να ενισχύσετε το αποτέλεσμα της εργασίας σας.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Χάστε βάρος με το σχέδιο που σας ταιριάζει καλύτερα</string>
+    <string name="how_tall_are_nyou">Πόσο ψηλός είσαι;</string>
+    <string name="bmi">ΔΜΣ</string>
+    <string name="bmi_colon">ΔΜΣ:</string>
+    <string name="go_to_homepage"><u>Μετάβαση στην αρχική σελίδα</u></string>
+    <string name="plan">Σχέδιο</string>
+    <string name="reports">Αναφορές</string>
+    <string name="me">Μου</string>
+    <string name="lose_weight">Χάνω βάρος</string>
+    <string name="go">Πηγαίνω!</string>
+    <string name="drink">Ποτό</string>
+    <string name="turn_on_water_tracker">Ενεργοποιήστε το Water Tracker</string>
+
+    <string name="dummy_text">Το Lorem Ipsum ήταν το τυπικό εικονικό κείμενο της βιομηχανίας από το 1500, όταν ένας άγνωστος εκτυπωτής πήρε μια γαλέρα τύπου και την ανακάτεψε για να φτιάξει ένα βιβλίο με δείγματα τύπων. </string>
+    <string name="dummy_text2">Το Lorem Ipsum ήταν το τυπικό εικονικό κείμενο της βιομηχανίας από το 1500, όταν ένας άγνωστος εκτυπωτής πήρε μια γαλέρα τύπου και την ανακάτεψε για να φτιάξει ένα βιβλίο με δείγματα τύπων. </string>
+    <string name="instruction">Εντολή</string>
+    <string name="fast_workout">Γρήγορη προπόνηση</string>
+    <string name="not_enough_time">Οχι αρκετός χρόνος?</string>
+    <string name="_2_7_min_fast_workout">Γρήγορη προπόνηση 2-7 λεπτών</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 λεπτά προπόνηση για να κάνετε οτιδήποτε, οπουδήποτε.</string>
+    <string name="body_focus">Εστίαση σώματος</string>
+
+    <string name="sound_options">Επιλογές ήχου</string>
+    <string name="mute">Βουβός</string>
+    <string name="voice_guide">Φωνητικός οδηγός</string>
+    <string name="voice_guide_des">Γνωρίστε την επόμενη προπόνησή σας και πόσες φορές πρέπει να την κάνετε.</string>
+    <string name="coach_tips">Συμβουλές προπονητή</string>
+    <string name="common_questions">Συνήθεις ερωτήσεις</string>
+    <string name="btn_continue">Να συνεχίσει</string>
+    <string name="close">Κλείσε</string>
+    <string name="exercies">Γυμνάσια</string>
+    <string name="workouts">Προπονήσεις</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">Λεπτό</string>
+    <string name="minutes">λεπτά</string>
+    <string name="duration">Διάρκεια</string>
+    <string name="share">Μερίδιο</string>
+    <string name="do_it_again">Κάνε το ξανά</string>
+    <string name="reminder_colon">Υπενθύμιση:</string>
+    <string name="reminder">Υπενθύμιση</string>
+    <string name="kg">ΚΙΛΟ</string>
+    <string name="lb">LB</string>
+    <string name="weight">Βάρος</string>
+    <string name="enter_weight">Εισαγάγετε το βάρος</string>
+    <string name="tap_here_to_input_your_height">Πατήστε <b>εδώ</b> για να εισαγάγετε το ύψος σας</string>
+    <string name="i_feel">νιώθω</string>
+    <string name="easy">Ανετα</string>
+    <string name="exhausted">Εξαντλημένος</string>
+    <string name="feedback">Ανατροφοδότηση</string>
+    <string name="height">Υψος</string>
+    <string name="enter_height">Εισαγάγετε Ύψος</string>
+    <string name="cm">ΕΚ</string>
+
+    <string name="in">ΣΕ</string>
+    <string name="gender">Γένος</string>
+    <string name="male">Αρσενικός</string>
+    <string name="female">Θηλυκός</string>
+    <string name="year_of_birth">Ετος γέννησης</string>
+    <string name="previous">Προηγούμενος</string>
+    <string name="set">ΣΕΙΡΑ</string>
+    <string name="history">Ιστορία</string>
+
+    <string name="delete">Διαγράφω</string>
+    <string name="confirm_delete">Επιβεβαίωση διαγραφής;</string>
+    <string name="delete_confirmation_msg">Είσαι σίγουρος οτι θέλεις να το διαγράψεις;</string>
+    <string name="restart_confirmation_msg">Είστε βέβαιοι ότι θέλετε να επανεκκινήσετε την πρόοδο;</string>
+    <string name="restart_day_confirmation_msg">Θέλετε να διαγράψετε την πρόοδό σας και να ξεκινήσετε ξανά από την 1η ημέρα;</string>
+    <string name="total">Σύνολο</string>
+    <string name="current">Ρεύμα</string>
+    <string name="heaviest">Το πιο βαρύ</string>
+    <string name="lightest">Το πιο ελαφρύ</string>
+    <string name="current_colon">Ρεύμα:</string>
+    <string name="heaviest_colon">Βαρύτερο:</string>
+    <string name="lightest_colon">Ελαφρύτερο:</string>
+    <string name="edit">Επεξεργασία</string>
+    <string name="workout">Προπόνηση</string>
+
+    <string name="go_premium">Go Premium</string>
+    <string name="voice_options_tts">Επιλογές φωνής (TTS)</string>
+    <string name="test_voice">Δοκιμαστική φωνή</string>
+    <string name="download_tts_engine">Κατεβάστε το TTs Engine</string>
+    <string name="select_tts_engine">Επιλέξτε TTS Engine</string>
+    <string name="google_text_to_speech_engine">Google Text-to-Speech Engine</string>
+    <string name="voice_language">Γλώσσα φωνής</string>
+    <string name="download_more_tts_language_data">Λήψη περισσότερων δεδομένων γλώσσας TTS</string>
+    <string name="device_tts_setting">Ρύθμιση TTS συσκευής</string>
+    <string name="health_data">Δεδομένα Υγείας</string>
+    <string name="remind_me_to_workout_every_day">Θύμισέ μου να γυμνάζομαι κάθε μέρα</string>
+    <string name="keep_the_screen_on">Κρατήστε την οθόνη αναμμένη</string>
+    <string name="general_settings">Γενικές Ρυθμίσεις</string>
+    <string name="community">Κοινότητα</string>
+    <string name="share_with_friends">Μοιράσου με φίλους</string>
+    <string name="support_us">Υποστήριξε μας</string>
+    <string name="rate_us">Βαθμολογήστε μας</string>
+    <string name="privacy_policy">Πολιτική απορρήτου</string>
+    <string name="did_you_hear_test_voice">Ακούσατε τη δοκιμαστική φωνή;</string>
+    <string name="my_profile">Το ΠΡΟΦΙΛ μου</string>
+    <string name="restart_progress">Επανεκκινήστε το Progress</string>
+    <string name="remove_ads">Αφαίρεσε τις διαφημίσεις</string>
+
+    <string name="iap_detail">1. Όλες οι πληρωμές που πραγματοποιούνται μέσω του Play Store ελέγχονται και διαχειρίζονται από την Google.\n2. </string>
+    <string name="start">Αρχή</string>
+    <string name="target_weight">Επιθυμητό βάρος</string>
+    <string name="yes">Ναί</string>
+    <string name="no">Οχι</string>
+    <string name="dl_test_voice_no_msg_test">Η μηχανή TTS που χρησιμοποιείτε δεν λειτουργεί τώρα, ελέγξτε την ξανά, μεταβείτε σε άλλη μηχανή TTS ή πραγματοποιήστε λήψη της γλώσσας φωνής TTS.</string>
+    <string name="please_choose_guide_voice_engine">Επιλέξτε μηχανή φωνής οδηγού:</string>
+    <string name="repeat">Επαναλαμβάνω</string>
+    <string name="tip">Υπόδειξη</string>
+    <string name="send_feedback">Στείλετε τα σχόλιά σας</string>
+
+    <string name="week">Εβδομάδα</string>
+    <string name="mins">Mins</string>
+    <string name="quite_exercise_msg">Ο ιδρώτας που στάζει είναι λίπος.</string>
+    <string name="quit">Εγκαταλείπω</string>
+    <string name="str_continue">Να συνεχίσει</string>
+    <string name="come_back_in_30_minute"><u>Επιστρέψτε σε 30 λεπτά</u></string>
+    <string name="done">Εγινε</string>
+    <string name="view_all">Προβολή όλων</string>
+    <string name="finished">Πεπερασμένος</string>
+    <string name="restart">Επανεκκίνηση</string>
+    <string name="recent">Πρόσφατος</string>
+    <string name="rest_day">Ημέρα ανάπαυσης</string>
+    <string name="replace">Αντικαθιστώ</string>
+    <string name="reset_plan">Επαναφορά σχεδίου</string>
+    <string name="edit_plan">Επεξεργασία σχεδίου</string>
+    <string name="save_changes_que">Αποθήκευσε τις αλλαγές?</string>
+    <string name="reset">Επαναφορά</string>
+    <string name="replace_with">Αντικατέστησε με</string>
+    <string name="change_plan">Αλλαγή σχεδίου</string>
+    <string name="change_language">Αλλαξε γλώσσα</string>
+    <string name="language_options">Επιλογές Γλώσσας</string>
+    <string name="hours">Ωρες</string>
+    <string name="completed">Ολοκληρώθηκε το</string>
+    <string name="well_done">Μπράβο!</string>
+    <string name="time_to_drink_water">Είναι ώρα να πιούμε νερό</string>
+    <string name="time_to_hydrate">Ήρθε η ώρα για ενυδάτωση!</string>
+    <string name="drink_water_make_skin_batter">Το Drink Water μπορεί να κάνει το δέρμα σας να φαίνεται κουρκούτι.</string>
+    <string name="pause">Παύση</string>
+    <string name="no_internet_available">Δεν υπάρχει διαθέσιμο Διαδίκτυο</string>
+</resources>

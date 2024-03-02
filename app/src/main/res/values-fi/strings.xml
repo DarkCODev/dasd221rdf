@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness tyylillä</string>
+
+
+    <string name="btn_ok">Ok</string>
+    <string name="btn_cancel">Peruuttaa</string>
+    <string name="exit_msg">Poistu painamalla Takaisin kahdesti</string>
+    <string name="search">Hae</string>
+    <string name="clear">Asia selvä</string>
+    <string name="choose_gallery">Valitse Galleriasta</string>
+    <string name="err_file_manager">Asenna tiedostonhallinta.</string>
+    <string name="choose_camera">Ota kamerasta</string>
+    <string name="permission_msg">Vaatii gallerian ja kameran luvan</string>
+    <string name="permission_setting">Lupaasetus</string>
+
+    <string name="login">Kirjaudu sisään</string>
+    <string name="profile">Profiili</string>
+    <string name="description">Kuvaus</string>
+    <string name="save">Tallentaa</string>
+
+    <string name="err_camera">kameraa ei voi avata</string>
+
+    <string name="name">Nimi</string>
+
+
+    <string name="need_permission_title">Tarvitsetko luvat</string>
+    <string name="err_need_permission_msg">Olet aiemmin evännyt tämän luvan.\nSinun on hyväksyttävä tämä lupa laitteesi sovellusasetusten kohdassa \"Luvat\".</string>
+
+    <string name="back">Takaisin</string>
+    <string name="more">Lisää</string>
+    <string name="refresh">virkistää</string>
+    <string name="facility_code">Laitoskoodi</string>
+    <string name="home">Koti</string>
+    <string name="re_scan">Skannaa uudelleen</string>
+    <string name="inmate_activity">Vankien toiminta</string>
+
+    <string name="cancel">Peruuttaa</string>
+    <string name="retry">Yritä uudelleen</string>
+    <string name="logout">Kirjautua ulos</string>
+
+    <string name="user">Käyttäjä</string>
+    <string name="setting">Asetus</string>
+    <string name="report_issue">Ilmoita ongelmasta</string>
+    <string name="what_s_your_goal">Mikä on tavoitteesi?</string>
+
+    <string name="goal_lose_weight">Laihduttaa</string>
+    <string name="goal_butt_lift">Pakaran nosto</string>
+    <string name="goal_lose_belly_fat">Menettää vatsan rasvaa</string>
+    <string name="goal_build_muscle_strength">Rakentaa lihasta</string>
+
+    <string name="next">Seuraava</string>
+    <string name="skip">Ohita</string>
+    <string name="how_much_do_nyou_weight">Kuinka paljon painat?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Kerro meille paremmin, jotta voimme parantaa työsi tulosta.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Pudota painoa sinulle parhaiten sopivalla suunnitelmalla</string>
+    <string name="how_tall_are_nyou">Kuinka pitkä olet\n?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>Siirry etusivulle</u></string>
+    <string name="plan">Suunnitelma</string>
+    <string name="reports">Raportit</string>
+    <string name="me">Minä</string>
+    <string name="lose_weight">Laihduttaa</string>
+    <string name="go">Mennä!</string>
+    <string name="drink">Juoda</string>
+    <string name="turn_on_water_tracker">Kytke Water Tracker päälle</string>
+
+    <string name="dummy_text">Lorem Ipsum on ollut alan tavallinen valeteksti 1500-luvulta lähtien, jolloin tuntematon kirjoitin otti kirjakeittiön ja sekoitti siitä kirjasinnäytekirjan. </string>
+    <string name="dummy_text2">Lorem Ipsum on ollut alan tavallinen valeteksti 1500-luvulta lähtien, jolloin tuntematon kirjoitin otti kirjakeittiön ja sekoitti siitä kirjasinnäytekirjan. </string>
+    <string name="instruction">Ohje</string>
+    <string name="fast_workout">Nopea harjoitus</string>
+    <string name="not_enough_time">Eikö aika riitä?</string>
+    <string name="_2_7_min_fast_workout">2-7 min nopea harjoitus</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minuutin harjoitus tehdäksesi mitä tahansa, missä tahansa.</string>
+    <string name="body_focus">Kehon keskittyminen</string>
+
+    <string name="sound_options">Äänivaihtoehdot</string>
+    <string name="mute">Mykistä</string>
+    <string name="voice_guide">Ääniopas</string>
+    <string name="voice_guide_des">Tiedä seuraava harjoituksesi ja kuinka monta kertaa sinun täytyy tehdä se.</string>
+    <string name="coach_tips">Valmentajan vinkkejä</string>
+    <string name="common_questions">Yleisiä kysymyksiä</string>
+    <string name="btn_continue">Jatkaa</string>
+    <string name="close">kiinni</string>
+    <string name="exercies">Harjoitukset</string>
+    <string name="workouts">Harjoitukset</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">Minuutti</string>
+    <string name="minutes">pöytäkirja</string>
+    <string name="duration">Kesto</string>
+    <string name="share">Jaa</string>
+    <string name="do_it_again">Tee se uudestaan</string>
+    <string name="reminder_colon">Muistutus:</string>
+    <string name="reminder">Muistutus</string>
+    <string name="kg">KG</string>
+    <string name="lb">PAUNAA</string>
+    <string name="weight">Paino</string>
+    <string name="enter_weight">Anna paino</string>
+    <string name="tap_here_to_input_your_height">Syötä pituutesi napauttamalla <b>tätä</b></string>
+    <string name="i_feel">Tunnen</string>
+    <string name="easy">Helppo</string>
+    <string name="exhausted">Uupunut</string>
+    <string name="feedback">Palaute</string>
+    <string name="height">Korkeus</string>
+    <string name="enter_height">Anna korkeus</string>
+    <string name="cm">CM</string>
+
+    <string name="in">SISÄÄN</string>
+    <string name="gender">Sukupuoli</string>
+    <string name="male">Uros</string>
+    <string name="female">Nainen</string>
+    <string name="year_of_birth">Syntymävuosi</string>
+    <string name="previous">Edellinen</string>
+    <string name="set">ASETA</string>
+    <string name="history">Historia</string>
+
+    <string name="delete">Poistaa</string>
+    <string name="confirm_delete">Vahvista poistaminen?</string>
+    <string name="delete_confirmation_msg">Haluatko varmasti poistaa sen?</string>
+    <string name="restart_confirmation_msg">Oletko varma, että haluat aloittaa edistymisen uudelleen?</string>
+    <string name="restart_day_confirmation_msg">Haluatko tyhjentää edistymisesi ja aloittaa uudelleen päivästä 1?</string>
+    <string name="total">Kaikki yhteensä</string>
+    <string name="current">Nykyinen</string>
+    <string name="heaviest">Raskain</string>
+    <string name="lightest">Kevyin</string>
+    <string name="current_colon">Nykyinen:</string>
+    <string name="heaviest_colon">Raskain:</string>
+    <string name="lightest_colon">Vaalein:</string>
+    <string name="edit">Muokata</string>
+    <string name="workout">Treenata</string>
+
+    <string name="go_premium">Siirry Premiumiin</string>
+    <string name="voice_options_tts">Ääniasetukset (TTS)</string>
+    <string name="test_voice">Testaa ääntä</string>
+    <string name="download_tts_engine">Lataa TTs Engine</string>
+    <string name="select_tts_engine">Valitse TTS Engine</string>
+    <string name="google_text_to_speech_engine">Googlen tekstistä puheeksi -moottori</string>
+    <string name="voice_language">Äänen kieli</string>
+    <string name="download_more_tts_language_data">Lataa lisää TTS-kielitietoja</string>
+    <string name="device_tts_setting">Laitteen TTS-asetus</string>
+    <string name="health_data">Terveystiedot</string>
+    <string name="remind_me_to_workout_every_day">Muistuta minua harjoittelemaan joka päivä</string>
+    <string name="keep_the_screen_on">Pidä näyttö päällä</string>
+    <string name="general_settings">Yleiset asetukset</string>
+    <string name="community">Yhteisö</string>
+    <string name="share_with_friends">Jaa ystävien kanssa</string>
+    <string name="support_us">Tue meitä</string>
+    <string name="rate_us">Anna meille arvosana</string>
+    <string name="privacy_policy">Tietosuojakäytäntö</string>
+    <string name="did_you_hear_test_voice">Kuulitko testiäänen?</string>
+    <string name="my_profile">Profiilini</string>
+    <string name="restart_progress">Käynnistä Progress uudelleen</string>
+    <string name="remove_ads">Poista mainokset</string>
+
+    <string name="iap_detail">1. Google hallitsee ja hallinnoi kaikkia Play Kaupan kautta suoritettuja maksuja.\n2. </string>
+    <string name="start">alkaa</string>
+    <string name="target_weight">Tavoitepaino</string>
+    <string name="yes">Joo</string>
+    <string name="no">Ei</string>
+    <string name="dl_test_voice_no_msg_test">Käyttämäsi TTS-moottori ei toimi nyt, tarkista se uudelleen, vaihda toiseen TTS-moottoriin tai lataa TTS-puhekieli.</string>
+    <string name="please_choose_guide_voice_engine">Valitse opasäänimoottori:</string>
+    <string name="repeat">Toistaa</string>
+    <string name="tip">Kärki</string>
+    <string name="send_feedback">Lähetä palautetta</string>
+
+    <string name="week">Viikko</string>
+    <string name="mins">Min</string>
+    <string name="quite_exercise_msg">Hien tippuminen on rasvaa\ntipoamista.</string>
+    <string name="quit">Lopettaa</string>
+    <string name="str_continue">Jatkaa</string>
+    <string name="come_back_in_30_minute"><u>Palaa 30 minuutin kuluttua</u></string>
+    <string name="done">Tehty</string>
+    <string name="view_all">Näytä kaikki</string>
+    <string name="finished">Valmis</string>
+    <string name="restart">Uudelleenkäynnistää</string>
+    <string name="recent">Viimeaikaiset</string>
+    <string name="rest_day">Lepopäivä</string>
+    <string name="replace">Korvata</string>
+    <string name="reset_plan">Nollaa suunnitelma</string>
+    <string name="edit_plan">Muokkaa suunnitelmaa</string>
+    <string name="save_changes_que">Tallenna muutokset?</string>
+    <string name="reset">Nollaa</string>
+    <string name="replace_with">Korvata</string>
+    <string name="change_plan">Muuta suunnitelmaa</string>
+    <string name="change_language">Vaihda kieltä</string>
+    <string name="language_options">Kielivaihtoehdot</string>
+    <string name="hours">Tuntia</string>
+    <string name="completed">Valmis</string>
+    <string name="well_done">Hyvin tehty!</string>
+    <string name="time_to_drink_water">On aika juoda vettä</string>
+    <string name="time_to_hydrate">On aika kosteuttaa!</string>
+    <string name="drink_water_make_skin_batter">Juomalla vettä voi saada ihosi näyttämään taikinalta.</string>
+    <string name="pause">Tauko</string>
+    <string name="no_internet_available">Internet ei ole käytettävissä</string>
+</resources>

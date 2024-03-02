@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">СцулптХер: Фитнес са стилом</string>
+
+
+    <string name="btn_ok">Ок</string>
+    <string name="btn_cancel">Поништити, отказати</string>
+    <string name="exit_msg">Притисните Назад два пута да изађете</string>
+    <string name="search">Претрага</string>
+    <string name="clear">Јасно</string>
+    <string name="choose_gallery">Изаберите из галерије</string>
+    <string name="err_file_manager">Молимо инсталирајте Филе Манагер.</string>
+    <string name="choose_camera">Сними са камере</string>
+    <string name="permission_msg">Потребна је дозвола за галерију и камеру</string>
+    <string name="permission_setting">Подешавање дозволе</string>
+
+    <string name="login">Пријавите се</string>
+    <string name="profile">Профил</string>
+    <string name="description">Опис</string>
+    <string name="save">сачувати</string>
+
+    <string name="err_camera">не може да отвори камеру</string>
+
+    <string name="name">Име</string>
+
+
+    <string name="need_permission_title">Потребна(е) дозвола(е)</string>
+    <string name="err_need_permission_msg">Раније сте одбили ову дозволу.\нОву дозволу морате да одобрите у \"Дозволама\" у подешавањима апликације на свом уређају.</string>
+
+    <string name="back">Назад</string>
+    <string name="more">Више</string>
+    <string name="refresh">Освјежи</string>
+    <string name="facility_code">Фацилити Цоде</string>
+    <string name="home">Кућа</string>
+    <string name="re_scan">Поново скенирај</string>
+    <string name="inmate_activity">Инмате Ацтивити</string>
+
+    <string name="cancel">Поништити, отказати</string>
+    <string name="retry">Покушај поново</string>
+    <string name="logout">Одјавити се</string>
+
+    <string name="user">Корисник</string>
+    <string name="setting">Подешавање</string>
+    <string name="report_issue">Пријави проблем</string>
+    <string name="what_s_your_goal">Шта је твој циљ?</string>
+
+    <string name="goal_lose_weight">Смршати</string>
+    <string name="goal_butt_lift">Подизање задњице</string>
+    <string name="goal_lose_belly_fat">Изгубите сало на стомаку</string>
+    <string name="goal_build_muscle_strength">Изградњу мишића</string>
+
+    <string name="next">следећи</string>
+    <string name="skip">Скип</string>
+    <string name="how_much_do_nyou_weight">Колико\ни имаш тежину?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Обавестите нас боље како бисмо вам помогли да побољшате свој радни резултат.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Изгубите тежину уз план који вам највише одговара</string>
+    <string name="how_tall_are_nyou">Колико си висок?</string>
+    <string name="bmi">БМИ</string>
+    <string name="bmi_colon">БМИ:</string>
+    <string name="go_to_homepage"><у>Идите на почетну страницу</у></string>
+    <string name="plan">План</string>
+    <string name="reports">Извештаји</string>
+    <string name="me">ја</string>
+    <string name="lose_weight">Смршати</string>
+    <string name="go">Иди!</string>
+    <string name="drink">Пиће</string>
+    <string name="turn_on_water_tracker">Укључите Ватер Трацкер</string>
+
+    <string name="dummy_text">Лорем Ипсум је био стандардни лажни текст у индустрији још од 1500-их, када је непознати штампач узео кулију писача и скремблирао је да направи књигу примерака типа. </string>
+    <string name="dummy_text2">Лорем Ипсум је био стандардни лажни текст у индустрији још од 1500-их, када је непознати штампач узео кулију писача и скремблирао је да направи књигу примерака типа. </string>
+    <string name="instruction">Упутство</string>
+    <string name="fast_workout">Брзи тренинг</string>
+    <string name="not_enough_time">Немамо довољно времена?</string>
+    <string name="_2_7_min_fast_workout">Брза вежба од 2-7 минута</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">Вежбајте 2-7 минута да бисте урадили било шта, било где.</string>
+    <string name="body_focus">Фокус на тело</string>
+
+    <string name="sound_options">Опције звука</string>
+    <string name="mute">Муте</string>
+    <string name="voice_guide">Гласовни водич</string>
+    <string name="voice_guide_des">Знајте свој следећи тренинг и колико пута треба да га урадите.</string>
+    <string name="coach_tips">Савети тренера</string>
+    <string name="common_questions">Уобичајена питања</string>
+    <string name="btn_continue">Настави</string>
+    <string name="close">Близу</string>
+    <string name="exercies">Вежбе</string>
+    <string name="workouts">Вежбе</string>
+    <string name="kcal">Кцал</string>
+    <string name="minute">Минута</string>
+    <string name="minutes">минута</string>
+    <string name="duration">Трајање</string>
+    <string name="share">Објави</string>
+    <string name="do_it_again">Урадите то поново</string>
+    <string name="reminder_colon">Подсетник:</string>
+    <string name="reminder">Подсетник</string>
+    <string name="kg">КГ</string>
+    <string name="lb">ФУНТА</string>
+    <string name="weight">Тежина</string>
+    <string name="enter_weight">Унесите тежину</string>
+    <string name="tap_here_to_input_your_height">Додирните <б>овде</б> да унесете своју висину</string>
+    <string name="i_feel">ја осећам</string>
+    <string name="easy">Лако</string>
+    <string name="exhausted">Исцрпљен</string>
+    <string name="feedback">Повратна информација</string>
+    <string name="height">Висина</string>
+    <string name="enter_height">Унесите висину</string>
+    <string name="cm">ЦЕНТИМЕТАР</string>
+
+    <string name="in">ИН</string>
+    <string name="gender">Пол</string>
+    <string name="male">Мушки</string>
+    <string name="female">Женско</string>
+    <string name="year_of_birth">Година рођења</string>
+    <string name="previous">Претходна</string>
+    <string name="set">КОМПЛЕТ</string>
+    <string name="history">Историја</string>
+
+    <string name="delete">Избриши</string>
+    <string name="confirm_delete">Потврдити брисање?</string>
+    <string name="delete_confirmation_msg">Да ли сте сигурни да желите да је избришете?</string>
+    <string name="restart_confirmation_msg">Да ли сте сигурни да желите да поново покренете напредак?</string>
+    <string name="restart_day_confirmation_msg">Да ли желите да обришете свој напредак и поново почнете од првог дана?</string>
+    <string name="total">Укупно</string>
+    <string name="current">Тренутни</string>
+    <string name="heaviest">Најтеже</string>
+    <string name="lightest">Најлакши</string>
+    <string name="current_colon">Тренутни:</string>
+    <string name="heaviest_colon">Најтежи:</string>
+    <string name="lightest_colon">Најлакши:</string>
+    <string name="edit">Уредити</string>
+    <string name="workout">Разрадити</string>
+
+    <string name="go_premium">Иди Премиум</string>
+    <string name="voice_options_tts">Гласовне опције (ТТС)</string>
+    <string name="test_voice">Тест Воице</string>
+    <string name="download_tts_engine">Преузмите ТТс Енгине</string>
+    <string name="select_tts_engine">Изаберите ТТС Енгине</string>
+    <string name="google_text_to_speech_engine">Гоогле механизам за претварање текста у говор</string>
+    <string name="voice_language">Гласовни језик</string>
+    <string name="download_more_tts_language_data">Преузмите више ТТС језичких података</string>
+    <string name="device_tts_setting">Подешавање ТТС уређаја</string>
+    <string name="health_data">Здравствени подаци</string>
+    <string name="remind_me_to_workout_every_day">Подсети ме да вежбам сваки дан</string>
+    <string name="keep_the_screen_on">Држите екран укључен</string>
+    <string name="general_settings">Општа подешавања</string>
+    <string name="community">Заједница</string>
+    <string name="share_with_friends">Подели са пријатељима</string>
+    <string name="support_us">Подржи нас</string>
+    <string name="rate_us">Оцените нас</string>
+    <string name="privacy_policy">Правила о приватности</string>
+    <string name="did_you_hear_test_voice">Јесте ли чули пробни глас?</string>
+    <string name="my_profile">Мој профил</string>
+    <string name="restart_progress">Поново покрените напредак</string>
+    <string name="remove_ads">Уклони огласе</string>
+
+    <string name="iap_detail">1. Сва плаћања путем Плаи продавнице контролише и њима управља Гоогле.\н2. </string>
+    <string name="start">Почетак</string>
+    <string name="target_weight">Циљна тежина</string>
+    <string name="yes">да</string>
+    <string name="no">Не</string>
+    <string name="dl_test_voice_no_msg_test">ТТС механизам који користите сада не ради, проверите га још једном, пређите на други ТТС мотор или преузмите ТТС говорни језик.</string>
+    <string name="please_choose_guide_voice_engine">Молимо изаберите гласовни механизам водича:</string>
+    <string name="repeat">Понављање</string>
+    <string name="tip">Савет</string>
+    <string name="send_feedback">Пошаљи повратне информације</string>
+
+    <string name="week">Недеља</string>
+    <string name="mins">Минс</string>
+    <string name="quite_exercise_msg">Зној капље је масно\нкапање.</string>
+    <string name="quit">Одустати</string>
+    <string name="str_continue">Настави</string>
+    <string name="come_back_in_30_minute"><у>Вратите се за 30 минута</у></string>
+    <string name="done">Готово</string>
+    <string name="view_all">Погледати све</string>
+    <string name="finished">Готов</string>
+    <string name="restart">Поново покренути</string>
+    <string name="recent">Скорашњи</string>
+    <string name="rest_day">Дан починка</string>
+    <string name="replace">Заменити</string>
+    <string name="reset_plan">Ресетуј план</string>
+    <string name="edit_plan">Уредите план</string>
+    <string name="save_changes_que">Сачувај измене?</string>
+    <string name="reset">Ресетовати</string>
+    <string name="replace_with">Замени са</string>
+    <string name="change_plan">Промени план</string>
+    <string name="change_language">Промени језик</string>
+    <string name="language_options">Опције језика</string>
+    <string name="hours">Сати</string>
+    <string name="completed">Завршено</string>
+    <string name="well_done">Добро урађено!</string>
+    <string name="time_to_drink_water">Време је да се пије вода</string>
+    <string name="time_to_hydrate">Време је за хидратацију!</string>
+    <string name="drink_water_make_skin_batter">Пијте воду може учинити да ваша кожа изгледа лепше.</string>
+    <string name="pause">Пауза</string>
+    <string name="no_internet_available">Нема доступног интернета</string>
+</resources>

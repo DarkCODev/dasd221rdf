@@ -14,7 +14,7 @@
                 android:layout_gravity="center"
                 android:layout_marginBottom="7dp"
                 android:layout_marginTop="7dp"
-                android:text="Today"
+                android:text="@string/today"
                 android:background="@drawable/btn_bg_round"
                 android:backgroundTint="@color/gray_light_____"
                 android:paddingBottom="5dp"

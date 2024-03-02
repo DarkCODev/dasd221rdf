@@ -188,14 +188,14 @@
                                         style="@style/txt_fff_22"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="Fat burning HIIT" />
+                                        android:text="@string/fat_burning_hiit" />
 
                                     <com.common.view.CTextView
                                         style="@style/txt_fff_16"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginTop="@dimen/_4sdp"
-                                        android:text="2-7 min" />
+                                        android:text="@string/_2_7_min" />
 
                                 </LinearLayout>
 

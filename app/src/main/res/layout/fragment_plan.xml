@@ -48,7 +48,7 @@
                         android:layout_weight="1"
                         android:drawablePadding="7dp"
                         android:paddingEnd="@dimen/_15sdp"
-                       android:text="Recent" />
+                       android:text="@string/recent" />
 
                     <com.common.view.CMTextView
                         android:id="@+id/tvViewAll"
@@ -211,7 +211,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_5sdp"
-                            android:text="30 days left" />
+                            android:text="@string/_30_days_left" />
 
                     </LinearLayout>
 
@@ -224,7 +224,7 @@
                         android:layout_marginBottom="@dimen/_15sdp"
                         android:layout_marginStart="@dimen/_20sdp"
                         android:background="@drawable/btn_bg_round_grediant"
-                        android:text="Day 1"
+                        android:text="@string/day_1"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         android:onClick="@{(v)->handler.onDaysPlanClick()}"/>
@@ -317,7 +317,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_15sdp"
                 android:paddingStart="@dimen/_5sdp"
-                android:text="Daily" />
+                android:text="@string/daily" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
@@ -347,7 +347,7 @@
                             style="@style/txt_000_18"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="Water Tracker" />
+                            android:text="@string/water_tracker" />
 
                         <com.common.view.CTextView
                             android:id="@+id/tvWaterTrackerDes"
@@ -355,7 +355,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginTop="@dimen/_4sdp"
-                            android:text="Water is the fuel of the muscles."
+                            android:text="@string/water_is_the_fuel_of_the_muscles"
                             android:visibility="gone" />
 
                         <LinearLayout
@@ -378,7 +378,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="@dimen/_5sdp"
-                                android:text="/8 Cups" />
+                                android:text="@string/_8_cups" />
 
                         </LinearLayout>
 

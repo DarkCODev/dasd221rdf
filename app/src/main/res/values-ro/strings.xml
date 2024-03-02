@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness cu stil</string>
+
+
+    <string name="btn_ok">Bine</string>
+    <string name="btn_cancel">Anulare</string>
+    <string name="exit_msg">Apăsați Înapoi de două ori pentru a ieși</string>
+    <string name="search">Căutare</string>
+    <string name="clear">clar</string>
+    <string name="choose_gallery">Alegeți din Galerie</string>
+    <string name="err_file_manager">Vă rugăm să instalați un Manager de fișiere.</string>
+    <string name="choose_camera">Luați de la cameră</string>
+    <string name="permission_msg">Este necesară permisiunea pentru Galerie și Cameră</string>
+    <string name="permission_setting">Setarea permisiunii</string>
+
+    <string name="login">Log in</string>
+    <string name="profile">Profil</string>
+    <string name="description">Descriere</string>
+    <string name="save">Salvați</string>
+
+    <string name="err_camera">nu poate deschide camera</string>
+
+    <string name="name">Nume</string>
+
+
+    <string name="need_permission_title">Aveți nevoie de permisiuni</string>
+    <string name="err_need_permission_msg">Ați refuzat anterior această permisiune.\nTrebuie să aprobați această permisiune în \„Permisiuni\” din setările aplicației de pe dispozitiv.</string>
+
+    <string name="back">Înapoi</string>
+    <string name="more">Mai mult</string>
+    <string name="refresh">Reîmprospăta</string>
+    <string name="facility_code">Codul unității</string>
+    <string name="home">Acasă</string>
+    <string name="re_scan">Scanează din nou</string>
+    <string name="inmate_activity">Activitatea deținuților</string>
+
+    <string name="cancel">Anulare</string>
+    <string name="retry">Reîncercați</string>
+    <string name="logout">Deconectare</string>
+
+    <string name="user">Utilizator</string>
+    <string name="setting">Setare</string>
+    <string name="report_issue">Raportați o problemă</string>
+    <string name="what_s_your_goal">Care este scopul tău?</string>
+
+    <string name="goal_lose_weight">Slăbi</string>
+    <string name="goal_butt_lift">Ridicarea feselor</string>
+    <string name="goal_lose_belly_fat">Pierde grăsimea de pe abdomen</string>
+    <string name="goal_build_muscle_strength">Construiți mușchi</string>
+
+    <string name="next">Următorul</string>
+    <string name="skip">Ocolire</string>
+    <string name="how_much_do_nyou_weight">Cât\ cântăreşti?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Anunțați-ne mai bine pentru a vă ajuta să vă creșteți rezultatul muncii.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Slăbește cu planul care ți se potrivește cel mai bine</string>
+    <string name="how_tall_are_nyou">Cât de înalt ai\tu?</string>
+    <string name="bmi">IMC</string>
+    <string name="bmi_colon">IMC:</string>
+    <string name="go_to_homepage"><u>Accesați pagina de pornire</u></string>
+    <string name="plan">Plan</string>
+    <string name="reports">Rapoarte</string>
+    <string name="me">Pe mine</string>
+    <string name="lose_weight">Slăbi</string>
+    <string name="go">Merge!</string>
+    <string name="drink">Băutură</string>
+    <string name="turn_on_water_tracker">Porniți Water Tracker</string>
+
+    <string name="dummy_text">Lorem Ipsum a fost textul fals standard al industriei încă din anii 1500, când o imprimantă necunoscută a luat o bucătărie de tipărire și a amestecat-o pentru a face o carte cu specimene de tipar. </string>
+    <string name="dummy_text2">Lorem Ipsum a fost textul fals standard al industriei încă din anii 1500, când o imprimantă necunoscută a luat o bucătărie de tipărire și a amestecat-o pentru a face o carte cu specimene de tipar. </string>
+    <string name="instruction">Instruire</string>
+    <string name="fast_workout">Antrenament rapid</string>
+    <string name="not_enough_time">Nu am timp suficient?</string>
+    <string name="_2_7_min_fast_workout">Antrenament rapid de 2-7 minute</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">Antrenament de 2-7 minute pentru a face orice, oriunde.</string>
+    <string name="body_focus">Concentrarea corpului</string>
+
+    <string name="sound_options">Opțiuni de sunet</string>
+    <string name="mute">Mut</string>
+    <string name="voice_guide">Ghid vocal</string>
+    <string name="voice_guide_des">Aflați următorul antrenament și de câte ori trebuie să îl faceți.</string>
+    <string name="coach_tips">Sfaturi pentru antrenor</string>
+    <string name="common_questions">Intrebari obisnuite</string>
+    <string name="btn_continue">Continua</string>
+    <string name="close">Închide</string>
+    <string name="exercies">Exerciții</string>
+    <string name="workouts">Antrenamente</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">Minut</string>
+    <string name="minutes">minute</string>
+    <string name="duration">Durată</string>
+    <string name="share">Acțiune</string>
+    <string name="do_it_again">Fă-o din nou</string>
+    <string name="reminder_colon">Aducere aminte:</string>
+    <string name="reminder">Aducere aminte</string>
+    <string name="kg">KG</string>
+    <string name="lb">LIVRE</string>
+    <string name="weight">Greutate</string>
+    <string name="enter_weight">Vă rugăm să introduceți greutatea</string>
+    <string name="tap_here_to_input_your_height">Atingeți <b>aici</b> pentru a vă introduce înălțimea</string>
+    <string name="i_feel">simt</string>
+    <string name="easy">Uşor</string>
+    <string name="exhausted">Epuizat</string>
+    <string name="feedback">Părere</string>
+    <string name="height">Înălţime</string>
+    <string name="enter_height">Vă rugăm să introduceți înălțimea</string>
+    <string name="cm">CM</string>
+
+    <string name="in">ÎN</string>
+    <string name="gender">Gen</string>
+    <string name="male">Masculin</string>
+    <string name="female">Femeie</string>
+    <string name="year_of_birth">Anul nașterii</string>
+    <string name="previous">Anterior</string>
+    <string name="set">A STABILIT</string>
+    <string name="history">Istorie</string>
+
+    <string name="delete">Șterge</string>
+    <string name="confirm_delete">Confirmă ștergerea?</string>
+    <string name="delete_confirmation_msg">Sigur vrei să-l ștergi?</string>
+    <string name="restart_confirmation_msg">Sigur doriți să reporniți progresul?</string>
+    <string name="restart_day_confirmation_msg">Doriți să vă ștergeți progresul și să reporniți din prima zi?</string>
+    <string name="total">Total</string>
+    <string name="current">Actual</string>
+    <string name="heaviest">Cel mai greu</string>
+    <string name="lightest">Cel mai usor</string>
+    <string name="current_colon">Actual:</string>
+    <string name="heaviest_colon">Cel mai greu:</string>
+    <string name="lightest_colon">Cel mai usor:</string>
+    <string name="edit">Editați | ×</string>
+    <string name="workout">A face exerciţii fizice</string>
+
+    <string name="go_premium">Devino Premium</string>
+    <string name="voice_options_tts">Opțiuni vocale (TTS)</string>
+    <string name="test_voice">Testați vocea</string>
+    <string name="download_tts_engine">Descărcați TTs Engine</string>
+    <string name="select_tts_engine">Selectați TTS Engine</string>
+    <string name="google_text_to_speech_engine">Motorul Google Text-to-speech</string>
+    <string name="voice_language">Limba vocii</string>
+    <string name="download_more_tts_language_data">Descărcați mai multe date privind limba TTS</string>
+    <string name="device_tts_setting">Setare TTS dispozitiv</string>
+    <string name="health_data">Date de sănătate</string>
+    <string name="remind_me_to_workout_every_day">Amintește-mi să mă antrenez în fiecare zi</string>
+    <string name="keep_the_screen_on">Ține ecranul aprins</string>
+    <string name="general_settings">setari generale</string>
+    <string name="community">Comunitate</string>
+    <string name="share_with_friends">Impartasiti cu prietenii</string>
+    <string name="support_us">Ajuta-ne</string>
+    <string name="rate_us">Ne evalua</string>
+    <string name="privacy_policy">Politica de confidențialitate</string>
+    <string name="did_you_hear_test_voice">Ai auzit vocea de test?</string>
+    <string name="my_profile">Profilul meu</string>
+    <string name="restart_progress">Reporniți Progress</string>
+    <string name="remove_ads">Elimina anunțurile</string>
+
+    <string name="iap_detail">1. Toate plățile efectuate prin Magazin Play sunt controlate și gestionate de Google.\n2. </string>
+    <string name="start">start</string>
+    <string name="target_weight">Greutate țintă</string>
+    <string name="yes">da</string>
+    <string name="no">Nu</string>
+    <string name="dl_test_voice_no_msg_test">Motorul TTS pe care îl utilizați nu funcționează acum, verificați-l, comutați la alt motor TTS sau descărcați limba vocală TTS.</string>
+    <string name="please_choose_guide_voice_engine">Vă rugăm să alegeți motorul vocal al ghidului:</string>
+    <string name="repeat">Repeta</string>
+    <string name="tip">Bacsis</string>
+    <string name="send_feedback">Trimite feedback</string>
+
+    <string name="week">Săptămână</string>
+    <string name="mins">Min</string>
+    <string name="quite_exercise_msg">Picurarea transpirației este grăsime\picătură.</string>
+    <string name="quit">Părăsi</string>
+    <string name="str_continue">Continua</string>
+    <string name="come_back_in_30_minute"><u>Reveniți în 30 de minute</u></string>
+    <string name="done">Terminat</string>
+    <string name="view_all">A vedea tot</string>
+    <string name="finished">Terminat</string>
+    <string name="restart">Repornire</string>
+    <string name="recent">Recent</string>
+    <string name="rest_day">Zi de odihna</string>
+    <string name="replace">A inlocui</string>
+    <string name="reset_plan">Resetați planul</string>
+    <string name="edit_plan">Editați planul</string>
+    <string name="save_changes_que">Salvează modificările?</string>
+    <string name="reset">Resetați</string>
+    <string name="replace_with">Înlocui cu</string>
+    <string name="change_plan">Schimbați planul</string>
+    <string name="change_language">Schimbați limba</string>
+    <string name="language_options">Opțiuni de limbă</string>
+    <string name="hours">Ore</string>
+    <string name="completed">Efectuat</string>
+    <string name="well_done">Bine făcut!</string>
+    <string name="time_to_drink_water">Este timpul să bei apă</string>
+    <string name="time_to_hydrate">E timpul să te hidratezi!</string>
+    <string name="drink_water_make_skin_batter">Bea apă poate face pielea să arate aluat.</string>
+    <string name="pause">Pauză</string>
+    <string name="no_internet_available">Nu există internet disponibil</string>
+</resources>

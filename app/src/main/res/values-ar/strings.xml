@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - اللياقة البدنية مع الأناقة</string>
+
+
+    <string name="btn_ok">نعم</string>
+    <string name="btn_cancel">يلغي</string>
+    <string name="exit_msg">اضغط على "رجوع" مرتين للخروج</string>
+    <string name="search">يبحث</string>
+    <string name="clear">واضح</string>
+    <string name="choose_gallery">اختر من المعرض</string>
+    <string name="err_file_manager">الرجاء تثبيت مدير الملفات.</string>
+    <string name="choose_camera">خذ من الكاميرا</string>
+    <string name="permission_msg">مطلوب إذن المعرض والكاميرا</string>
+    <string name="permission_setting">إعداد الأذونات</string>
+
+    <string name="login">تسجيل الدخول</string>
+    <string name="profile">حساب تعريفي</string>
+    <string name="description">وصف</string>
+    <string name="save">يحفظ</string>
+
+    <string name="err_camera">لا يمكن فتح الكاميرا</string>
+
+    <string name="name">اسم</string>
+
+
+    <string name="need_permission_title">بحاجة إلى إذن (أذونات)</string>
+    <string name="err_need_permission_msg">لقد رفضت هذا الإذن من قبل.\nيجب عليك الموافقة على هذا الإذن في \"الأذونات\" في إعدادات التطبيق على جهازك.</string>
+
+    <string name="back">خلف</string>
+    <string name="more">أكثر</string>
+    <string name="refresh">ينعش</string>
+    <string name="facility_code">رمز المنشأة</string>
+    <string name="home">بيت</string>
+    <string name="re_scan">إعادة المسح</string>
+    <string name="inmate_activity">نشاط النزلاء</string>
+
+    <string name="cancel">يلغي</string>
+    <string name="retry">أعد المحاولة</string>
+    <string name="logout">تسجيل خروج</string>
+
+    <string name="user">مستخدم</string>
+    <string name="setting">جلسة</string>
+    <string name="report_issue">قضية تقرير</string>
+    <string name="what_s_your_goal">ما هو هدفك؟</string>
+
+    <string name="goal_lose_weight">فقدان الوزن</string>
+    <string name="goal_butt_lift">رفع المؤخرة</string>
+    <string name="goal_lose_belly_fat">خسارة دهون البطن</string>
+    <string name="goal_build_muscle_strength">بناء العضلات</string>
+
+    <string name="next">التالي</string>
+    <string name="skip">يتخطى</string>
+    <string name="how_much_do_nyou_weight">كم\nوزنك؟</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">أخبرنا بشكل أفضل لمساعدتك في تعزيز نتيجة عملك.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">انقاص الوزن مع الخطة التي تناسبك</string>
+    <string name="how_tall_are_nyou">ما هو طولك\n؟</string>
+    <string name="bmi">مؤشر كتلة الجسم</string>
+    <string name="bmi_colon">مؤشر كتلة الجسم:</string>
+    <string name="go_to_homepage"><u>انتقل إلى الصفحة الرئيسية</u></string>
+    <string name="plan">يخطط</string>
+    <string name="reports">التقارير</string>
+    <string name="me">أنا</string>
+    <string name="lose_weight">فقدان الوزن</string>
+    <string name="go">يذهب!</string>
+    <string name="drink">يشرب</string>
+    <string name="turn_on_water_tracker">قم بتشغيل تعقب المياه</string>
+
+    <string name="dummy_text">لقد كان لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب. </string>
+    <string name="dummy_text2">لقد كان لوريم إيبسوم هو النص الوهمي القياسي في الصناعة منذ القرن السادس عشر، عندما أخذت طابعة غير معروفة لوح الكتابة وخلطته لصنع نموذج كتاب. </string>
+    <string name="instruction">تعليمات</string>
+    <string name="fast_workout">تجريب سريع</string>
+    <string name="not_enough_time">وقت غير كافي؟</string>
+    <string name="_2_7_min_fast_workout">تمرين سريع لمدة 2-7 دقائق</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">تمرين لمدة 2-7 دقائق لفعل أي شيء وفي أي مكان.</string>
+    <string name="body_focus">تركيز الجسم</string>
+
+    <string name="sound_options">خيارات الصوت</string>
+    <string name="mute">صامت</string>
+    <string name="voice_guide">دليل صوتي</string>
+    <string name="voice_guide_des">تعرف على تمرينك التالي وعدد المرات التي تحتاج إلى القيام بها.</string>
+    <string name="coach_tips">نصائح المدرب</string>
+    <string name="common_questions">الأسئلة الشائعة</string>
+    <string name="btn_continue">يكمل</string>
+    <string name="close">يغلق</string>
+    <string name="exercies">تمارين</string>
+    <string name="workouts">التدريبات</string>
+    <string name="kcal">سعر حراري</string>
+    <string name="minute">دقيقة</string>
+    <string name="minutes">دقائق</string>
+    <string name="duration">مدة</string>
+    <string name="share">يشارك</string>
+    <string name="do_it_again">افعلها مرة أخرى</string>
+    <string name="reminder_colon">تذكير:</string>
+    <string name="reminder">تذكير</string>
+    <string name="kg">كلغ</string>
+    <string name="lb">رطل</string>
+    <string name="weight">وزن</string>
+    <string name="enter_weight">الرجاء إدخال الوزن</string>
+    <string name="tap_here_to_input_your_height">انقر <b>هنا</b> لإدخال طولك</string>
+    <string name="i_feel">انا اشعر</string>
+    <string name="easy">سهل</string>
+    <string name="exhausted">مرهق</string>
+    <string name="feedback">تعليق</string>
+    <string name="height">ارتفاع</string>
+    <string name="enter_height">الرجاء إدخال الارتفاع</string>
+    <string name="cm">سم</string>
+
+    <string name="in">في</string>
+    <string name="gender">جنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="year_of_birth">سنة الميلاد</string>
+    <string name="previous">سابق</string>
+    <string name="set">تعيين</string>
+    <string name="history">تاريخ</string>
+
+    <string name="delete">يمسح</string>
+    <string name="confirm_delete">تأكيد الحذف؟</string>
+    <string name="delete_confirmation_msg">هل أنت متأكد أنك تريد حذف ذلك؟</string>
+    <string name="restart_confirmation_msg">هل أنت متأكد أنك تريد استئناف التقدم؟</string>
+    <string name="restart_day_confirmation_msg">هل ترغب في مسح تقدمك وإعادة التشغيل من اليوم الأول؟</string>
+    <string name="total">المجموع</string>
+    <string name="current">حاضِر</string>
+    <string name="heaviest">أثقل</string>
+    <string name="lightest">الأخف وزنا</string>
+    <string name="current_colon">حاضِر:</string>
+    <string name="heaviest_colon">أثقل:</string>
+    <string name="lightest_colon">الأخف:</string>
+    <string name="edit">يحرر</string>
+    <string name="workout">اكتشف - حل</string>
+
+    <string name="go_premium">احصل على الاشتراك الرئيسي</string>
+    <string name="voice_options_tts">خيارات الصوت (TTS)</string>
+    <string name="test_voice">اختبار الصوت</string>
+    <string name="download_tts_engine">تحميل محرك TTs</string>
+    <string name="select_tts_engine">حدد محرك تحويل النص إلى كلام</string>
+    <string name="google_text_to_speech_engine">جوجل محرك تحويل النص إلى كلام</string>
+    <string name="voice_language">لغة الصوت</string>
+    <string name="download_more_tts_language_data">قم بتنزيل المزيد من بيانات لغة TTS</string>
+    <string name="device_tts_setting">إعدادات تحويل النص إلى كلام (TTS) للجهاز</string>
+    <string name="health_data">البيانات الصحية</string>
+    <string name="remind_me_to_workout_every_day">ذكرني بممارسة الرياضة كل يوم</string>
+    <string name="keep_the_screen_on">أبقِ الشاشة قيد التشغيل</string>
+    <string name="general_settings">الاعدادات العامة</string>
+    <string name="community">مجتمع</string>
+    <string name="share_with_friends">شارك مع الاصدقاء</string>
+    <string name="support_us">ادعمنا</string>
+    <string name="rate_us">قيمنا</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="did_you_hear_test_voice">هل سمعت صوت الاختبار؟</string>
+    <string name="my_profile">ملفي</string>
+    <string name="restart_progress">إعادة تشغيل التقدم</string>
+    <string name="remove_ads">ازالة الاعلانات</string>
+
+    <string name="iap_detail">1. يتم التحكم في جميع عمليات الدفع التي تتم من خلال متجر Play وإدارتها بواسطة Google.\n2. </string>
+    <string name="start">يبدأ</string>
+    <string name="target_weight">الوزن المستهدف</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="dl_test_voice_no_msg_test">محرك تحويل النص إلى كلام الذي تستخدمه لا يعمل الآن، يرجى التحقق منه مرة أخرى أو التبديل إلى محرك تحويل النص إلى كلام آخر أو تنزيل لغة تحويل النص إلى كلام الصوتية.</string>
+    <string name="please_choose_guide_voice_engine">الرجاء اختيار دليل المحرك الصوتي:</string>
+    <string name="repeat">يكرر</string>
+    <string name="tip">نصيحة</string>
+    <string name="send_feedback">ارسل رأيك</string>
+
+    <string name="week">أسبوع</string>
+    <string name="mins">دقيقة</string>
+    <string name="quite_exercise_msg">تساقط العرق هو تساقط للدهون.</string>
+    <string name="quit">يترك</string>
+    <string name="str_continue">يكمل</string>
+    <string name="come_back_in_30_minute"><u>العودة خلال 30 دقيقة</u></string>
+    <string name="done">منتهي</string>
+    <string name="view_all">عرض الكل</string>
+    <string name="finished">انتهى</string>
+    <string name="restart">إعادة تشغيل</string>
+    <string name="recent">مؤخرًا</string>
+    <string name="rest_day">يوم الراحة</string>
+    <string name="replace">يستبدل</string>
+    <string name="reset_plan">إعادة ضبط الخطة</string>
+    <string name="edit_plan">تحرير الخطة</string>
+    <string name="save_changes_que">هل تريد حفظ التغييرات؟</string>
+    <string name="reset">إعادة ضبط</string>
+    <string name="replace_with">استبدل ب</string>
+    <string name="change_plan">خطة التغيير</string>
+    <string name="change_language">تغيير اللغة</string>
+    <string name="language_options">خيارات اللغة</string>
+    <string name="hours">ساعات</string>
+    <string name="completed">مكتمل</string>
+    <string name="well_done">أحسنت!</string>
+    <string name="time_to_drink_water">لقد حان الوقت لشرب الماء</string>
+    <string name="time_to_hydrate">حان الوقت لترطيب!</string>
+    <string name="drink_water_make_skin_batter">شرب الماء يمكن أن يجعل بشرتك تبدو باهتة.</string>
+    <string name="pause">يوقف</string>
+    <string name="no_internet_available">لا يوجد إنترنت متاح</string>
+</resources>

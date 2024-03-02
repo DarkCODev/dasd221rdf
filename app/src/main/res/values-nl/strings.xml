@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Fitness met stijl</string>
+
+
+    <string name="btn_ok">OK</string>
+    <string name="btn_cancel">Annuleren</string>
+    <string name="exit_msg">Druk tweemaal op Terug om af te sluiten</string>
+    <string name="search">Zoekopdracht</string>
+    <string name="clear">Duidelijk</string>
+    <string name="choose_gallery">Kies uit galerij</string>
+    <string name="err_file_manager">Installeer een Bestandsbeheer.</string>
+    <string name="choose_camera">Neem van camera</string>
+    <string name="permission_msg">Galerij- en cameratoestemming is vereist</string>
+    <string name="permission_setting">Toestemmingsinstelling</string>
+
+    <string name="login">Log in</string>
+    <string name="profile">Profiel</string>
+    <string name="description">Beschrijving</string>
+    <string name="save">Redden</string>
+
+    <string name="err_camera">kan de camera niet openen</string>
+
+    <string name="name">Naam</string>
+
+
+    <string name="need_permission_title">Toestemming(en) nodig</string>
+    <string name="err_need_permission_msg">U heeft deze toestemming eerder geweigerd.\nU moet deze toestemming goedkeuren in \"Rechten\" in de app-instellingen op uw apparaat.</string>
+
+    <string name="back">Rug</string>
+    <string name="more">Meer</string>
+    <string name="refresh">Vernieuwen</string>
+    <string name="facility_code">Faciliteitscode</string>
+    <string name="home">Thuis</string>
+    <string name="re_scan">Opnieuw scannen</string>
+    <string name="inmate_activity">Activiteit van de gevangene</string>
+
+    <string name="cancel">Annuleren</string>
+    <string name="retry">Opnieuw proberen</string>
+    <string name="logout">Uitloggen</string>
+
+    <string name="user">Gebruiker</string>
+    <string name="setting">Instelling</string>
+    <string name="report_issue">Rapporteer probleem</string>
+    <string name="what_s_your_goal">Wat is je doel?</string>
+
+    <string name="goal_lose_weight">Verlies gewicht</string>
+    <string name="goal_butt_lift">Billenlift</string>
+    <string name="goal_lose_belly_fat">Buikvet verliezen</string>
+    <string name="goal_build_muscle_strength">Spieren kweken</string>
+
+    <string name="next">volgende</string>
+    <string name="skip">Overslaan</string>
+    <string name="how_much_do_nyou_weight">Hoeveel weegt u\n?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Laat ons u beter leren kennen, zodat u uw werkresultaat kunt verbeteren.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Afvallen met het plan dat het beste bij u past</string>
+    <string name="how_tall_are_nyou">Hoe lang ben jij?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>Ga naar de startpagina</u></string>
+    <string name="plan">Plan</string>
+    <string name="reports">Rapporten</string>
+    <string name="me">Mij</string>
+    <string name="lose_weight">Verlies gewicht</string>
+    <string name="go">Gaan!</string>
+    <string name="drink">Drankje</string>
+    <string name="turn_on_water_tracker">Schakel de watertracker in</string>
+
+    <string name="dummy_text">Lorem Ipsum is de standaard proeftekst in de industrie sinds de 16e eeuw, toen een onbekende drukker een galei met letters nam en deze door elkaar gooide om een ​​lettertype-specimenboek te maken. </string>
+    <string name="dummy_text2">Lorem Ipsum is de standaard proeftekst in de industrie sinds de 16e eeuw, toen een onbekende drukker een galei met letters nam en deze door elkaar gooide om een ​​lettertype-specimenboek te maken. </string>
+    <string name="instruction">Instructie</string>
+    <string name="fast_workout">Snelle training</string>
+    <string name="not_enough_time">Niet genoeg tijd?</string>
+    <string name="_2_7_min_fast_workout">Snelle training van 2-7 minuten</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">2-7 minuten training om alles en overal te doen.</string>
+    <string name="body_focus">Lichaamsfocus</string>
+
+    <string name="sound_options">Geluidsopties</string>
+    <string name="mute">Stom</string>
+    <string name="voice_guide">Spraakgids</string>
+    <string name="voice_guide_des">Weet wat uw volgende training is en hoe vaak u deze moet doen.</string>
+    <string name="coach_tips">Coachtips</string>
+    <string name="common_questions">Veelgestelde vragen</string>
+    <string name="btn_continue">Doorgaan</string>
+    <string name="close">Dichtbij</string>
+    <string name="exercies">Opdrachten</string>
+    <string name="workouts">Trainingen</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">Minuut</string>
+    <string name="minutes">minuten</string>
+    <string name="duration">Duur</string>
+    <string name="share">Deel</string>
+    <string name="do_it_again">Doe het opnieuw</string>
+    <string name="reminder_colon">Herinnering:</string>
+    <string name="reminder">Herinnering</string>
+    <string name="kg">KG</string>
+    <string name="lb">POND</string>
+    <string name="weight">Gewicht</string>
+    <string name="enter_weight">Voer het gewicht in</string>
+    <string name="tap_here_to_input_your_height">Tik <b>hier</b> om uw lengte in te voeren</string>
+    <string name="i_feel">ik voel</string>
+    <string name="easy">Eenvoudig</string>
+    <string name="exhausted">Uitgeput</string>
+    <string name="feedback">Feedback</string>
+    <string name="height">Hoogte</string>
+    <string name="enter_height">Voer de hoogte in</string>
+    <string name="cm">CM</string>
+
+    <string name="in">IN</string>
+    <string name="gender">Geslacht</string>
+    <string name="male">Mannelijk</string>
+    <string name="female">Vrouwelijk</string>
+    <string name="year_of_birth">Geboortejaar</string>
+    <string name="previous">Vorig</string>
+    <string name="set">SET</string>
+    <string name="history">Geschiedenis</string>
+
+    <string name="delete">Verwijderen</string>
+    <string name="confirm_delete">Bevestig verwijderen?</string>
+    <string name="delete_confirmation_msg">Weet je zeker dat je het wilt verwijderen?</string>
+    <string name="restart_confirmation_msg">Weet je zeker dat je de voortgang opnieuw wilt starten?</string>
+    <string name="restart_day_confirmation_msg">Wilt u uw voortgang wissen en opnieuw beginnen vanaf dag 1?</string>
+    <string name="total">Totaal</string>
+    <string name="current">Huidig</string>
+    <string name="heaviest">Zwaarste</string>
+    <string name="lightest">Lichtste</string>
+    <string name="current_colon">Huidig:</string>
+    <string name="heaviest_colon">Zwaarste:</string>
+    <string name="lightest_colon">Lichtste:</string>
+    <string name="edit">Bewerking</string>
+    <string name="workout">Training</string>
+
+    <string name="go_premium">Ga voor Premium</string>
+    <string name="voice_options_tts">Spraakopties (TTS)</string>
+    <string name="test_voice">Stem testen</string>
+    <string name="download_tts_engine">Download de TTs-engine</string>
+    <string name="select_tts_engine">Selecteer TTS-engine</string>
+    <string name="google_text_to_speech_engine">Google Tekst-naar-spraak-engine</string>
+    <string name="voice_language">Stem Taal</string>
+    <string name="download_more_tts_language_data">Download meer TTS-taalgegevens</string>
+    <string name="device_tts_setting">Apparaat TTS-instelling</string>
+    <string name="health_data">Gezondheidsgegevens</string>
+    <string name="remind_me_to_workout_every_day">Herinner me eraan om elke dag te trainen</string>
+    <string name="keep_the_screen_on">Houd het scherm ingeschakeld</string>
+    <string name="general_settings">Algemene instellingen</string>
+    <string name="community">Gemeenschap</string>
+    <string name="share_with_friends">Delen met vrienden</string>
+    <string name="support_us">Steun ons</string>
+    <string name="rate_us">Beoordeel ons</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="did_you_hear_test_voice">Heb je de teststem gehoord?</string>
+    <string name="my_profile">Mijn profiel</string>
+    <string name="restart_progress">Start de voortgang opnieuw</string>
+    <string name="remove_ads">Verwijder advertenties</string>
+
+    <string name="iap_detail">1. Alle betalingen via de Play Store worden gecontroleerd en beheerd door Google.\n2. </string>
+    <string name="start">Begin</string>
+    <string name="target_weight">Doelgewicht</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nee</string>
+    <string name="dl_test_voice_no_msg_test">De TTS-engine die u gebruikt werkt nu niet. Controleer deze nogmaals, schakel over naar een andere TTS-engine of download de TTS-spraaktaal.</string>
+    <string name="please_choose_guide_voice_engine">Kies de gidsstemengine:</string>
+    <string name="repeat">Herhalen</string>
+    <string name="tip">Tip</string>
+    <string name="send_feedback">Stuur feedback</string>
+
+    <string name="week">Week</string>
+    <string name="mins">Min</string>
+    <string name="quite_exercise_msg">Zweetdruppels zijn vet\ndruppels.</string>
+    <string name="quit">Ontslag nemen</string>
+    <string name="str_continue">Doorgaan</string>
+    <string name="come_back_in_30_minute"><u>Kom over 30 minuten terug</u></string>
+    <string name="done">Klaar</string>
+    <string name="view_all">Bekijk alles</string>
+    <string name="finished">Afgerond</string>
+    <string name="restart">Herstarten</string>
+    <string name="recent">Recent</string>
+    <string name="rest_day">Rustdag</string>
+    <string name="replace">Vervangen</string>
+    <string name="reset_plan">Plan opnieuw instellen</string>
+    <string name="edit_plan">Plan bewerken</string>
+    <string name="save_changes_que">Wijzigingen opslaan?</string>
+    <string name="reset">Opnieuw instellen</string>
+    <string name="replace_with">Vervangen door</string>
+    <string name="change_plan">Plan wijzigen</string>
+    <string name="change_language">Taal wijzigen</string>
+    <string name="language_options">Taalopties</string>
+    <string name="hours">Uur</string>
+    <string name="completed">Voltooid</string>
+    <string name="well_done">Goed gedaan!</string>
+    <string name="time_to_drink_water">Het is tijd om water te drinken</string>
+    <string name="time_to_hydrate">Het is tijd om te hydrateren!</string>
+    <string name="drink_water_make_skin_batter">Drinkwater kan ervoor zorgen dat uw huid er gehavend uitziet.</string>
+    <string name="pause">Pauze</string>
+    <string name="no_internet_available">Geen internet beschikbaar</string>
+</resources>

@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             style="@style/txt_theme_16"
-            android:text="Are you sure?\nYou want to logout?" />
+            android:text="@string/are_you_sure_nyou_want_to_logout" />
 
         <com.common.view.CEditTextView
             android:id="@+id/editFacilityCode"
@@ -53,7 +53,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="OR"
+            android:text="@string/or"
             style="@style/txt_theme_14"/>
 
         <com.common.view.CTextView

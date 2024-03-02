@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - 스타일을 갖춘 피트니스</string>
+
+
+    <string name="btn_ok">좋아요</string>
+    <string name="btn_cancel">취소</string>
+    <string name="exit_msg">종료하려면 뒤로를 두 번 누르세요.</string>
+    <string name="search">찾다</string>
+    <string name="clear">분명한</string>
+    <string name="choose_gallery">갤러리에서 선택</string>
+    <string name="err_file_manager">파일 관리자를 설치해 주세요.</string>
+    <string name="choose_camera">카메라에서 가져 가라.</string>
+    <string name="permission_msg">갤러리 및 카메라 권한이 필요합니다</string>
+    <string name="permission_setting">권한 설정</string>
+
+    <string name="login">로그인</string>
+    <string name="profile">프로필</string>
+    <string name="description">설명</string>
+    <string name="save">구하다</string>
+
+    <string name="err_camera">카메라를 열 수 없습니다</string>
+
+    <string name="name">이름</string>
+
+
+    <string name="need_permission_title">권한이 필요합니다</string>
+    <string name="err_need_permission_msg">이전에 이 권한을 거부했습니다.\n기기의 앱 설정에 있는 \"권한\"에서 이 권한을 승인해야 합니다.</string>
+
+    <string name="back">뒤쪽에</string>
+    <string name="more">더</string>
+    <string name="refresh">새로 고치다</string>
+    <string name="facility_code">시설 코드</string>
+    <string name="home">집</string>
+    <string name="re_scan">재스캔</string>
+    <string name="inmate_activity">수감자 활동</string>
+
+    <string name="cancel">취소</string>
+    <string name="retry">다시 해 보다</string>
+    <string name="logout">로그 아웃</string>
+
+    <string name="user">사용자</string>
+    <string name="setting">환경</string>
+    <string name="report_issue">문제 보고</string>
+    <string name="what_s_your_goal">당신의 목표는 무엇입니까?</string>
+
+    <string name="goal_lose_weight">살을 빼다</string>
+    <string name="goal_butt_lift">엉덩이 리프트</string>
+    <string name="goal_lose_belly_fat">뱃살 빼기</string>
+    <string name="goal_build_muscle_strength">근육을 만들다</string>
+
+    <string name="next">다음</string>
+    <string name="skip">건너뛰다</string>
+    <string name="how_much_do_nyou_weight">몸무게는\n얼마나 됩니까?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">업무 결과를 높이는 데 도움이 되도록 더 잘 알려주세요.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">자신에게 가장 적합한 계획으로 체중 감량</string>
+    <string name="how_tall_are_nyou">당신의 키는\n얼마입니까?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">BMI:</string>
+    <string name="go_to_homepage"><u>홈페이지로 이동</u></string>
+    <string name="plan">계획</string>
+    <string name="reports">보고서</string>
+    <string name="me">나</string>
+    <string name="lose_weight">살을 빼다</string>
+    <string name="go">가다!</string>
+    <string name="drink">마시다</string>
+    <string name="turn_on_water_tracker">물 추적기 켜기</string>
+
+    <string name="dummy_text">Lorem Ipsum은 1500년대 무명의 인쇄업자가 활자 갤리를 가져와 활자 견본 책을 만들기 위해 뒤섞인 이후 업계의 표준 더미 텍스트였습니다. </string>
+    <string name="dummy_text2">Lorem Ipsum은 1500년대 무명의 인쇄업자가 활자 갤리를 가져와 활자 견본 책을 만들기 위해 뒤섞인 이후 업계의 표준 더미 텍스트였습니다. </string>
+    <string name="instruction">지침</string>
+    <string name="fast_workout">빠른 운동</string>
+    <string name="not_enough_time">충분하지 않은 시간?</string>
+    <string name="_2_7_min_fast_workout">2~7분 빠른 운동</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">어디서든 무엇이든 할 수 있는 2~7분 운동입니다.</string>
+    <string name="body_focus">신체 집중</string>
+
+    <string name="sound_options">사운드 옵션</string>
+    <string name="mute">무음</string>
+    <string name="voice_guide">음성안내</string>
+    <string name="voice_guide_des">다음 운동과 몇 번 해야 하는지 알아보세요.</string>
+    <string name="coach_tips">코치 팁</string>
+    <string name="common_questions">일반적인 질문</string>
+    <string name="btn_continue">계속하다</string>
+    <string name="close">닫다</string>
+    <string name="exercies">수업 과정</string>
+    <string name="workouts">운동</string>
+    <string name="kcal">Kcal</string>
+    <string name="minute">분</string>
+    <string name="minutes">분</string>
+    <string name="duration">지속</string>
+    <string name="share">공유하다</string>
+    <string name="do_it_again">다시 할</string>
+    <string name="reminder_colon">알림:</string>
+    <string name="reminder">알림</string>
+    <string name="kg">킬로그램</string>
+    <string name="lb">LB</string>
+    <string name="weight">무게</string>
+    <string name="enter_weight">체중을 입력해주세요</string>
+    <string name="tap_here_to_input_your_height">키를 입력하려면 <b>여기</b>를 탭하세요.</string>
+    <string name="i_feel">나는 느낀다</string>
+    <string name="easy">쉬운</string>
+    <string name="exhausted">탈진한</string>
+    <string name="feedback">피드백</string>
+    <string name="height">키</string>
+    <string name="enter_height">높이를 입력하세요</string>
+    <string name="cm">센티미터</string>
+
+    <string name="in">안에</string>
+    <string name="gender">성별</string>
+    <string name="male">남성</string>
+    <string name="female">여성</string>
+    <string name="year_of_birth">출생연도</string>
+    <string name="previous">이전의</string>
+    <string name="set">세트</string>
+    <string name="history">역사</string>
+
+    <string name="delete">삭제</string>
+    <string name="confirm_delete">삭제를 확인하시겠습니까?</string>
+    <string name="delete_confirmation_msg">삭제하시겠습니까?</string>
+    <string name="restart_confirmation_msg">진행 상황을 다시 시작하시겠습니까?</string>
+    <string name="restart_day_confirmation_msg">진행 상황을 지우고 1일차부터 다시 시작하시겠습니까?</string>
+    <string name="total">총</string>
+    <string name="current">현재의</string>
+    <string name="heaviest">가장 무거움</string>
+    <string name="lightest">가장 가벼운</string>
+    <string name="current_colon">현재의:</string>
+    <string name="heaviest_colon">가장 무거움:</string>
+    <string name="lightest_colon">가장 가벼운:</string>
+    <string name="edit">편집하다</string>
+    <string name="workout">운동하다</string>
+
+    <string name="go_premium">프리미엄으로 이동</string>
+    <string name="voice_options_tts">음성 옵션(TTS)</string>
+    <string name="test_voice">음성 테스트</string>
+    <string name="download_tts_engine">TT 엔진 다운로드</string>
+    <string name="select_tts_engine">TTS 엔진 선택</string>
+    <string name="google_text_to_speech_engine">Google TTS(텍스트 음성 변환) 엔진</string>
+    <string name="voice_language">음성 언어</string>
+    <string name="download_more_tts_language_data">더 많은 TTS 언어 데이터 다운로드</string>
+    <string name="device_tts_setting">장치 TTS 설정</string>
+    <string name="health_data">건강 데이터</string>
+    <string name="remind_me_to_workout_every_day">매일 운동하라고 알림</string>
+    <string name="keep_the_screen_on">화면을 계속 켜두세요</string>
+    <string name="general_settings">일반 설정</string>
+    <string name="community">지역 사회</string>
+    <string name="share_with_friends">친구들과 공유</string>
+    <string name="support_us">당신의 도움이 필요합니다</string>
+    <string name="rate_us">우리를 평가해 주세요</string>
+    <string name="privacy_policy">개인 정보 정책</string>
+    <string name="did_you_hear_test_voice">테스트 음성을 들으셨나요?</string>
+    <string name="my_profile">내 프로필</string>
+    <string name="restart_progress">재시작 진행</string>
+    <string name="remove_ads">광고를 제거하다</string>
+
+    <string name="iap_detail">1. Play 스토어를 통해 이루어진 모든 결제는 Google에서 통제하고 관리합니다.\n2. </string>
+    <string name="start">시작</string>
+    <string name="target_weight">목표 중량</string>
+    <string name="yes">예</string>
+    <string name="no">아니요</string>
+    <string name="dl_test_voice_no_msg_test">사용 중인 TTS 엔진이 현재 작동하지 않습니다. 다시 확인하고, 다른 TTS 엔진으로 전환하거나 TTS 음성 언어를 다운로드하세요.</string>
+    <string name="please_choose_guide_voice_engine">가이드 음성 엔진을 선택하십시오:</string>
+    <string name="repeat">반복하다</string>
+    <string name="tip">팁</string>
+    <string name="send_feedback">피드백 보내기</string>
+
+    <string name="week">주</string>
+    <string name="mins">분</string>
+    <string name="quite_exercise_msg">땀이 뚝뚝 떨어지는 것은\n뚱뚱해지는 것입니다.</string>
+    <string name="quit">그만두다</string>
+    <string name="str_continue">계속하다</string>
+    <string name="come_back_in_30_minute"><u>30분 후에 다시 오세요</u></string>
+    <string name="done">완료</string>
+    <string name="view_all">모두보기</string>
+    <string name="finished">완성된</string>
+    <string name="restart">재시작</string>
+    <string name="recent">최근의</string>
+    <string name="rest_day">휴일</string>
+    <string name="replace">바꾸다</string>
+    <string name="reset_plan">계획 재설정</string>
+    <string name="edit_plan">계획 수정</string>
+    <string name="save_changes_que">변경 사항을 저장하다?</string>
+    <string name="reset">초기화</string>
+    <string name="replace_with">다음으로 교체</string>
+    <string name="change_plan">계획 변경</string>
+    <string name="change_language">언어 변경</string>
+    <string name="language_options">언어 옵션</string>
+    <string name="hours">시간</string>
+    <string name="completed">완전한</string>
+    <string name="well_done">잘하셨어요!</string>
+    <string name="time_to_drink_water">물을 마실 시간이다</string>
+    <string name="time_to_hydrate">이제 수분을 공급할 시간입니다!</string>
+    <string name="drink_water_make_skin_batter">물을 마시면 피부가 칙칙해 보일 수 있습니다.</string>
+    <string name="pause">정지시키다</string>
+    <string name="no_internet_available">인터넷을 사용할 수 없습니다</string>
+</resources>

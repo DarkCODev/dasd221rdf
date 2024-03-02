@@ -39,7 +39,7 @@
                 android:layout_marginBottom="7dp"
                 android:paddingTop="@dimen/_7sdp"
                 android:paddingBottom="@dimen/_7sdp"
-                android:text="Day 1"
+                android:text="@string/day_1"
                 android:textAllCaps="true" />
 
             <FrameLayout
@@ -104,7 +104,7 @@
                 android:paddingTop="@dimen/_7sdp"
                 android:paddingRight="@dimen/_15sdp"
                 android:paddingBottom="@dimen/_7sdp"
-                android:text="Start"
+                android:text=""
                 android:visibility="gone"
                 />
 

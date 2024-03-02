@@ -1,0 +1,195 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">SculptHer - Kebugaran dengan gaya</string>
+
+
+    <string name="btn_ok">Oke</string>
+    <string name="btn_cancel">Membatalkan</string>
+    <string name="exit_msg">Tekan Kembali dua kali untuk keluar</string>
+    <string name="search">Mencari</string>
+    <string name="clear">Jernih</string>
+    <string name="choose_gallery">Pilih Dari Galeri</string>
+    <string name="err_file_manager">Silakan instal Manajer File.</string>
+    <string name="choose_camera">Ambil Dari Kamera</string>
+    <string name="permission_msg">Izin Galeri dan Kamera diperlukan</string>
+    <string name="permission_setting">Pengaturan Izin</string>
+
+    <string name="login">Gabung</string>
+    <string name="profile">Profil</string>
+    <string name="description">Keterangan</string>
+    <string name="save">Menyimpan</string>
+
+    <string name="err_camera">tidak dapat membuka kamera</string>
+
+    <string name="name">Nama</string>
+
+
+    <string name="need_permission_title">Perlu izin</string>
+    <string name="err_need_permission_msg">Anda sebelumnya telah menolak izin ini.\nAnda harus menyetujui izin ini di \"Izin\" pada setelan aplikasi di perangkat Anda.</string>
+
+    <string name="back">Kembali</string>
+    <string name="more">Lagi</string>
+    <string name="refresh">Menyegarkan</string>
+    <string name="facility_code">Kode Fasilitas</string>
+    <string name="home">Rumah</string>
+    <string name="re_scan">Pindai Ulang</string>
+    <string name="inmate_activity">Aktivitas Narapidana</string>
+
+    <string name="cancel">Membatalkan</string>
+    <string name="retry">Mencoba kembali</string>
+    <string name="logout">Keluar</string>
+
+    <string name="user">Pengguna</string>
+    <string name="setting">Pengaturan</string>
+    <string name="report_issue">Laporkan Masalah</string>
+    <string name="what_s_your_goal">Apa tujuan Anda?</string>
+
+    <string name="goal_lose_weight">Menurunkan berat badan</string>
+    <string name="goal_butt_lift">Angkat pantat</string>
+    <string name="goal_lose_belly_fat">Menghilangkan lemak perut</string>
+    <string name="goal_build_muscle_strength">Membentuk otot</string>
+
+    <string name="next">Berikutnya</string>
+    <string name="skip">Melewati</string>
+    <string name="how_much_do_nyou_weight">Berapa\nberat badan Anda?</string>
+    <string name="let_us_know_you_better_to_help_you_boost_your_work_result">Beri tahu kami lebih baik tentang Anda untuk membantu Anda meningkatkan hasil kerja Anda.</string>
+    <string name="lose_weight_with_the_plan_that_suits_you_best">Menurunkan berat badan dengan rencana yang paling cocok untuk Anda</string>
+    <string name="how_tall_are_nyou">Berapa Tinggi\nAnda?</string>
+    <string name="bmi">BMI</string>
+    <string name="bmi_colon">IMT:</string>
+    <string name="go_to_homepage"><u>Buka beranda</u></string>
+    <string name="plan">Rencana</string>
+    <string name="reports">Laporan</string>
+    <string name="me">Aku</string>
+    <string name="lose_weight">Menurunkan berat badan</string>
+    <string name="go">Pergi!</string>
+    <string name="drink">Minum</string>
+    <string name="turn_on_water_tracker">Nyalakan Pelacak Air</string>
+
+    <string name="dummy_text">Lorem Ipsum telah menjadi teks tiruan standar industri sejak tahun 1500an, ketika seorang pencetak tak dikenal mengambil kumpulan teks dan mengacaknya untuk membuat buku contoh huruf. </string>
+    <string name="dummy_text2">Lorem Ipsum telah menjadi teks tiruan standar industri sejak tahun 1500an, ketika seorang pencetak tak dikenal mengambil kumpulan teks dan mengacaknya untuk membuat buku contoh huruf. </string>
+    <string name="instruction">Petunjuk</string>
+    <string name="fast_workout">Latihan cepat</string>
+    <string name="not_enough_time">Tidak cukup waktu?</string>
+    <string name="_2_7_min_fast_workout">Latihan cepat 2-7 menit</string>
+    <string name="_2_7_minutes_workout_to_do_anything_anywhere">Latihan 2-7 menit untuk melakukan apa saja, di mana saja.</string>
+    <string name="body_focus">Fokus tubuh</string>
+
+    <string name="sound_options">Pilihan suara</string>
+    <string name="mute">Bisu</string>
+    <string name="voice_guide">Panduan suara</string>
+    <string name="voice_guide_des">Ketahui latihan Anda berikutnya dan berapa kali Anda perlu melakukannya.</string>
+    <string name="coach_tips">Kiat pelatih</string>
+    <string name="common_questions">Pertanyaan umum</string>
+    <string name="btn_continue">Melanjutkan</string>
+    <string name="close">Menutup</string>
+    <string name="exercies">Latihan</string>
+    <string name="workouts">Latihan</string>
+    <string name="kcal">Kkal</string>
+    <string name="minute">Menit</string>
+    <string name="minutes">menit</string>
+    <string name="duration">Durasi</string>
+    <string name="share">Membagikan</string>
+    <string name="do_it_again">Melakukannya lagi</string>
+    <string name="reminder_colon">Pengingat:</string>
+    <string name="reminder">Pengingat</string>
+    <string name="kg">kg</string>
+    <string name="lb">LB</string>
+    <string name="weight">Berat</string>
+    <string name="enter_weight">Silakan Masukkan Berat Badan</string>
+    <string name="tap_here_to_input_your_height">Ketuk <b>di sini</b> untuk memasukkan tinggi badan Anda</string>
+    <string name="i_feel">saya rasa</string>
+    <string name="easy">Mudah</string>
+    <string name="exhausted">Lelah</string>
+    <string name="feedback">Masukan</string>
+    <string name="height">Tinggi</string>
+    <string name="enter_height">Silakan Masukkan Tinggi</string>
+    <string name="cm">CM</string>
+
+    <string name="in">DI DALAM</string>
+    <string name="gender">Jenis kelamin</string>
+    <string name="male">Pria</string>
+    <string name="female">Perempuan</string>
+    <string name="year_of_birth">Tahun kelahiran</string>
+    <string name="previous">Sebelumnya</string>
+    <string name="set">MENGATUR</string>
+    <string name="history">Sejarah</string>
+
+    <string name="delete">Menghapus</string>
+    <string name="confirm_delete">Konfirmasi penghapusan?</string>
+    <string name="delete_confirmation_msg">Apakah Anda yakin ingin menghapusnya?</string>
+    <string name="restart_confirmation_msg">Apakah Anda yakin ingin memulai kembali kemajuan?</string>
+    <string name="restart_day_confirmation_msg">Apakah Anda ingin menghapus kemajuan Anda dan memulai kembali dari hari pertama?</string>
+    <string name="total">Total</string>
+    <string name="current">Saat ini</string>
+    <string name="heaviest">Terberat</string>
+    <string name="lightest">Paling ringan</string>
+    <string name="current_colon">Saat ini:</string>
+    <string name="heaviest_colon">Terberat:</string>
+    <string name="lightest_colon">Paling ringan:</string>
+    <string name="edit">Sunting</string>
+    <string name="workout">Olahraga</string>
+
+    <string name="go_premium">Mulai berlangganan</string>
+    <string name="voice_options_tts">Opsi Suara (TTS)</string>
+    <string name="test_voice">Tes Suara</string>
+    <string name="download_tts_engine">Unduh Mesin TTs</string>
+    <string name="select_tts_engine">Pilih Mesin TTS</string>
+    <string name="google_text_to_speech_engine">Mesin Google Text-to-speech</string>
+    <string name="voice_language">Bahasa Suara</string>
+    <string name="download_more_tts_language_data">Unduh lebih banyak data bahasa TTS</string>
+    <string name="device_tts_setting">Pengaturan TTS Perangkat</string>
+    <string name="health_data">Data Kesehatan</string>
+    <string name="remind_me_to_workout_every_day">Ingatkan saya untuk berolahraga setiap hari</string>
+    <string name="keep_the_screen_on">Tetap nyalakan layar</string>
+    <string name="general_settings">Pengaturan Umum</string>
+    <string name="community">Masyarakat</string>
+    <string name="share_with_friends">Bagikan dengan teman</string>
+    <string name="support_us">Dukung Kami</string>
+    <string name="rate_us">Nilai kami</string>
+    <string name="privacy_policy">Kebijakan pribadi</string>
+    <string name="did_you_hear_test_voice">Apakah Anda mendengar suara tes?</string>
+    <string name="my_profile">Profil saya</string>
+    <string name="restart_progress">Mulai Ulang Kemajuan</string>
+    <string name="remove_ads">Hilangkan iklan</string>
+
+    <string name="iap_detail">1. Semua pembayaran yang dilakukan melalui Play Store dikontrol dan dikelola oleh Google.\n2. </string>
+    <string name="start">Awal</string>
+    <string name="target_weight">Berat target</string>
+    <string name="yes">Ya</string>
+    <string name="no">TIDAK</string>
+    <string name="dl_test_voice_no_msg_test">Mesin TTS yang Anda gunakan tidak berfungsi sekarang, harap periksa kembali, ganti ke mesin TTS lain, atau unduh bahasa suara TTS.</string>
+    <string name="please_choose_guide_voice_engine">Silakan pilih panduan mesin suara:</string>
+    <string name="repeat">Mengulang</string>
+    <string name="tip">Tip</string>
+    <string name="send_feedback">Kirim masukan</string>
+
+    <string name="week">Pekan</string>
+    <string name="mins">menit</string>
+    <string name="quite_exercise_msg">Keringat yang menetes berarti lemak\menjatuhkan.</string>
+    <string name="quit">Berhenti</string>
+    <string name="str_continue">Melanjutkan</string>
+    <string name="come_back_in_30_minute"><u>Kembalilah dalam 30 menit</u></string>
+    <string name="done">Selesai</string>
+    <string name="view_all">Lihat semua</string>
+    <string name="finished">Selesai</string>
+    <string name="restart">Mengulang kembali</string>
+    <string name="recent">Terkini</string>
+    <string name="rest_day">Hari istirahat</string>
+    <string name="replace">Mengganti</string>
+    <string name="reset_plan">Setel ulang rencana</string>
+    <string name="edit_plan">Sunting rencana</string>
+    <string name="save_changes_que">Simpan perubahan?</string>
+    <string name="reset">Mengatur ulang</string>
+    <string name="replace_with">Ubah dengan</string>
+    <string name="change_plan">Ubah rencana</string>
+    <string name="change_language">Ganti BAHASA</string>
+    <string name="language_options">Pilihan bahasa</string>
+    <string name="hours">Jam</string>
+    <string name="completed">Lengkap</string>
+    <string name="well_done">Bagus sekali!</string>
+    <string name="time_to_drink_water">Saatnya minum air</string>
+    <string name="time_to_hydrate">Saatnya untuk menghidrasi!</string>
+    <string name="drink_water_make_skin_batter">Minum Air putih dapat membuat kulit Anda tampak lebih pucat.</string>
+    <string name="pause">Berhenti sebentar</string>
+    <string name="no_internet_available">Tidak Ada Internet Tersedia</string>
+</resources>

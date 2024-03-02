@@ -8,7 +8,7 @@
     android:layout_height="wrap_content"
     android:paddingHorizontal="@dimen/_10sdp"
     android:paddingVertical="@dimen/_3sdp"
-    android:text="Setting"
+    android:text="@string/setting"
     android:layout_gravity="center"
     android:gravity="center"
     android:background="@drawable/btn_bg_round_theme"
