@@ -128,7 +128,10 @@ class RestActivity : BaseActivity() {
         if (!nextExercise!!.exUnit.equals(Constant.workout_type_step)) {
             MyApplication.speechText(
                 this,
-                "Take a rest"
+                //"Take a rest"
+                "Descansa"
+
+
             )
             Handler().postDelayed(Runnable {
                 MyApplication.speechText(
@@ -140,7 +143,8 @@ class RestActivity : BaseActivity() {
         } else {
             MyApplication.speechText(
                 this,
-                "Take a rest"
+                //"Take a rest"
+                "Descansa"
             )
             Handler().postDelayed(Runnable {
                 MyApplication.speechText(

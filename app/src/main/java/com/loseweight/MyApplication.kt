@@ -5,6 +5,7 @@ import android.content.*
 import android.os.Handler
 import android.os.StrictMode
 import android.speech.tts.TextToSpeech
+import android.util.Log
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.loseweight.BuildConfig.DEBUG
 import com.loseweight.facebookad.AudienceNetworkInitializeHelper
@@ -44,12 +45,20 @@ class MyApplication : Application() {
 
         textToSpeech = TextToSpeech(this, TextToSpeech.OnInitListener { status ->
             if (status != TextToSpeech.ERROR) {
-                textToSpeech!!.language = Locale.ENGLISH
-//                val loc = Locale("pt", "BR")
-//                textToSpeech!!.language = loc
+                // Usa el locale predeterminado del dispositivo
+                val locale = Locale.getDefault()
+                val result = textToSpeech!!.setLanguage(locale)
 
+                // Verifica si el idioma está disponible y soportado por TTS
+                if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                    Log.e("Texttospeech", "El idioma no es soportado")
+                    // Aquí podrías establecer un idioma alternativo si el predeterminado no es soportado
+                } else {
+                    Log.d("Texttospeech", "Idioma configurado correctamente")
+                }
             }
         })
+
 
         DebugSettings.initialize(this)
 
