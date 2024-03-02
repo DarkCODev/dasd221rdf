@@ -13,7 +13,7 @@ android {
         applicationId "org.darkco.sculpther"
         minSdkVersion 21
         targetSdkVersion 34
-        versionCode 3
+        versionCode 4
         versionName "1.9"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -108,6 +108,11 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
 
     implementation(platform("com.google.firebase:firebase-bom:32.7.3"))
+
+    //NUEVA IMPLEMENTACION SPLASHSCREEN
+
+    implementation 'androidx.core:core-splashscreen:1.0.1'
+
 
     implementation(name: 'AudienceNetwork', ext: 'aar')
     implementation(name: 'DebugSettings', ext: 'aar')
