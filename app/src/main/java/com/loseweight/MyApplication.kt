@@ -45,14 +45,21 @@ class MyApplication : Application() {
 
         textToSpeech = TextToSpeech(this, TextToSpeech.OnInitListener { status ->
             if (status != TextToSpeech.ERROR) {
-                // Usa el locale predeterminado del dispositivo
-                val locale = Locale.getDefault()
-                val result = textToSpeech!!.setLanguage(locale)
+                // Se declara 'locale' como mutable para poder cambiar su valor después
+                var locale = Locale.getDefault()
+                var result = textToSpeech!!.setLanguage(locale)
 
-                // Verifica si el idioma está disponible y soportado por TTS
+                // Si el idioma predeterminado no es soportado, intenta cambiar a inglés
                 if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
-                    Log.e("Texttospeech", "El idioma no es soportado")
-                    // Aquí podrías establecer un idioma alternativo si el predeterminado no es soportado
+                    Log.e("Texttospeech", "El idioma no es soportado, cambiando a inglés.")
+                    locale = Locale.ENGLISH // Ahora puedes reasignar un nuevo valor a 'locale'
+                    result = textToSpeech!!.setLanguage(locale)
+
+                    if (result == TextToSpeech.LANG_MISSING_DATA || result == TextToSpeech.LANG_NOT_SUPPORTED) {
+                        Log.e("Texttospeech", "Incluso el inglés no es soportado.")
+                    } else {
+                        Log.d("Texttospeech", "Idioma cambiado a inglés correctamente")
+                    }
                 } else {
                     Log.d("Texttospeech", "Idioma configurado correctamente")
                 }
